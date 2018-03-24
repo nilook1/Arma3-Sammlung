@@ -312,7 +312,7 @@ support_vehicles = [
 	["B_Truck_01_ammo_F",125,200,75],									//HEMTT Ammo
 	["B_Slingload_01_Repair_F",275,0,0],								//Huron Repair
 	["B_Slingload_01_Fuel_F",75,0,200],									//Huron Fuel
-	["B_Slingload_01_Ammo_F",75,200,0]									//Huron Ammo
+	["B_Slingload_01_Ammo_F",75,200,0],									//Huron Ammo
 	["CUP_B_MTVR_Repair_USA",325,0,75],									//MTVR Repair
 	["CUP_B_MTVR_Refuel_USA",125,0,275],								//MTVR Fuel
 	["CUP_B_MTVR_Ammo_USA",125,200,75]									//MTVR Ammo
