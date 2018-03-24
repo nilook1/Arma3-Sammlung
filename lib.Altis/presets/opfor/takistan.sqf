@@ -61,9 +61,11 @@ militia_squad = [
 // Militia vehicles. Lightweight vehicle classnames the game will pick from randomly as sector defenders.
 militia_vehicles = [
 	"CUP_O_UAZ_MG_TKA",													//UAZ-3151 (DShKM)
-	"CUP_O_UAZ_SPG9_RU",												//UAZ SPG9
-	"CUP_O_UAZ_METIS_RU",												//UAZ Metis-M
-	"CUP_O_BTR40_TKM",													//BTR-40
+	"CUP_O_UAZ_SPG9_TKA",												//UAZ SPG9
+	"CUP_O_UAZ_METIS_TKA",												//UAZ Metis-M
+	"CUP_O_UAZ_AGS30_TKA"												//UAZ AGS-30
+	"CUP_O_BTR40_TKA",													//BTR-40
+	"CUP_O_BTR40_MG_TKA"												//BTR-40 DShKM
 	"CUP_O_BRDM2_TKA"													//BRDM-2
 ];
 
@@ -73,10 +75,9 @@ opfor_vehicles = [
 	"CUP_O_UAZ_AGS30_TKA",												//UAZ-3151 (AGS-30)
 	"CUP_O_UAZ_SPG9_TKA",												//UAZ-3151 (SPG-9)
 	"CUP_O_BMP2_TKA",													//BMP-2
-	"CUP_O_BMP_HQ_TKA",													//BMP-2D
 	"CUP_O_BTR60_TK",													//BTR-70
 	"CUP_O_ZSU23_TK",													//ZSU-23-4V
-	//"CUP_O_ZSU23_TK",													//ZSU-23-4V
+	"CUP_O_BMP2_ZU_TKA",												//BMP-2 ZU-23
 	"CUP_O_T55_TK",														//T-55A
 	"CUP_O_T72_TKA",													//T-72B
 	"CUP_O_T72_TKA"														//T-72B
@@ -88,7 +89,12 @@ opfor_vehicles_low_intensity = [
 	"CUP_O_UAZ_AGS30_TKA",												//UAZ-3151 (AGS-30)
 	"CUP_O_BMP1_TKA",													//BMP-1
 	"CUP_O_BMP1P_TKA",													//BMP-1D
+	"CUP_O_BRDM2_ATGM_TKA",												//BRDM-2 ATGM
+	"CUP_O_BRDM2_TKA",													//BRDM-2
+	"CUP_O_M113_TKA",													//M113
+	"CUP_O_Ural_ZU23_TKA",												//Ural-4320 (ZU-23)
 	"CUP_O_BTR60_TK"													//BTR-60PB
+
 ];
 
 // All enemy vehicles that can spawn as battlegroups, either assaulting or as reinforcements, at high enemy combat readiness (aggression levels).
