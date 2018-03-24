@@ -9,35 +9,35 @@ Optional Mods:
 */
 
 // Enemy infantry classes
-opfor_officer = "LOP_TKA_Infantry_Officer";								//Officer
-opfor_squad_leader = "LOP_TKA_Infantry_SL";								//Squad Leader
-opfor_team_leader = "LOP_TKA_Infantry_TL";								//Team Leader
-opfor_sentry = "LOP_TKA_Infantry_Rifleman";								//Rifleman (Lite)
-opfor_rifleman = "LOP_TKA_Infantry_Rifleman_2";							//Rifleman
-opfor_rpg = "LOP_TKA_Infantry_Rifleman_3";								//Rifleman (LAT)
-opfor_grenadier = "LOP_TKA_Infantry_GL";								//Grenadier
-opfor_machinegunner = "LOP_TKA_Infantry_MG";							//Autorifleman
-opfor_heavygunner = "LOP_TKA_Infantry_MG";								//Heavy Gunner
-opfor_marksman = "LOP_TKA_Infantry_Marksman";							//Marksman
-opfor_sharpshooter = "LOP_TKA_Infantry_Marksman";						//Sharpshooter
-opfor_sniper = "LOP_TKA_Infantry_Marksman";								//Sniper
-opfor_at = "LOP_TKA_Infantry_AT";										//AT Specialist
-opfor_aa = "LOP_TKA_Infantry_AA";										//AA Specialist
-opfor_medic = "LOP_TKA_Infantry_Corpsman";								//Combat Life Saver
-opfor_engineer = "LOP_TKA_Infantry_Engineer";							//Engineer
-opfor_paratrooper = "LOP_TKA_Infantry_Rifleman";						//Paratrooper
+opfor_officer = "CUP_O_TK_Officer";										//Officer
+opfor_squad_leader = "CUP_O_TK_Soldier_SL";								//Squad Leader
+opfor_team_leader = "CUP_O_TK_INS_Soldier_TL";							//Team Leader
+opfor_sentry = "CUP_0_TK_Soldier";										//Rifleman (Lite)
+opfor_rifleman = "CUP_0_TK_Soldier_Backpack";							//Rifleman
+opfor_rpg = "CUP_0_TK_Soldier_LAT";										//Rifleman (LAT)
+opfor_grenadier = "CUP_0_TK_Soldier_GL";								//Grenadier
+opfor_machinegunner = "CUP_0_TK_Soldier_AR";							//Autorifleman
+opfor_heavygunner = "CUP_0_TK_Soldier_MG";								//Heavy Gunner
+opfor_marksman = "CUP_0_TK_INS_Sniper";									//Marksman
+opfor_sharpshooter = "CUP_O_RUS_Soldier_Marksman";						//Sharpshooter
+opfor_sniper = "CUP_0_TK_Sniper";										//Sniper
+opfor_at = "CUP_0_TK_Soldier_HAT";										//AT Specialist
+opfor_aa = "CUP_0_TK_Soldier_AA";										//AA Specialist
+opfor_medic = "CUP_0_TK_INS_Guerilla_Medic";							//Combat Life Saver
+opfor_engineer = "CUP_0_TK_Engineer";									//Engineer
+//opfor_paratrooper = "LOP_TKA_Infantry_Rifleman";						//Paratrooper
 
 // Enemy vehicles used by secondary objectives.
-opfor_mrap = "LOP_TKA_UAZ";												//UAZ-3151
-opfor_mrap_armed = "LOP_TKA_UAZ_AGS";									//UAZ-3151 (AGS-30)
-opfor_transport_helo = "LOP_TKA_Mi8MT_Cargo";							//Mi-8MT (Cargo)
-opfor_transport_truck = "LOP_TKA_Ural";									//Ural-4320 Transport (Covered)
-opfor_ammobox_transport = "LOP_TKA_Ural_open";							//Ural-4320 Transport (Open) -> Has to be able to transport resource crates!
-opfor_fuel_truck = "RHS_Ural_Fuel_MSV_01";								//Ural-4320 Fuel
-opfor_ammo_truck = "rhs_gaz66_ammo_msv";								//GAZ-66 Ammo
+opfor_mrap = "CUP_O_UAZ_Unarmed_TKA";									//UAZ-3151
+opfor_mrap_armed = "CUP_O_UAZ_AGS30_TKA";								//UAZ-3151 (AGS-30)
+opfor_transport_helo = "CUP_O_Mi17_TK";									//Mi-8MT (Cargo)
+opfor_transport_truck = "CUP_O_Ural_TKA";								//Ural-4320 Transport (Covered)
+opfor_ammobox_transport = "CUP_O_Ural_Open_TKA";						//Ural-4320 Transport (Open) -> Has to be able to transport resource crates!
+opfor_fuel_truck = "CUP_O_Ural_Refuel_TKA";								//Ural-4320 Fuel
+opfor_ammo_truck = "CUP_O_Ural_Reammo_TKA";								//GAZ-66 Ammo
 opfor_fuel_container = "Land_Pod_Heli_Transport_04_fuel_F";				//Taru Fuel Pod
 opfor_ammo_container = "Land_Pod_Heli_Transport_04_ammo_F";				//Taru Ammo Pod
-opfor_flag = "lop_Flag_tak_F";											//Takistani Flag
+opfor_flag = "FlagCarrierTakistan_EP1";									//Takistani Flag
 
 /* Adding a value to these arrays below will add them to a one out of however many in the array, random pick chance.
 Therefore, adding the same value twice or three times means they are more likely to be chosen more often. */
@@ -45,104 +45,114 @@ Therefore, adding the same value twice or three times means they are more likely
 /* Militia infantry. Lightweight soldier classnames the game will pick from randomly as sector defenders.
 Think of them like garrison or military police forces, which are more meant to control the local population instead of fighting enemy armies. */
 militia_squad = [
-	"LOP_TKA_Infantry_Rifleman",										//Rifleman (Lite)
-	"LOP_TKA_Infantry_Rifleman",										//Rifleman (Lite)
-	"LOP_TKA_Infantry_Rifleman_2",										//Rifleman
-	"LOP_TKA_Infantry_Rifleman_2",										//Rifleman
-	"LOP_TKA_Infantry_Rifleman_3",										//Rifleman (AT)
-	"LOP_TKA_Infantry_MG",												//Autorifleman
-	"LOP_TKA_Infantry_Marksman",										//Marksman
-	"LOP_TKA_Infantry_Corpsman",										//Medic
-	"LOP_TKA_Infantry_Engineer"											//Engineer
+	"CUP_0_TK_Soldier",													//Rifleman (Lite)
+	"CUP_0_TK_Soldier",													//Rifleman (Lite)
+	"CUP_0_INS_Villager3",												//Farmer
+	"CUP_0_TK_INS_Guerilla_Medic",										//Bonsetter
+	"CUP_0_TK_Soldier_Backpack",										//Rifleman
+	"CUP_0_TK_INS_Commander",											//Warloard
+	"CUP_0_TK_Soldier_LAT",												//Rifleman (AT)
+	"CUP_0_TK_Soldier_AR",												//Autorifleman
+	"CUP_0_TK_INS_Sniper",												//Marksman
+	"CUP_0_TK_INS_Guerilla_Medic",										//Medic
+	"CUP_0_TK_Engineer"													//Engineer
 ];
 
 // Militia vehicles. Lightweight vehicle classnames the game will pick from randomly as sector defenders.
 militia_vehicles = [
-	"LOP_TKA_UAZ_DshKM"													//UAZ-3151 (DShKM)
+	"CUP_O_UAZ_MG_TKA",													//UAZ-3151 (DShKM)
+	"CUP_O_UAZ_SPG9_RU",												//UAZ SPG9
+	"CUP_O_UAZ_METIS_RU",												//UAZ Metis-M
+	"CUP_O_BTR40_TKM",													//BTR-40
+	"CUP_O_BRDM2_TKA"													//BRDM-2
 ];
 
 // All enemy vehicles that can spawn as sector defenders and patrols at high enemy combat readiness (aggression levels).
 opfor_vehicles = [
-	"LOP_TKA_UAZ_DshKM",												//UAZ-3151 (DShKM)
-	"LOP_TKA_UAZ_AGS",													//UAZ-3151 (AGS-30)
-	"LOP_TKA_UAZ_SPG",													//UAZ-3151 (SPG-9)
-	"LOP_TKA_BMP2",														//BMP-2
-	"LOP_TKA_BMP2D",													//BMP-2D
-	"LOP_TKA_BTR70",													//BTR-70
-	"LOP_TKA_ZSU234",													//ZSU-23-4V
-	"LOP_TKA_ZSU234",													//ZSU-23-4V
-	"LOP_TKA_T55",														//T-55A
-	"LOP_TKA_T72BB",													//T-72B
-	"LOP_TKA_T72BB"														//T-72B
+	"CUP_O_UAZ_MG_TKA",													//UAZ-3151 (DShKM)
+	"CUP_O_UAZ_AGS30_TKA",												//UAZ-3151 (AGS-30)
+	"CUP_O_UAZ_SPG9_TKA",												//UAZ-3151 (SPG-9)
+	"CUP_O_BMP2_TKA",													//BMP-2
+	"CUP_O_BMP_HQ_TKA",													//BMP-2D
+	"CUP_O_BTR60_TK",													//BTR-70
+	"CUP_O_ZSU23_TK",													//ZSU-23-4V
+	//"CUP_O_ZSU23_TK",													//ZSU-23-4V
+	"CUP_O_T55_TK",														//T-55A
+	"CUP_O_T72_TKA",													//T-72B
+	"CUP_O_T72_TKA"														//T-72B
 ];
 
 // All enemy vehicles that can spawn as sector defenders and patrols but at a lower enemy combat readiness (aggression levels).
 opfor_vehicles_low_intensity = [
-	"LOP_TKA_UAZ_DshKM",												//UAZ-3151 (DShKM)
-	"LOP_TKA_UAZ_AGS",													//UAZ-3151 (AGS-30)
-	"LOP_TKA_BMP1",														//BMP-1
-	"LOP_TKA_BMP1D",													//BMP-1D
-	"LOP_TKA_BTR60"														//BTR-60PB
+	"CUP_O_UAZ_MG_TKA",													//UAZ-3151 (DShKM)
+	"CUP_O_UAZ_AGS30_TKA",												//UAZ-3151 (AGS-30)
+	"CUP_O_BMP1_TKA",													//BMP-1
+	"CUP_O_BMP1P_TKA",													//BMP-1D
+	"CUP_O_BTR60_TK"													//BTR-60PB
 ];
 
 // All enemy vehicles that can spawn as battlegroups, either assaulting or as reinforcements, at high enemy combat readiness (aggression levels).
 opfor_battlegroup_vehicles = [
-	"LOP_TKA_UAZ",														//UAZ-3151 (Covered)
-	"LOP_TKA_UAZ_DshKM",												//UAZ-3151 (DShKM)
-	"LOP_TKA_UAZ_AGS",													//UAZ-3151 (AGS-30)
-	"LOP_TKA_UAZ_SPG",													//UAZ-3151 (SPG-9)
-	"LOP_TKA_Ural_open",												//Ural-4320 Transport
-	"LOP_TKA_Ural",														//Ural-4320 Transport (Covered)
-	"LOP_TKA_BMP2",														//BMP-2
-	"LOP_TKA_BMP2D",													//BMP-2D
-	"LOP_TKA_BTR70",													//BTR-70
-	"LOP_TKA_ZSU234",													//ZSU-23-4V
-	"LOP_TKA_ZSU234",													//ZSU-23-4V
-	"LOP_TKA_T55",														//T-55A
-	"LOP_TKA_T72BB",													//T-72B
-	"LOP_TKA_T72BB",													//T-72B
-	"LOP_TKA_Mi24V_AT",													//Mi-24P (AT)
-	"LOP_TKA_Mi24V_UPK23",												//Mi-24V (UPK)
-	"LOP_TKA_Mi8MT_Cargo"												//Mi-8MT (Cargo)
+	"CUP_O_UAZ_Unarmed_TKA",											//UAZ-3151 (Covered)
+	"CUP_O_UAZ_MG_TKA",													//UAZ-3151 (DShKM)
+	"CUP_O_UAZ_AGS30_TKA",												//UAZ-3151 (AGS-30)
+	"CUP_O_UAZ_SPG9_TKA",												//UAZ-3151 (SPG-9)
+	"CUP_O_Ural_TKA",													//Ural-4320 Transport
+	//"CUP_O_Ural_TKA",													//Ural-4320 Transport (Covered)
+	"CUP_O_BMP2_TKA",													//BMP-2
+	"CUP_O_BMP_HQ_TKA",													//BMP-2D
+	"CUP_O_BTR60_TK",													//BTR-70
+	"CUP_O_ZSU23_TK",													//ZSU-23-4V
+	//"CUP_O_ZSU23_TK",													//ZSU-23-4V
+	"CUP_O_T55_TK",														//T-55A
+	"CUP_O_T72_TKA",													//T-72B
+	"CUP_O_T72_TKA",													//T-72B
+	"CUP_O_Mi24_D_Dynamic_TK",											//Mi-24P (AT)
+	"CUP_O_Mi24_P_Dynamic_RU",											//Mi-24V (UPK)
+	"CUP_O_Mi8_VIV_RU"													//Mi-8MT (Cargo)
 ];
 
 // All enemy vehicles that can spawn as battlegroups, either assaulting or as reinforcements, at lower enemy combat readiness (aggression levels).
 opfor_battlegroup_vehicles_low_intensity = [
-	"LOP_TKA_UAZ_Open",													//UAZ-3151
-	"LOP_TKA_UAZ_DshKM",												//UAZ-3151 (DShKM)
-	"LOP_TKA_UAZ_AGS",													//UAZ-3151 (AGS-30)
-	"LOP_TKA_Ural_open",												//Ural-4320 Transport
-	"LOP_TKA_BMP1",														//BMP-1
-	"LOP_TKA_BMP1D",													//BMP-1D
-	"LOP_TKA_BTR60",													//BTR-60PB
-	"LOP_TKA_ZSU234",													//ZSU-23-4V
-	"LOP_TKA_Mi24V_AT",													//Mi-24P (AT)
-	"LOP_TKA_Mi24V_UPK23",												//Mi-24V (UPK)
-	"LOP_TKA_Mi8MT_Cargo"												//Mi-8MT (Cargo)
+	"CUP_O_UAZ_Unarmed_TKA",											//UAZ-3151
+	"CUP_O_UAZ_MG_TKA",													//UAZ-3151 (DShKM)
+	"CUP_O_UAZ_AGS30_TKA",												//UAZ-3151 (AGS-30)
+	"CUP_O_Ural_TKA",													//Ural-4320 Transport
+	"CUP_O_UAZ_SPG9_RU",												//UAZ SPG9
+	"CUP_O_UAZ_METIS_RU",												//UAZ Metis-M
+	"CUP_O_BTR40_TKM",													//BTR-40
+	"CUP_O_BRDM2_TKA"													//BRDM-2
+	"CUP_O_BMP1_TKA",													//BMP-1
+	"CUP_O_BMP1P_TKA",													//BMP-1D
+	"CUP_O_BTR60_TK",													//BTR-60PB
+	"CUP_O_ZSU23_TK"													//ZSU-23-4V
+//	"CUP_O_Mi24_D_Dynamic_TK",											//Mi-24P (AT)
+//	"CUP_O_Mi24_P_Dynamic_RU",											//Mi-24V (UPK)
+//	"CUP_O_Mi8_VIV_RU"													//Mi-8MT (Cargo)
 ];
 
 /* All vehicles that spawn within battlegroups (see the above 2 arrays) and also hold 8 soldiers as passengers.
 If something in this array can't hold all 8 soldiers then buggy behaviours may occur.	*/
 opfor_troup_transports = [
-	"LOP_TKA_Ural_open",												//Ural-4320 Transport
-	"LOP_TKA_Ural",														//Ural-4320 Transport (Covered)
-	"LOP_TKA_BTR70",													//BTR-70
-	"LOP_TKA_BMP1D",													//BMP-1D
-	"LOP_TKA_BMP2D",													//BMP-2D
-	"LOP_TKA_Mi8MT_Cargo",												//Mi-8MT (Cargo)
-	"LOP_TKA_Mi24V_AT",													//Mi-24P (AT)
-	"LOP_TKA_Mi24V_UPK23"												//Mi-24V (UPK)
+	"CUP_O_Ural_Open_TKA",												//Ural-4320 Transport
+	"CUP_O_Ural_TKA",													//Ural-4320 Transport (Covered)
+	"CUP_O_BTR60_TK",													//BTR-70
+	"CUP_O_BMP1P_TKA",													//BMP-1D
+	"CUP_O_BMP_HQ_TKA",													//BMP-2D
+	"CUP_O_Mi8_VIV_RU",													//Mi-8MT (Cargo)
+	"CUP_O_Mi24_D_Dynamic_TK",											//Mi-24P (AT)
+	"CUP_O_Mi24_P_Dynamic_RU"											//Mi-24V (UPK)
 ];
 
 // Enemy rotary-wings that will need to spawn in flight.
 opfor_choppers = [
-	"LOP_TKA_Mi8MT_Cargo",												//Mi-8MT (Cargo)
-	"LOP_TKA_Mi24V_AT",													//Mi-24P (AT)
-	"LOP_TKA_Mi24V_UPK23"												//Mi-24V (UPK)
+	"CUP_O_Mi8_VIV_RU",													//Mi-8MT (Cargo)
+	"CUP_O_Mi24_D_Dynamic_TK",											//Mi-24P (AT)
+	"CUP_O_Mi24_P_Dynamic_RU"											//Mi-24V (UPK)
 ];
 
 // Enemy fixed-wings that will need to spawn in the air.
 opfor_air = [
-	"RHS_Su25SM_vvsc",													//Su-25
-	"RHS_Su25SM_KH29_vvsc"												//Su-25 (KH29)
+	"CUP_O_Su25_Dyn_TKA",												//Su-25
+	"CUP_O_Su25_Dyn_TKA"												//Su-25 (KH29)
 ];
