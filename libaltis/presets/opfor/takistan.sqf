@@ -47,8 +47,10 @@ Think of them like garrison or military police forces, which are more meant to c
 militia_squad = [
 	"CUP_0_TK_Soldier",													//Rifleman (Lite)
 	"CUP_0_TK_Soldier",													//Rifleman (Lite)
+	"CUP_0_INS_Villager3",												//Farmer
+	"CUP_0_TK_INS_Guerilla_Medic",										//Bonsetter
 	"CUP_0_TK_Soldier_Backpack",										//Rifleman
-	"CUP_0_TK_Soldier_Backpack",										//Rifleman
+	"CUP_0_TK_INS_Commander",											//Warloard
 	"CUP_0_TK_Soldier_LAT",												//Rifleman (AT)
 	"CUP_0_TK_Soldier_AR",												//Autorifleman
 	"CUP_0_TK_INS_Sniper",												//Marksman
@@ -58,7 +60,11 @@ militia_squad = [
 
 // Militia vehicles. Lightweight vehicle classnames the game will pick from randomly as sector defenders.
 militia_vehicles = [
-	"CUP_O_UAZ_MG_TKA"													//UAZ-3151 (DShKM)
+	"CUP_O_UAZ_MG_TKA",													//UAZ-3151 (DShKM)
+	"CUP_O_UAZ_SPG9_RU",												//UAZ SPG9
+	"CUP_O_UAZ_METIS_RU",												//UAZ Metis-M
+	"CUP_O_BTR40_TKM",													//BTR-40
+	"CUP_O_BRDM2_TKA"													//BRDM-2
 ];
 
 // All enemy vehicles that can spawn as sector defenders and patrols at high enemy combat readiness (aggression levels).
@@ -70,7 +76,7 @@ opfor_vehicles = [
 	"CUP_O_BMP_HQ_TKA",													//BMP-2D
 	"CUP_O_BTR60_TK",													//BTR-70
 	"CUP_O_ZSU23_TK",													//ZSU-23-4V
-	"CUP_O_ZSU23_TK",													//ZSU-23-4V
+	//"CUP_O_ZSU23_TK",													//ZSU-23-4V
 	"CUP_O_T55_TK",														//T-55A
 	"CUP_O_T72_TKA",													//T-72B
 	"CUP_O_T72_TKA"														//T-72B
@@ -92,12 +98,12 @@ opfor_battlegroup_vehicles = [
 	"CUP_O_UAZ_AGS30_TKA",												//UAZ-3151 (AGS-30)
 	"CUP_O_UAZ_SPG9_TKA",												//UAZ-3151 (SPG-9)
 	"CUP_O_Ural_TKA",													//Ural-4320 Transport
-	"CUP_O_Ural_TKA",													//Ural-4320 Transport (Covered)
+	//"CUP_O_Ural_TKA",													//Ural-4320 Transport (Covered)
 	"CUP_O_BMP2_TKA",													//BMP-2
 	"CUP_O_BMP_HQ_TKA",													//BMP-2D
 	"CUP_O_BTR60_TK",													//BTR-70
 	"CUP_O_ZSU23_TK",													//ZSU-23-4V
-	"CUP_O_ZSU23_TK",													//ZSU-23-4V
+	//"CUP_O_ZSU23_TK",													//ZSU-23-4V
 	"CUP_O_T55_TK",														//T-55A
 	"CUP_O_T72_TKA",													//T-72B
 	"CUP_O_T72_TKA",													//T-72B
@@ -112,13 +118,17 @@ opfor_battlegroup_vehicles_low_intensity = [
 	"CUP_O_UAZ_MG_TKA",													//UAZ-3151 (DShKM)
 	"CUP_O_UAZ_AGS30_TKA",												//UAZ-3151 (AGS-30)
 	"CUP_O_Ural_TKA",													//Ural-4320 Transport
+	"CUP_O_UAZ_SPG9_RU",												//UAZ SPG9
+	"CUP_O_UAZ_METIS_RU",												//UAZ Metis-M
+	"CUP_O_BTR40_TKM",													//BTR-40
+	"CUP_O_BRDM2_TKA"													//BRDM-2
 	"CUP_O_BMP1_TKA",													//BMP-1
 	"CUP_O_BMP1P_TKA",													//BMP-1D
 	"CUP_O_BTR60_TK",													//BTR-60PB
 	"CUP_O_ZSU23_TK",													//ZSU-23-4V
-	"CUP_O_Mi24_D_Dynamic_TK",											//Mi-24P (AT)
-	"CUP_O_Mi24_P_Dynamic_RU",											//Mi-24V (UPK)
-	"CUP_O_Mi8_VIV_RU"													//Mi-8MT (Cargo)
+//	"CUP_O_Mi24_D_Dynamic_TK",											//Mi-24P (AT)
+//	"CUP_O_Mi24_P_Dynamic_RU",											//Mi-24V (UPK)
+//	"CUP_O_Mi8_VIV_RU"													//Mi-8MT (Cargo)
 ];
 
 /* All vehicles that spawn within battlegroups (see the above 2 arrays) and also hold 8 soldiers as passengers.
