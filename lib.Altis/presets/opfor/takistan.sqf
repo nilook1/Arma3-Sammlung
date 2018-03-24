@@ -12,19 +12,19 @@ Optional Mods:
 opfor_officer = "CUP_O_TK_Officer";										//Officer
 opfor_squad_leader = "CUP_O_TK_Soldier_SL";								//Squad Leader
 opfor_team_leader = "CUP_O_TK_INS_Soldier_TL";							//Team Leader
-opfor_sentry = "CUP_0_TK_Soldier";										//Rifleman (Lite)
-opfor_rifleman = "CUP_0_TK_Soldier_Backpack";							//Rifleman
-opfor_rpg = "CUP_0_TK_Soldier_LAT";										//Rifleman (LAT)
-opfor_grenadier = "CUP_0_TK_Soldier_GL";								//Grenadier
-opfor_machinegunner = "CUP_0_TK_Soldier_AR";							//Autorifleman
-opfor_heavygunner = "CUP_0_TK_Soldier_MG";								//Heavy Gunner
-opfor_marksman = "CUP_0_TK_INS_Sniper";									//Marksman
+opfor_sentry = "CUP_O_TK_Soldier";										//Rifleman (Lite)
+opfor_rifleman = "CUP_O_TK_Soldier_Backpack";							//Rifleman
+opfor_rpg = "CUP_O_TK_Soldier_LAT";										//Rifleman (LAT)
+opfor_grenadier = "CUP_O_TK_Soldier_GL";								//Grenadier
+opfor_machinegunner = "CUP_O_TK_Soldier_AR";							//Autorifleman
+opfor_heavygunner = "CUP_O_TK_Soldier_MG";								//Heavy Gunner
+opfor_marksman = "CUP_O_TK_INS_Sniper";									//Marksman
 opfor_sharpshooter = "CUP_O_RUS_Soldier_Marksman";						//Sharpshooter
-opfor_sniper = "CUP_0_TK_Sniper";										//Sniper
-opfor_at = "CUP_0_TK_Soldier_HAT";										//AT Specialist
-opfor_aa = "CUP_0_TK_Soldier_AA";										//AA Specialist
-opfor_medic = "CUP_0_TK_INS_Guerilla_Medic";							//Combat Life Saver
-opfor_engineer = "CUP_0_TK_Engineer";									//Engineer
+opfor_sniper = "CUP_O_TK_Sniper";										//Sniper
+opfor_at = "CUP_O_TK_Soldier_HAT";										//AT Specialist
+opfor_aa = "CUP_O_TK_Soldier_AA";										//AA Specialist
+opfor_medic = "CUP_O_TK_INS_Guerilla_Medic";							//Combat Life Saver
+opfor_engineer = "CUP_O_TK_Engineer";									//Engineer
 //opfor_paratrooper = "LOP_TKA_Infantry_Rifleman";						//Paratrooper
 
 // Enemy vehicles used by secondary objectives.
@@ -45,17 +45,17 @@ Therefore, adding the same value twice or three times means they are more likely
 /* Militia infantry. Lightweight soldier classnames the game will pick from randomly as sector defenders.
 Think of them like garrison or military police forces, which are more meant to control the local population instead of fighting enemy armies. */
 militia_squad = [
-	"CUP_0_TK_Soldier",													//Rifleman (Lite)
-	"CUP_0_TK_Soldier",													//Rifleman (Lite)
-	"CUP_0_INS_Villager3",												//Farmer
-	"CUP_0_TK_INS_Guerilla_Medic",										//Bonsetter
-	"CUP_0_TK_Soldier_Backpack",										//Rifleman
-	"CUP_0_TK_INS_Commander",											//Warloard
-	"CUP_0_TK_Soldier_LAT",												//Rifleman (AT)
-	"CUP_0_TK_Soldier_AR",												//Autorifleman
-	"CUP_0_TK_INS_Sniper",												//Marksman
-	"CUP_0_TK_INS_Guerilla_Medic",										//Medic
-	"CUP_0_TK_Engineer"													//Engineer
+	"CUP_O_TK_Soldier",													//Rifleman (Lite)
+	"CUP_O_TK_Soldier",													//Rifleman (Lite)
+	"CUP_O_INS_Villager3",												//Farmer
+	"CUP_O_TK_INS_Guerilla_Medic",										//Bonsetter
+	"CUP_O_TK_Soldier_Backpack",										//Rifleman
+	"CUP_O_TK_INS_Commander",											//Warloard
+	"CUP_O_TK_Soldier_LAT",												//Rifleman (AT)
+	"CUP_O_TK_Soldier_AR",												//Autorifleman
+	"CUP_O_TK_INS_Sniper",												//Marksman
+	"CUP_O_TK_INS_Guerilla_Medic",										//Medic
+	"CUP_O_TK_Engineer"													//Engineer
 ];
 
 // Militia vehicles. Lightweight vehicle classnames the game will pick from randomly as sector defenders.
