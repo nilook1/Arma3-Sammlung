@@ -117,73 +117,66 @@ heavy_vehicles = [
 	["CUP_B_M1A2_TUSK_MG_DES_US_Army",200,120,70],			//M1A2 Abrams TUSK (Desert)
 	["CUP_B_LAV25_desert_USMC",135,35,40],					//LAV-25A1
 	["CUP_B_LAV25M240_desert_USMC",135,40,40],				//LAV-25A1 (M240)
+	["CUP_B_Challenger2_Desert_BAF",200,100,70],			//Challenger2 (Desert)
 ];
 
 air_vehicles = [
-	CUP_B_C130J_USMC				//C-130J
-	CUP_B_F35B_AA_USMC 				//F-35B Lightning II (AA)
-	CUP_B_F35B_CAS_USMC				//F-35B Lightning II (CAS)
-	CUP_B_F35B_LGB_USMC				//F-35B Lightning II (LGB)
-	CUP_B_AV8B_CAP_USMC				//AV-8B Harrier II (CAP)
-	CUP_B_AV8B_MK82_USMC			//AV-8B Harrier II (Mk82)
-	CUP_B_AV8B_GBU12_USMC			//AV-8B Harrier II (GBU-12)
-	CUP_B_AV8B_AGM_USMC				//AV-8B Harrier II (AGM-65)
-	CUP_B_A10_CAS_USA				//A-10C Thunderbolt II (CAS)
-	CUP_B_A10_AT_USA				//A-10C Thunderbolt II (AT)
-	CUP_B_UH60M_US					//UH-60M
-	CUP_B_UH60L_US
-	CUP_B_UH60M_FFV_US
-	CUP_B_UH60L_FFV_US
-	CUP_B_UH60M_Unarmed_US
-	CUP_B_UH60L_Unarmed_US
-	CUP_B_UH60M_Unarmed_FFV_US
-	CUP_B_UH60L_Unarmed_FFV_US
-	CUP_B_UH60M_Unarmed_FFV_MEV_US
-	CUP_B_UH60L_Unarmed_FFV_MEV_US
-	CUP_B_MH60L_DAP_2x_US
-	CUP_B_AH64D_AT_USA
-	CUP_B_AH64D_ES_USA
-	CUP_B_AH64D_USA
-	CUP_B_AH64D_MR_USA
-	CUP_B_AH6J_Escort_USA
-	CUP_B_AH6J_AT_USA
-	CUP_B_AH6J_MP_USA
-	CUP_B_AH6J_Escort19_USA
-	CUP_B_AH6M_USA
-	CUP_B_CH47F_USA
-	CUP_B_CH47F_VIV_USA
-	CUP_B_MH6J_USA
-	CUP_B_MH6M_USA
-	CUP_B_MH6J_OBS_USA
-	CUP_B_MH6M_OBS_USA
-	CUP_B_AH1Z_USMC
-	CUP_B_AH1Z_AT_USMC
-	CUP_B_AH1Z_Escort_USMC
-	CUP_B_AH1Z_7RndHydra_USMC
-	CUP_B_AH1Z_14RndHydra_USMC
-	CUP_B_AH1Z_NOAA_USMC
-	CUP_B_CH53E_USMC
-	CUP_B_CH53E_VIV_USMC
-	CUP_B_MH60L_DAP_2x_USN
-	CUP_B_MH60L_DAP_4x_USN
-	CUP_B_MH60S_USMC
-	CUP_B_MH60S_USN
-	CUP_B_MH60S_FFV_USMC
-	CUP_B_UH1Y_UNA_USMC
-	CUP_B_UH1Y_MEV_USMC
-	CUP_B_UH1Y_GUNSHIP_USMC
-	CUP_B_MV22_VIV_USMC
-	CUP_B_MV22_VIV_USMC_RAMPGUN
-	CUP_B_MV22_USMC
-	["B_UAV_01_F",75,0,25],												//AR-2 Darter
-	["B_UAV_06_F",80,0,30],												//AL-6 Pelican (Cargo)
-	["B_Heli_Light_01_F",200,0,100],									//MH-9 Hummingbird
-	["B_Heli_Light_01_dynamicLoadout_F",200,100,100],					//AH-9 Pawnee
-	["I_Heli_light_03_unarmed_F",225,0,125],							//WY-55 Hellcat
-	["I_Heli_light_03_dynamicLoadout_F",225,200,125],					//WY-55 Hellcat (Armed)
-	["B_Heli_Attack_01_dynamicLoadout_F",500,400,200],					//AH-99 Blackfoot
-	["BWA3_Tiger_RMK_Universal",750,750,250],							//UH Tiger RMK (Universal)
-	["B_Heli_Transport_01_F",250,80,150],								//UH-80 Ghost Hawk
+	["CUP_B_C130J_USMC",135,40,40],					//C-130J
+	["CUP_B_C130J_Cargo_USMC",135,40,40],			//C-130J VIV
+	["CUP_B_F35B_AA_USMC",350,200,270], 				//F-35B Lightning II (AA)
+	["CUP_B_F35B_CAS_USMC",350,200,270],				//F-35B Lightning II (CAS)
+	["CUP_B_F35B_LGB_USMC",350,200,270],				//F-35B Lightning II (LGB)
+	["CUP_B_AV8B_CAP_USMC",350,200,270],				//AV-8B Harrier II (CAP)
+	["CUP_B_AV8B_MK82_USMC",350,200,270],				//AV-8B Harrier II (Mk82)
+	["CUP_B_AV8B_GBU12_USMC",350,200,270],			//AV-8B Harrier II (GBU-12)
+	["CUP_B_AV8B_AGM_USMC",350,200,270],				//AV-8B Harrier II (AGM-65)
+	["CUP_B_A10_CAS_USA",350,200,270],				//A-10C Thunderbolt II (CAS)
+	["CUP_B_A10_AT_USA",350,200,270],					//A-10C Thunderbolt II (AT)
+	["CUP_B_UH60M_US",200,60,120],					//UH-60M
+	["CUP_B_UH60M_FFV_US",200,60,120],				//UH-60M
+	["CUP_B_AH64D_AT_USA",400,200,300],				//UH-60M
+	["CUP_B_AH64D_ES_USA",400,200,300],				//UH-60M
+	["CUP_B_AH64D_USA",400,200,300],					//UH-60M
+	["CUP_B_AH64D_MR_USA",400,200,300],				//UH-60M
+	["CUP_B_AH6J_Escort_USA",135,40,40],			//UH-60M
+	["CUP_B_AH6J_AT_USA",200,100,100],				//UH-60M
+	["CUP_B_AH6J_MP_USA",200,100,100],				//UH-60M
+	["CUP_B_AH6J_Escort19_USA",200,100,100],			//UH-60M
+	["CUP_B_AH6M_USA",200,100,100],					//
+	["CUP_B_CH47F_USA",220,60,140],					//
+	["CUP_B_CH47F_VIV_USA",240,60,140],				//
+	["CUP_B_MH6J_USA",200,60,100],					//???
+	["CUP_B_MH6M_USA",200,60,100],					//???
+	["CUP_B_MH6J_OBS_USA",200,60,100],				//???
+	["CUP_B_MH6M_OBS_USA",200,60,100],				//???
+	["CUP_B_AH1Z_USMC",400,200,300],					//
+	["CUP_B_AH1Z_AT_USMC",400,200,300],				//
+	["CUP_B_AH1Z_Escort_USMC",400,200,300],			//
+	["CUP_B_AH1Z_7RndHydra_USMC",400,200,300],		//
+	["CUP_B_AH1Z_14RndHydra_USMC",400,200,300],		//
+	["CUP_B_AH1Z_NOAA_USMC",400,200,300],				//
+	["CUP_B_CH53E_USMC",220,60,140],					//
+	["CUP_B_CH53E_VIV_USMC",220,60,140],				//
+	["CUP_B_MH60L_DAP_2x_USN",200,60,120],			//???
+	["CUP_B_MH60L_DAP_4x_USN",200,60,120],			//???
+	["CUP_B_MH60S_USMC",200,60,120],				//???
+	["CUP_B_MH60S_USN",200,60,120],					//???
+	["CUP_B_MH60S_FFV_USMC",200,60,120],				//???
+	["CUP_B_UH1Y_UNA_USMC",135,40,40],				//
+	["CUP_B_UH1Y_MEV_USMC",135,40,40],				//
+	["CUP_B_UH1Y_GUNSHIP_USMC",135,40,40],			//
+	["CUP_B_MV22_VIV_USMC",220,60,140],				//
+	["CUP_B_MV22_VIV_USMC_RAMPGUN",220,60,140],		//
+	["CUP_B_MV22_USMC",220,60,140],					//
+//	["B_UAV_01_F",75,0,25],												//AR-2 Darter
+//	["B_UAV_06_F",80,0,30],												//AL-6 Pelican (Cargo)
+//	["B_Heli_Light_01_F",200,0,100],									//MH-9 Hummingbird
+//	["B_Heli_Light_01_dynamicLoadout_F",200,100,100],					//AH-9 Pawnee
+//	["I_Heli_light_03_unarmed_F",225,0,125],							//WY-55 Hellcat
+//	["I_Heli_light_03_dynamicLoadout_F",225,200,125],					//WY-55 Hellcat (Armed)
+//	["B_Heli_Attack_01_dynamicLoadout_F",500,400,200],					//AH-99 Blackfoot
+//	["BWA3_Tiger_RMK_Universal",750,750,250],							//UH Tiger RMK (Universal)
+/* 	["B_Heli_Transport_01_F",250,80,150],								//UH-80 Ghost Hawk
 	["B_Heli_Transport_01_camo_F",250,80,150],							//UH-80 Ghost Hawk (Camo)
 	["I_Heli_Transport_02_F",275,0,175],								//CH-49 Mohawk
 	["B_Heli_Transport_03_F",300,80,175],								//CH-67 Huron (Armed)
@@ -192,17 +185,17 @@ air_vehicles = [
 	["B_UAV_05_F",500,500,200],											//UCAV Sentinel
 	["I_Plane_Fighter_03_dynamicLoadout_F",500,400,350],				//A-143 Buzzard
 	["B_Plane_CAS_01_dynamicLoadout_F",1000,800,400],					//A-164 Wipeout (CAS)
-	["I_Plane_Fighter_04_F",1000,1200,400],								//A-149 Gryphon
-	["FIR_F15C",1250,1250,450],											//F-15C Eagle
-	["FIR_F15D",1250,1250,450],											//F-15D Eagle
-	["FIR_F15E",1250,1500,450],											//F-15E Strike Eagle
-	["JS_JC_FA18E",1500,1750,450],										//F/A-18 E Super Hornet
-	["JS_JC_FA18F",1500,1750,450],										//F/A-18 F Super Hornet
-	["B_Plane_Fighter_01_F",1500,1750,450],								//F/A-181 Black Wasp II
-	["B_Plane_Fighter_01_Stealth_F",1500,1750,450],						//F/A-181 Black Wasp II (Stealth)
-	["B_T_VTOL_01_armed_F",750,1500,500],								//V-44 X Blackfish (Armed)
-	["B_T_VTOL_01_infantry_F",750,0,500],								//V-44 X Blackfish (Infantry)
-	["B_T_VTOL_01_vehicle_F",750,0,500]									//V-44 X Blackfish (Vehicle)
+	["I_Plane_Fighter_04_F",1000,1200,400],								//A-149 Gryphon */
+//	["FIR_F15C",1250,1250,450],											//F-15C Eagle
+//	["FIR_F15D",1250,1250,450],											//F-15D Eagle
+//	["FIR_F15E",1250,1500,450],											//F-15E Strike Eagle
+//	["JS_JC_FA18E",1500,1750,450],										//F/A-18 E Super Hornet
+//	["JS_JC_FA18F",1500,1750,450],										//F/A-18 F Super Hornet
+//	["B_Plane_Fighter_01_F",1500,1750,450],								//F/A-181 Black Wasp II
+//	["B_Plane_Fighter_01_Stealth_F",1500,1750,450],						//F/A-181 Black Wasp II (Stealth)
+//	["B_T_VTOL_01_armed_F",750,1500,500],								//V-44 X Blackfish (Armed)
+//	["B_T_VTOL_01_infantry_F",750,0,500],								//V-44 X Blackfish (Infantry)
+//	["B_T_VTOL_01_vehicle_F",750,0,500]									//V-44 X Blackfish (Vehicle)
 ];
 
 static_vehicles = [
