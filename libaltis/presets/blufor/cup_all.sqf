@@ -37,38 +37,51 @@ Each array below represents one of the 7 pages within the build menu.
 Format: ["vehicle_classname",supplies,ammunition,fuel],	Example: ["B_APC_Tracked_01_AA_F",300,150,150],
 The above example is the NATO IFV-6a Cheetah, it costs 300 supplies, 150 ammunition and 150 fuel to build.	*/
 infantry_units = [
-	["B_Soldier_lite_F",15,0,0],										//Rifleman (Light)
-	["B_Soldier_F",20,0,0],												//Rifleman
-	["B_soldier_LAT_F",30,0,0],											//Rifleman (AT)
-	["B_Soldier_GL_F",25,0,0],											//Grenadier
-	["B_soldier_AR_F",25,0,0],											//Autorifleman
-	["B_HeavyGunner_F",35,0,0],											//Heavygunner
-	["B_soldier_M_F",30,0,0],											//Marksman
-	["B_Sharpshooter_F",40,0,0],										//Sharpshooter
-	["B_soldier_AT_F",50,10,0],											//AT Specialist
-	["B_soldier_AA_F",50,10,0],											//AA Specialist
-	["B_medic_F",30,0,0],												//Combat Life Saver
-	["B_engineer_F",30,0,0],											//Engineer
-	["B_soldier_exp_F",30,0,0],											//Explosives Specialist
+	["CUP_B_USMC_SpecOps_SD",15,0,0],										//Rifleman (Light)
+	["CUP_B_USMC_Soldier",20,0,0],												//Rifleman
+	["CUP_B_USMC_Soldier_LAT",30,0,0],											//Rifleman (AT)
+	["CUP_B_USMC_Soldier_GL",25,0,0],											//Grenadier
+	["CUP_B_USMC_Soldier_AR",25,0,0],											//Autorifleman
+	["CUP_B_USMC_Soldier_MG",35,0,0],											//Heavygunner
+	["CUP_B_USMC_Soldier_Marksman",30,0,0],											//Marksman
+	["CUP_B_USMC_Soldier_HAT",50,10,0],											//AT Specialist
+	["CUP_B_USMC_Soldier_AT",40,0,0],											//AT Specialist
+	["CUP_B_USMC_Soldier_AA",50,10,0],											//AA Specialist
+	["CUP_B_USMC_Engineer",30,0,0],											//Engineer
+	["CUP_B_USMC_Corpsman",30,0,0],
+	["CUP_B_FR_Soldier_Assault_GL",30,0,0],
+	["CUP_B_FR_Soldier_Assault",30,0,0],
+	["CUP_B_FR_Commander",30,0,0],
+	["CUP_B_FR_Corpsman",30,0,0],
+	["CUP_B_FR_Soldier_Exp",30,0,0],
+	["CUP_B_FR_Soldier_Operator",30,0,0],
+	["CUP_B_FR_Soldier_GL",30,0,0],
+	["CUP_B_FR_Soldier_AR",30,0,0],
+	["CUP_B_FR_Soldier_Marksman",30,0,0],
+	["CUP_B_FR_Saboteur",30,0,0],
 	["B_recon_F",20,0,0],												//Recon Scout
 	["B_recon_LAT_F",30,0,0],											//Recon Scout (AT)
 	["B_recon_M_F",30,0,0],												//Recon Marksman
 	["B_Recon_Sharpshooter_F",40,0,0],									//Recon Sharpshooter
 	["B_recon_medic_F",30,0,0],											//Recon Paramedic
 	["B_recon_exp_F",30,0,0],											//Recon Demolition Expert
-	["B_sniper_F",70,5,0],												//Sniper
-	["B_ghillie_ard_F",70,5,0],											//Sniper (Arid)
-	["B_ghillie_lsh_F",70,5,0],											//Sniper (Lush)
-	["B_ghillie_sard_F",70,5,0],										//Sniper (Semi-Arid)
-	["B_spotter_F",20,0,0],												//Spotter
-	["B_crew_F",10,0,0],												//Crewman
-	["B_soldier_PG_F",20,0,0],											//Para Trooper
-	["B_helicrew_F",10,0,0],											//Helicopter Crew
-	["B_Helipilot_F",10,0,0],											//Helicopter Pilot
-	["B_Pilot_F",10,0,0]												//Pilot
+	["CUP_B_USMC_Sniper_M40A3",70,5,0],												//Sniper
+	["CUP_B_USMC_Sniper_M107",90,10,0],											//Sniper (Arid)
+	["CUP_B_USMC_Spotter",20,0,0],												//Spotter
+	["CUP_B_USMC_Crew",10,0,0],												//Crewman
+	["CUP_B_USMC_Pilot",10,0,0]											//Helicopter Crew
 ];
 
 light_vehicles = [
+	CUP_C_Golf4_random_Civ
+	C_Kart_01_F
+	C_Offroad_02_unarmed_F
+	CUP_C_Octavia_Civ
+	C_Van_01_transport_F
+	C_Van_02_vehicle_F
+	C_Van_02_transport_F
+	CUP_C_SUV_TK
+	CUP_I_SUV_Armored_ION
 	CUP_B_LR_Transport_GB_W	//Land Rover (Transport)
 	CUP_B_LR_MG_GB_W		//Land Rover (M2)
 	CUP_B_LR_Special_M2_GB_W	//Land Rover M2 (Special) Woodland
@@ -187,6 +200,7 @@ air_vehicles = [
 	CUP_B_MV22_VIV_USMC
 	CUP_B_MV22_VIV_USMC_RAMPGUN
 	CUP_B_MV22_USMC
+	CUP_B_UH1D_GER_KSK
 	
 	["B_UAV_01_F",75,0,25],												//AR-2 Darter
 	["B_UAV_06_F",80,0,30],												//AL-6 Pelican (Cargo)
@@ -231,6 +245,10 @@ air_vehicles = [
 ];
 
 static_vehicles = [
+	CUP_B_M2StaticMG_USMC
+	CUP_B_M2StaticMG_MiniTripod_USMC
+	CUP_B_M252_USMC
+	CUP_B_TOW_TriPod_USMC
 	["B_HMG_01_F",25,40,0],												//Mk30A HMG .50
 	["B_HMG_01_high_F",25,40,0],										//Mk30 HMG .50 (Raised)
 	["B_HMG_01_A_F",35,40,0],											//Mk30 HMG .50 (Autonomous)
