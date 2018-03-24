@@ -90,7 +90,7 @@ light_vehicles = [
 	["B_Quadbike_01_F",10,0,2],							//Quad Bike
 	["B_Truck_01_transport_F",100,0,30],				//HEMTT Transport
 	["B_Truck_01_covered_F",50,0,20],					//HEMTT Transport (Covered)
-	["B_Boat_Transport_01_F",20,0,5],					//Assault Boat
+	["B_Boat_Transport_01_F",20,0,5]					//Assault Boat
 
 ];
 
@@ -117,7 +117,7 @@ heavy_vehicles = [
 	["CUP_B_M1A2_TUSK_MG_DES_US_Army",200,120,70],			//M1A2 Abrams TUSK (Desert)
 	["CUP_B_LAV25_desert_USMC",135,35,40],					//LAV-25A1
 	["CUP_B_LAV25M240_desert_USMC",135,40,40],				//LAV-25A1 (M240)
-	["CUP_B_Challenger2_Desert_BAF",200,100,70],			//Challenger2 (Desert)
+	["CUP_B_Challenger2_Desert_BAF",200,100,70]			//Challenger2 (Desert)
 ];
 
 air_vehicles = [
@@ -167,7 +167,7 @@ air_vehicles = [
 	["CUP_B_UH1Y_GUNSHIP_USMC",135,40,40],			//
 	["CUP_B_MV22_VIV_USMC",220,60,140],				//
 	["CUP_B_MV22_VIV_USMC_RAMPGUN",220,60,140],		//
-	["CUP_B_MV22_USMC",220,60,140],					//
+	["CUP_B_MV22_USMC",220,60,140]				//
 //	["B_UAV_01_F",75,0,25],												//AR-2 Darter
 //	["B_UAV_06_F",80,0,30],												//AL-6 Pelican (Cargo)
 //	["B_Heli_Light_01_F",200,0,100],									//MH-9 Hummingbird
@@ -207,7 +207,7 @@ static_vehicles = [
 	["B_GMG_01_A_F",45,60,0],											//Mk32 GMG 20mm (Autonomous)
 	["B_static_AT_F",50,100,0],											//Static Titan Launcher (AT)
 	["B_static_AA_F",50,100,0],											//Static Titan Launcher (AA)
-	["B_Mortar_01_F",80,150,0],											//Mk6 Mortar
+	["B_Mortar_01_F",80,150,0]											//Mk6 Mortar
 ];
 
 buildings = [
@@ -315,7 +315,7 @@ support_vehicles = [
 	["B_Slingload_01_Ammo_F",75,200,0]									//Huron Ammo
 	["CUP_B_MTVR_Repair_USA",325,0,75],									//MTVR Repair
 	["CUP_B_MTVR_Refuel_USA",125,0,275],								//MTVR Fuel
-	["CUP_B_MTVR_Ammo_USA",125,200,75],									//MTVR Ammo
+	["CUP_B_MTVR_Ammo_USA",125,200,75]									//MTVR Ammo
 ];
 
 // Pre-made squads for the commander build menu. These shouldn't exceed 10 members.
