@@ -125,7 +125,7 @@ opfor_battlegroup_vehicles_low_intensity = [
 	"CUP_O_BMP1_TKA",													//BMP-1
 	"CUP_O_BMP1P_TKA",													//BMP-1D
 	"CUP_O_BTR60_TK",													//BTR-60PB
-	"CUP_O_ZSU23_TK",													//ZSU-23-4V
+	"CUP_O_ZSU23_TK"													//ZSU-23-4V
 //	"CUP_O_Mi24_D_Dynamic_TK",											//Mi-24P (AT)
 //	"CUP_O_Mi24_P_Dynamic_RU",											//Mi-24V (UPK)
 //	"CUP_O_Mi8_VIV_RU"													//Mi-8MT (Cargo)
