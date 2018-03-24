@@ -69,53 +69,53 @@ infantry_units = [
 ];
 
 light_vehicles = [
-	CUP_B_LR_Transport_GB_W	//Land Rover (Transport)
-	CUP_B_LR_MG_GB_W		//Land Rover (M2)
-	CUP_B_LR_Special_M2_GB_W	//Land Rover M2 (Special) Woodland
-	CUP_B_LR_Special_GMG_GB_W	//Land Rover GMG (Special) Woodland
-	CUP_B_BAF_Coyote_GMG_W	//Coyote GMG Woodland
-	CUP_B_BAF_Coyote_L2A1_W	//Coyote L2A1 Woodland
-	CUP_B_Jackal2_GMG_GB_W	//Jackal2 GMG Woodland
-	CUP_B_Jackal2_L2A1_GB_W	//Jackal2 L2A1 Woodland
-	CUP_B_Dingo_GER_Wdl	//Dingo 2 (MG) (Woodland)
-	CUP_B_Dingo_GL_GER_Wdl	//Dingo 2 (GL) (Woodland)
-	CUP_B_MTVR_USA	//MTVR
-	CUP_B_M1030	//M1030 Bike
-	CUP_B_HMMWV_Unarmed_USMC	//HMMWV (Unarmed)
-	CUP_B_HMMWV_M2_USMC	//HMMWV M2
-	CUP_B_HMMWV_MK19_USMC	//HMMWV MK19
-	CUP_B_HMMWV_TOW_USMC	//HMMWV TOW
-	CUP_B_HMMWV_M1114_USMC	//HMMWV M240
-	CUP_B_HMMWV_Avenger_USMC	//HMMWV Avenger
-	["B_Quadbike_01_F",50,0,25],										//Quad Bike
-	["B_Truck_01_transport_F",125,0,75],								//HEMTT Transport
-	["B_Truck_01_covered_F",125,0,75],									//HEMTT Transport (Covered)
-	["B_Boat_Transport_01_F",100,0,25],									//Assault Boat
+	["CUP_B_LR_Transport_GB_D",50,0,20],				//Land Rover (Transport) Desert
+	["CUP_B_LR_Special_M2_GB_D",80,0,25],				//Land Rover M2 (Special) Desert
+	["CUP_B_LR_Special_GMG_GB_D",80,0,25],				//Land Rover GMG (Special) Desert
+	["CUP_B_BAF_Coyote_GMG_D",80,0,25],					//Coyote GMG Desert
+	["CUP_B_BAF_Coyote_L2A1_D",80,0,25],				//Coyote L2A1 Desert
+	["CUP_B_Jackal2_GMG_GB_D",80,0,25],					//Jackal2 GMG Desert
+	["CUP_B_Jackal2_L2A1_GB_D",80,0,25],				//Jackal2 L2A1 Desert
+	["CUP_B_Dingo_GER_Des",80,0,25],					//Dingo 2 (MG) (Desert)
+	["CUP_B_Dingo_GL_GER_Des",80,0,25],					//Dingo 2 (GL) (Desert)
+	["CUP_B_MTVR_USA",50,0,20],							//MTVR
+	["CUP_B_M1030",10,0,2],								//M1030 Bike
+	["CUP_B_HMMWV_Unarmed_USA",50,0,20],				//HMMWV (Unarmed)
+	["CUP_B_HMMWV_M2_USA",80,0,25],						//HMMWV M2
+	["CUP_B_HMMWV_Crows_M2_USA",150,0,50],				//HMMWV M2
+	["CUP_B_HMMWV_MK19_USA",80,0,25],					//HMMWV MK19
+	["CUP_B_HMMWV_TOW_USA",80,0,25],					//HMMWV TOW
+	["CUP_B_HMMWV_M2_GPK_USA",100,0,25],				//HMMWV M240
+	["CUP_B_HMMWV_Avenger_USA",150,0,35],				//HMMWV Avenger
+	["B_Quadbike_01_F",10,0,2],							//Quad Bike
+	["B_Truck_01_transport_F",100,0,30],				//HEMTT Transport
+	["B_Truck_01_covered_F",50,0,20],					//HEMTT Transport (Covered)
+	["B_Boat_Transport_01_F",20,0,5],					//Assault Boat
 
 ];
 
 heavy_vehicles = [
-	CUP_B_Mastiff_HMG_GB_W	//Mastiff PPV HMG Woodland
-	CUP_B_Mastiff_GMG_GB_W	//Mastiff PPV GMG Woodland
-	CUP_B_Mastiff_LMG_GB_W	//Mastiff PPV LMG Woodland
-	CUP_B_Ridgback_HMG_GB_W	//Ridgback PPV HMG Woodland
-	CUP_B_Ridgback_GMG_GB_W	//Ridgback PPV HMG Woodland
-	CUP_B_Ridgback_LMG_GB_W	//Ridgback PPV HMG Woodland
-	CUP_B_Wolfhound_HMG_GB_W	//Wolfhound TSV HMG Woodland
-	CUP_B_Wolfhound_GMG_GB_W	//Wolfhound TSV HMG Woodland
-	CUP_B_Wolfhound_LMG_GB_W	//Wolfhound TSV HMG Woodland
-	CUP_B_M1126_ICV_M2_Woodland	//M1126 ICV M2 CROWS (Woodland)
-	CUP_B_M1126_ICV_M2_Woodland_Slat	//M1126 ICV M2 CROWS (Woodland - Slat)
-	CUP_B_M1126_ICV_MK19_Woodland	//M1126 ICV MK19 CROWS (Woodland)
-	CUP_B_M1126_ICV_MK19_Woodland_Slat	//M1126 ICV MK19 CROWS (Woodland - Slat)
-	CUP_B_M1130_CV_M2_Woodland	//M1130 CV M2 CROWS (Woodland)
-	CUP_B_M1130_CV_M2_Woodland_Slat	//M1130 CV M2 CROWS (Woodland - Slat)
-	CUP_B_M1129_MC_MK19_Woodland	//M1129 MC MK19 CROWS (Woodland)
-	CUP_B_M1129_MC_MK19_Woodland_Slat	//M1129 MC MK19 CROWS (Woodland - Slat)
-	CUP_B_M1135_ATGMV_Woodland	//M1135 ATGMV (Woodland)
-	CUP_B_M1135_ATGMV_Woodland_Slat	//M1135 ATGMV (Woodland - Slat)
-	CUP_B_M1128_MGS_Woodland	//M1128 MGS (Woodland)
-	CUP_B_M1128_MGS_Woodland_Slat	//M1128 MGS (Woodland - Slat)
+	CUP_B_Mastiff_HMG_GB_W					//Mastiff PPV HMG Woodland
+	CUP_B_Mastiff_GMG_GB_W					//Mastiff PPV GMG Woodland
+	CUP_B_Mastiff_LMG_GB_W					//Mastiff PPV LMG Woodland
+	CUP_B_Ridgback_HMG_GB_W					//Ridgback PPV HMG Woodland
+	CUP_B_Ridgback_GMG_GB_W					//Ridgback PPV HMG Woodland
+	CUP_B_Ridgback_LMG_GB_W					//Ridgback PPV HMG Woodland
+	CUP_B_Wolfhound_HMG_GB_W				//Wolfhound TSV HMG Woodland
+	CUP_B_Wolfhound_GMG_GB_W				//Wolfhound TSV HMG Woodland
+	CUP_B_Wolfhound_LMG_GB_W				//Wolfhound TSV HMG Woodland
+	CUP_B_M1126_ICV_M2_Woodland				//M1126 ICV M2 CROWS (Woodland)
+	CUP_B_M1126_ICV_M2_Woodland_Slat		//M1126 ICV M2 CROWS (Woodland - Slat)
+	CUP_B_M1126_ICV_MK19_Woodland			//M1126 ICV MK19 CROWS (Woodland)
+	CUP_B_M1126_ICV_MK19_Woodland_Slat		//M1126 ICV MK19 CROWS (Woodland - Slat)
+	CUP_B_M1130_CV_M2_Woodland				//M1130 CV M2 CROWS (Woodland)
+	CUP_B_M1130_CV_M2_Woodland_Slat			//M1130 CV M2 CROWS (Woodland - Slat)
+	CUP_B_M1129_MC_MK19_Woodland			//M1129 MC MK19 CROWS (Woodland)
+	CUP_B_M1129_MC_MK19_Woodland_Slat		//M1129 MC MK19 CROWS (Woodland - Slat)
+	CUP_B_M1135_ATGMV_Woodland				//M1135 ATGMV (Woodland)
+	CUP_B_M1135_ATGMV_Woodland_Slat			//M1135 ATGMV (Woodland - Slat)
+	CUP_B_M1128_MGS_Woodland				//M1128 MGS (Woodland)
+	CUP_B_M1128_MGS_Woodland_Slat			//M1128 MGS (Woodland - Slat)
 	["CUP_B_M113_USA",200,40,100],									//M113A3 (M2)
 	CUP_B_M163_USA	//M163A1 VADS
 	CUP_B_M2Bradley_USA_W	//M2A2 Bradley IFV (Woodland)
@@ -192,31 +192,19 @@ air_vehicles = [
 	["B_UAV_06_F",80,0,30],												//AL-6 Pelican (Cargo)
 	["B_Heli_Light_01_F",200,0,100],									//MH-9 Hummingbird
 	["B_Heli_Light_01_dynamicLoadout_F",200,100,100],					//AH-9 Pawnee
-	["RHS_MELB_MH6M",200,0,100],										//MH-6M Little Bird
-	["RHS_MELB_AH6M",200,200,100],										//AH-6M Pawnee
 	["I_Heli_light_03_unarmed_F",225,0,125],							//WY-55 Hellcat
 	["I_Heli_light_03_dynamicLoadout_F",225,200,125],					//WY-55 Hellcat (Armed)
-	["RHS_UH1Y_UNARMED",225,0,125],										//UH-1Y (Unarmed)
-	["RHS_UH1Y_GS",225,200,125],										//UH-1Y (Ground Suppression)
 	["B_Heli_Attack_01_dynamicLoadout_F",500,400,200],					//AH-99 Blackfoot
-	["RHS_AH1Z",500,500,200],											//AH-1Z (Multi-Role)
-	["RHS_AH64D_wd",750,750,250],										//AH-64D (Multi-Role)
 	["BWA3_Tiger_RMK_Universal",750,750,250],							//UH Tiger RMK (Universal)
 	["B_Heli_Transport_01_F",250,80,150],								//UH-80 Ghost Hawk
 	["B_Heli_Transport_01_camo_F",250,80,150],							//UH-80 Ghost Hawk (Camo)
-	["RHS_UH60M2",250,0,150],											//UH-60M (Unarmed)
-	["RHS_UH60M",250,80,150],											//UH-60M
-	["RHS_UH60M_MEV2",300,0,150],										//UH-60M MEV2
-	["RHS_CH_47F",275,80,175],											//CH-47 Chinook (Armed)
 	["I_Heli_Transport_02_F",275,0,175],								//CH-49 Mohawk
-	["rhsusf_CH53E_USMC",300,0,175],									//CH-53E Super Stallion
 	["B_Heli_Transport_03_F",300,80,175],								//CH-67 Huron (Armed)
 	["B_UAV_02_dynamicLoadout_F",400,400,200],							//MQ-4A Greyhawk
 	["B_T_UAV_03_dynamicLoadout_F",450,500,250],						//MQ-12 Falcon
 	["B_UAV_05_F",500,500,200],											//UCAV Sentinel
 	["I_Plane_Fighter_03_dynamicLoadout_F",500,400,350],				//A-143 Buzzard
 	["B_Plane_CAS_01_dynamicLoadout_F",1000,800,400],					//A-164 Wipeout (CAS)
-	["RHS_A10",1000,1000,400],											//A-10A (CAS)
 	["I_Plane_Fighter_04_F",1000,1200,400],								//A-149 Gryphon
 	["FIR_F15C",1250,1250,450],											//F-15C Eagle
 	["FIR_F15D",1250,1250,450],											//F-15D Eagle
@@ -240,7 +228,6 @@ static_vehicles = [
 	["B_static_AT_F",50,100,0],											//Static Titan Launcher (AT)
 	["B_static_AA_F",50,100,0],											//Static Titan Launcher (AA)
 	["B_Mortar_01_F",80,150,0],											//Mk6 Mortar
-	["RHS_M119_WD",100,200,0]											//M119A2
 ];
 
 buildings = [
@@ -343,12 +330,12 @@ support_vehicles = [
 	["B_Truck_01_Repair_F",325,0,75],									//HEMTT Repair
 	["B_Truck_01_fuel_F",125,0,275],									//HEMTT Fuel
 	["B_Truck_01_ammo_F",125,200,75],									//HEMTT Ammo
-	["rhsusf_M977A4_REPAIR_BKIT_usarmy_wd",325,0,75],					//M977A4 Repair
-	["rhsusf_M978A4_BKIT_usarmy_wd",125,0,275],							//M978A4 Fuel
-	["rhsusf_M977A4_AMMO_BKIT_usarmy_wd",125,200,75],					//M977A4 Ammo
 	["B_Slingload_01_Repair_F",275,0,0],								//Huron Repair
 	["B_Slingload_01_Fuel_F",75,0,200],									//Huron Fuel
 	["B_Slingload_01_Ammo_F",75,200,0]									//Huron Ammo
+	["CUP_B_MTVR_Repair_USA",325,0,75],									//MTVR Repair
+	["CUP_B_MTVR_Refuel_USA",125,0,275],								//MTVR Fuel
+	["CUP_B_MTVR_Ammo_USA",125,200,75],									//MTVR Ammo
 ];
 
 // Pre-made squads for the commander build menu. These shouldn't exceed 10 members.
