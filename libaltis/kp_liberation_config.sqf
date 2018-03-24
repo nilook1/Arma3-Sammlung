@@ -42,16 +42,17 @@ If you want to change a preset, it's recommended to set all four presets to 0 an
 7 = RHS USAF (Desert)
 8 = RHS AFRF (VDV/MSV) 
 9 = CUP Woodland
-10 = CUP Desert */
-KP_liberation_preset_blufor = 0;
+10 = CUP Desert 
+11 = CUP West (WDL+DSRT) */
+KP_liberation_preset_blufor = 10;
 
 /* OPFOR preset:
 0 = Custom (default vanilla CSAT)
 1 = Apex Tanoa (apex vanilla CSAT)
 2 = RHS AFRF (EMR/MSV)
-3 = Project OPFOR (Takistan)
+3 = CUP Takistan Militia
 4 = Project OPFOR (Islamic State) */
-KP_liberation_preset_opfor = 0;
+KP_liberation_preset_opfor = 3;
 
 /* Resistance preset:
 0 = Custom (default vanilla FIA)
@@ -107,7 +108,7 @@ KP_liberation_production_interval = 30				/ GRLIB_resources_multiplier;								/
 
 GRLIB_sector_size = 500;																						// Range to activate a sector.
 GRLIB_capture_size = 175;																						// Range to capture a sector.
-GRLIB_defended_buildingpos_part = 0;																			// Multiplier for defenders in buildings.
+GRLIB_defended_buildingpos_part = 0.2;																			// Multiplier for defenders in buildings.
 GRLIB_battlegroup_size = 6							* (sqrt GRLIB_unitcap) * (sqrt GRLIB_csat_aggressivity);	// Size of enemy battlegroups.
 GRLIB_vulnerability_timer = 1200;																				// Time in seconds how long a captured sector is vulnerable to enemy troops.
 GRLIB_radiotower_size = 1250;																					// Radio Tower scanning range.
@@ -201,43 +202,11 @@ blacklisted_from_arsenal = [
 	"C_IDAP_UAV_06_backpack_F",
 	"C_IDAP_UAV_06_medical_backpack_F",
 	"C_IDAP_UAV_06_antimine_backpack_F",
-	"B_Respawn_Sleeping_bag_blue_F",
-	"B_Respawn_Sleeping_bag_brown_F",
-	"B_Respawn_TentDome_F",
-	"B_Respawn_Sleeping_bag_F",
-	"B_Respawn_TentA_F",
-	"RHS_M2_Gun_Bag",
-	"RHS_M2_Tripod_Bag",
-	"rhs_M252_Gun_Bag",
-	"rhs_M252_Bipod_Bag",
-	"RHS_M2_MiniTripod_Bag",
-	"RHS_Mk19_Gun_Bag",
-	"RHS_Mk19_Tripod_Bag",
-	"rhs_Tow_Gun_Bag",
-	"rhs_TOW_Tripod_Bag",
-	"RHS_Podnos_Bipod_Bag",
-	"RHS_Podnos_Gun_Bag",
-	"RHS_Metis_Gun_Bag",
-	"RHS_Metis_Tripod_Bag",
-	"RHS_Kornet_Gun_Bag",
-	"RHS_Kornet_Tripod_Bag",
-	"RHS_AGS30_Tripod_Bag",
-	"RHS_AGS30_Gun_Bag",
-	"RHS_DShkM_Gun_Bag",
-	"RHS_DShkM_TripodHigh_Bag",
-	"RHS_DShkM_TripodLow_Bag",
-	"RHS_Kord_Tripod_Bag",
-	"RHS_Kord_Gun_Bag",
-	"RHS_NSV_Tripod_Bag",
-	"RHS_NSV_Gun_Bag",
-	"RHS_SPG9_Gun_Bag",
-	"RHS_SPG9_Tripod_Bag",
-	"UK3CB_BAF_L16",
-	"UK3CB_BAF_L16_Tripod",
-	"UK3CB_BAF_M6",
-	"UK3CB_BAF_L111A1",
-	"UK3CB_BAF_L134A1",
-	"UK3CB_BAF_Tripod",
+	//"B_Respawn_Sleeping_bag_blue_F",
+	//"B_Respawn_Sleeping_bag_brown_F",
+	//"B_Respawn_TentDome_F",
+	//"B_Respawn_Sleeping_bag_F",
+	//"B_Respawn_TentA_F",
 	"optic_Nightstalker",
 	"optic_tws",
 	"optic_tws_mg"
@@ -245,38 +214,6 @@ blacklisted_from_arsenal = [
 
 // Items which should be added as allowed Items, when they get blacklisted, even if they are not in the blacklisted_from_arsenal array
 KP_liberation_allowed_items_extension = [
-	"ItemRadioAcreFlagged",
-	"rhs_acc_ekp8_18b",
-	"rhs_acc_ekp8_18c",
-	"rhs_acc_ekp8_18d",
-	"rhsusf_acc_g33_T1_flip",
-	"rhsusf_acc_g33_xps3_flip",
-	"rhsusf_acc_g33_xps3_tan_flip",
-	"rhsusf_acc_anpeq15_bk_light_h",
-	"rhs_m136_mag",
-	"rhs_m136_hedp_mag",
-	"rhs_m136_hp_mag",
-	"rhs_weap_M136_used",
-	"rhs_m72a7_mag",
-	"BWA3_optic_ZO4x30_NSV",
-	"BWA3_optic_ZO4x30_IRV",
-	"BWA3_optic_ZO4x30_Single_NSV",
-	"BWA3_optic_ZO4x30_Single_IRV",
-	"BWA3_optic_EOTech_Mag_On",
-	"BWA3_optic_EOTech_Mag_Off",
-	"BWA3_optic_EOTech_tan_Mag_On",
-	"BWA3_optic_EOTech_tan_Mag_Off",
-	"BWA3_optic_20x50_NSV",
-	"BWA3_optic_24x72_NSV",
-	"BWA3_acc_VarioRay_flash",
-	"BWA3_acc_VarioRay_laser",
-	"BWA3_acc_LLM01_flash",
-	"BWA3_acc_LLM01_laser",
-	"BWA3_acc_LLM01_flash_underbarrel",
-	"BWA3_acc_LLM01_laser_underberrel",
-	"BWA3_acc_LLM01_laser_underbarrel",
-	"UK3CB_BAF_AT4_CS_AP_Mag",
-	"UK3CB_BAF_Javelin_Launcher",
 	"sma_spitfire_03_rds_low_ard_red",
 	"ACE_Chemlight_Shield_Orange",
 	"ACE_Chemlight_Shield_White",
@@ -297,87 +234,32 @@ box_transport_config = [
 	["I_G_Van_01_transport_F", -6.5, [0,-1.1,0.25], [0,-2.6,0.25]],
 	["I_C_Van_01_transport_F", -6.5, [0,-1.1,0.25], [0,-2.6,0.25]],
 	["O_G_Van_01_transport_F", -6.5, [0,-1.1,0.25], [0,-2.6,0.25]],
+	["C_Van_01_transport_F", -6.5, [0,-1.1,0.25], [0,-2.6,0.25]],
+	["C_Van_02_vehicle_F", -6.5, [0, 0.9, -0.1], [0, -0.6, -0.1], [0, -2.3, -0.1]],
 	["C_Truck_02_transport_F", -6.5, [0,0.3,0.05], [0,-1.3,0.05], [0,-2.9,0.05]],
 	["C_Truck_02_covered_F", -6.5, [0,0.3,0.05], [0,-1.3,0.05], [0,-2.9,0.05]],
-	["RHS_Ural_Open_Civ_03", -6.5, [0,-0.2,0.55], [0,-1.4,0.55], [0,-2.55,0.55]],
-	["RHS_Ural_Civ_03", -6.5, [0,-0.2,0.55], [0,-1.4,0.55], [0,-2.55,0.55]],
-	["RHS_Ural_Open_MSV_01", -6.5, [0,-0.2,0.55], [0,-1.4,0.55], [0,-2.55,0.55]],
-	["RHS_Ural_Open_VDV_01", -6.5, [0,-0.2,0.55], [0,-1.4,0.55], [0,-2.55,0.55]],
-	["RHS_Ural_MSV_01", -6.5, [0,-0.2,0.55], [0,-1.4,0.55], [0,-2.55,0.55]],
-	["RHS_Ural_VDV_01", -6.5, [0,-0.2,0.55], [0,-1.4,0.55], [0,-2.55,0.55]],
-	["RHS_Ural_Open_Flat_MSV_01", -6.5, [0,-0.2,0.55], [0,-1.4,0.55], [0,-2.55,0.55]],
-	["RHS_Ural_Open_Flat_VDV_01", -6.5, [0,-0.2,0.55], [0,-1.4,0.55], [0,-2.55,0.55]],
-	["LOP_TAK_Civ_Ural_open", -6.5, [0,-0.2,0.55], [0,-1.4,0.55], [0,-2.55,0.55]],
-	["LOP_TAK_Civ_Ural", -6.5, [0,-0.2,0.55], [0,-1.4,0.55], [0,-2.55,0.55]],
-	["LOP_TKA_Ural_open", -6.5, [0,-0.2,0.55], [0,-1.4,0.55], [0,-2.55,0.55]],
-	["LOP_TKA_Ural", -6.5, [0,-0.2,0.55], [0,-1.4,0.55], [0,-2.55,0.55]],
-	["LOP_ISTS_OPF_Truck", -6.5, [0,-1.1,0.25], [0,-2.6,0.25]],
-	["rhs_kamaz5350_flatbed_vdv", -4.5, [0,0.67,-0.4], [0,-0.88,-0.4], [0,-2.43,-0.4]],
-	["rhs_kamaz5350_flatbed_cover_vdv", -4.5, [0,0.67,-0.4], [0,-0.88,-0.4], [0,-2.43,-0.4]],
-	["rhs_kamaz5350_open_vdv", -4.5, [0,0.67,-0.4], [0,-0.88,-0.4], [0,-2.43,-0.4]],
-	["rhs_kamaz5350_vdv", -4.5, [0,0.67,-0.4], [0,-0.88,-0.4], [0,-2.43,-0.4]],
 	["B_Truck_01_transport_F", -6.5, [0,-0.4,0.4], [0,-2.1,0.4], [0,-3.8,0.4]],
 	["B_Truck_01_covered_F", -6.5, [0,-0.4,0.4], [0,-2.1,0.4], [0,-3.8,0.4]],
 	["B_T_Truck_01_transport_F", -6.5, [0,-0.4,0.4], [0,-2.1,0.4], [0,-3.8,0.4]],
 	["B_T_Truck_01_covered_F", -6.5, [0,-0.4,0.4], [0,-2.1,0.4], [0,-3.8,0.4]],
-	["rhsusf_M977A4_usarmy_d", -6.5, [0,0.4,1.4], [0,-1.3,1.4], [0,-3,1.4]],
-	["rhsusf_M977A4_BKIT_usarmy_d", -6.5, [0,0.4,1.4], [0,-1.3,1.4], [0,-3,1.4]],
-	["rhsusf_M977A4_BKIT_M2_usarmy_d", -6.5, [0,0.4,0.7], [0,-1.3,0.7], [0,-3,0.7]],
-	["rhsusf_M977A4_usarmy_wd", -6.5, [0,0.4,1.4], [0,-1.3,1.4], [0,-3,1.4]],
-	["rhsusf_M977A4_BKIT_usarmy_wd", -6.5, [0,0.4,1.4], [0,-1.3,1.4], [0,-3,1.4]],
-	["rhsusf_M977A4_BKIT_M2_usarmy_wd", -6.5, [0,0.4,0.7], [0,-1.3,0.7], [0,-3,0.7]],
 	["I_Heli_Transport_02_F", -6.5, [0,4.2,-1.45], [0,2.5,-1.45], [0,0.8,-1.45], [0,-0.9,-1.45]],
-	["BW_AW101_Trans_Heer_F", -6.5, [0,4.2,-1.45], [0,2.5,-1.45], [0,0.8,-1.45], [0,-0.9,-1.45]],
 	["B_Heli_Transport_03_F", -8, [0,2.2,-1], [0,0.5,-1], [0,-1.2,-1]],
 	["B_Heli_Transport_03_unarmed_F", -8, [0,2.2,-1], [0,0.5,-1], [0,-1.2,-1]],
 	["B_T_VTOL_01_infantry_F", -7.5,[0,4.7,-4.88],[0,3,-4.88],[0,1.3,-4.88],[0,-0.4,-4.88],[0,-2.1,-4.88]],
 	["B_T_VTOL_01_vehicle_F", -7.5,[0,4.7,-4.88],[0,3,-4.88],[0,1.3,-4.88],[0,-0.4,-4.88],[0,-2.1,-4.88]],
-	["RHS_CH_47F_10", -8, [0,2.2,-1.7], [0,0.5,-1.7], [0,-1.2,-1.7]],
-	["RHS_CH_47F_light", -8, [0,2.2,-1.7], [0,0.5,-1.7], [0,-1.2,-1.7]],
-	["RHS_CH_47F", -8, [0,2.2,-1.7], [0,0.5,-1.7], [0,-1.2,-1.7]],
-	["UK3CB_BAF_Merlin_HC3_18_DPMT", -7.5, [0.25,3.7,-1.5], [0.25,1.6,-1.5], [0.25,-0.4,-1.5]],
-	["UK3CB_BAF_Merlin_HC3_32_MTP", -7.5, [0.25,3.7,-1.5], [0.25,1.6,-1.5], [0.25,-0.4,-1.5]],
-	["UK3CB_BAF_Merlin_HC3_CSAR_MTP", -7.5, [0.25,3.7,-1.5], [0.25,1.6,-1.5], [0.25,-0.4,-1.5]],
-	["UK3CB_BAF_Merlin_HC4_18_Arctic", -7.5, [0.25,3.7,-1.5], [0.25,1.6,-1.5], [0.25,-0.4,-1.5]],
-	["UK3CB_BAF_Merlin_HC4_18_GPMG_Arctic", -7.5, [0.25,3.7,-1.5], [0.25,1.6,-1.5], [0.25,-0.4,-1.5]],
-	["UK3CB_BAF_Merlin_HC4_32_Arctic", -7.5, [0.25,3.7,-1.5], [0.25,1.6,-1.5], [0.25,-0.4,-1.5]],
-	["UK3CB_BAF_Merlin_HC4_CSAR_Arctic", -7.5, [0.25,3.7,-1.5], [0.25,1.6,-1.5], [0.25,-0.4,-1.5]],
 	["O_Truck_03_transport_F", -6.5, [0,-0.8,0.4], [0,-2.4,0.4], [0,-4.0,0.4]],
-	["BW_LKW7T_Trans_F", -6.5, [0,-0.8,0.4], [0,-2.4,0.4], [0,-4.0,0.4]],
 	["O_Truck_03_covered_F", -6.5, [0,-0.8,0.4], [0,-2.4,0.4], [0,-4.0,0.4]],
 	["O_T_Truck_03_transport_ghex_F", -6.5, [0,-0.8,0.4], [0,-2.4,0.4], [0,-4.0,0.4]],
 	["O_T_Truck_03_covered_ghex_F", -6.5, [0,-0.8,0.4], [0,-2.4,0.4], [0,-4.0,0.4]],
-	["greuh_eh101_gr", -6.5, [0,4.2,-1.45], [0,2.5,-1.45], [0,0.8,-1.45], [0,-0.9,-1.45]],
+	//CUP Offsets following below
 	["CUP_B_Wolfhound_GMG_GB_W", -6.5, [0,-3.5,2.3]],
 	["CUP_B_Wolfhound_HMG_GB_W", -6.5, [0,-3.5,2.3]],
 	["CUP_B_Wolfhound_LMG_GB_W", -6.5, [0,-3.5,2.3]],
-	["rhsusf_m998_w_2dr_halftop", -4.5, [0,-0.9,-0.2]],
-	["rhsusf_m998_d_2dr_halftop", -4.5, [0,-0.9,-0.2]],
-	["rhsusf_M1078A1P2_WD_fmtv_usarmy", -5.0, [0,-0.2,0.45], [0,-1.9,0.45]],
-	["rhsusf_M1078A1P2_B_WD_fmtv_usarmy", -5.0, [0,-0.2,0.45], [0,-1.9,0.45]],
-	["rhsusf_M1078A1P2_WD_flatbed_fmtv_usarmy", -5.0, [0,-0.2,0.45], [0,-1.9,0.45]],
-	["rhsusf_M1078A1P2_B_WD_flatbed_fmtv_usarmy", -5.0, [0,-0.2,0.45], [0,-1.9,0.45]],
-	["rhsusf_M1078A1P2_B_M2_WD_fmtv_usarmy", -5.0, [0,-0.2,0.45], [0,-1.9,0.45]],
-	["rhsusf_M1078A1P2_B_M2_WD_flatbed_fmtv_usarmy", -5.0, [0,-0.2,0.45], [0,-1.9,0.45]],
-	["rhsusf_M1078A1P2_D_fmtv_usarmy", -5.0, [0,-0.2,0.45], [0,-1.9,0.45]],
-	["rhsusf_M1078A1P2_B_D_fmtv_usarmy", -5.0, [0,-0.2,0.45], [0,-1.9,0.45]],
-	["rhsusf_M1078A1P2_D_flatbed_fmtv_usarmy", -5.0, [0,-0.2,0.45], [0,-1.9,0.45]],
-	["rhsusf_M1078A1P2_B_D_flatbed_fmtv_usarmy", -5.0, [0,-0.2,0.45], [0,-1.9,0.45]],
-	["rhsusf_M1078A1P2_B_M2_D_fmtv_usarmy", -5.0, [0,-0.2,0.45], [0,-1.9,0.45]],
-	["rhsusf_M1078A1P2_B_M2_D_flatbed_fmtv_usarmy", -5.0, [0,-0.2,0.45], [0,-1.9,0.45]],
-	["rhsusf_M1083A1P2_WD_fmtv_usarmy", -5.0, [0,-0.2,0.45], [0,-1.9,0.45]],
-	["rhsusf_M1083A1P2_B_WD_fmtv_usarmy", -5.0, [0,-0.2,0.45], [0,-1.9,0.45]],
-	["rhsusf_M1083A1P2_D_fmtv_usarmy", -5.0, [0,-0.2,0.45], [0,-1.9,0.45]],
-	["rhsusf_M1083A1P2_B_D_fmtv_usarmy", -5.0, [0,-0.2,0.45], [0,-1.9,0.45]],
-	["rhsusf_M1083A1P2_WD_flatbed_fmtv_usarmy", -5.0, [0,-0.2,0.45], [0,-1.9,0.45]],
-	["rhsusf_M1083A1P2_B_WD_flatbed_fmtv_usarmy", -5.0, [0,-0.2,0.45], [0,-1.9,0.45]],
-	["rhsusf_M1083A1P2_D_flatbed_fmtv_usarmy", -5.0, [0,-0.2,0.45], [0,-1.9,0.45]],
-	["rhsusf_M1083A1P2_B_D_flatbed_fmtv_usarmy", -5.0, [0,-0.2,0.45], [0,-1.9,0.45]],
-	["rhsusf_M1083A1P2_B_M2_D_flatbed_fmtv_usarmy", -5.0, [0,-0.2,0.45], [0,-1.9,0.45]],
-	["rhsusf_M1083A1P2_B_M2_WD_flatbed_fmtv_usarmy", -5.0, [0,-0.2,0.45], [0,-1.9,0.45]],
-	["rhsusf_CH53E_USMC", -11.0, [0,2.5,1.4], [0,2.5,2.6], [0,1.0,1.4], [0,1.0,2.6], [0,-0.5,1.4], [0,-0.5,2.6], [0,-0.5,1.4], [0,-0.5,2.6], [0,-2.0,1.4], [0,-2.5,2.6], [0,-3.5,1.4], [0,-3.5,2.6]],
-	["rhsusf_CH53E_USMC_D", -11.0, [0,2.5,1.4], [0,2.5,2.6], [0,1.0,1.4], [0,1.0,2.6], [0,-0.5,1.4], [0,-0.5,2.6], [0,-0.5,1.4], [0,-0.5,2.6], [0,-2.0,1.4], [0,-2.5,2.6], [0,-3.5,1.4], [0,-3.5,2.6]],
-	["RHS_C130J", -9.5, [-0.8,4.5,1.9], [0.8,4.5,1.9], [-0.8,4.5,3.1], [0.8,4.5,3.1], [-0.8,3.0,1.9], [0.8,3.0,1.9], [-0.8,3.0,3.1], [0.8,3.0,3.1], [-0.8,2.0,1.9], [0.8,2.0,1.9], [-0.8,2.0,3.1], [0.8,2.0,3.1], [-0.8,1.0,1.9], [0.8,1.0,1.9], [-0.8,1.0,3.1], [0.8,1.0,3.1], [-0.8,0.0,1.9], [0.8,0.0,1.9], [-0.8,0.0,3.1], [0.8,0.0,3.1], [-0.8,-1.0,1.9], [0.8,-1.0,1.9], [-0.8,-1.0,3.1], [0.8,-1.0,3.1]]
+	["CUP_B_MTVR_USMC", -6.5, [0,-0.3,0.2], [0,-1.5,0.2], [0,-2.6,0.2]],
+	["CUP_B_CH53E_VIV_USMC", -8, [0,7.7,-3.2], [0,6.1,-3.2], [0,4.5,-3.2], [0,2.9,-3.2], [0,1.3,-3.2], [0,-0.3,-3.2]],
+	["CUP_B_CH47F_VIV_USA", -8, [0,3.4,-2], [0,1.8,-2], [0,0.2,-2], [0,-1.4,-2], [0,-3,-2], [0,-4.6,-2]],
+	["CUP_B_MV22_VIV_USMC", -8, [0,3.5,-1.5], [0,1.9,-1.5], [0,0.3,-1.5], [0,-1.3,-1.5], [0,-2.9,-1.5]],
+	["CUP_B_C130J_Cargo_USMC", -11, [0.8,6.1,-3.7], [-0.8,6.1,-3.7], [0.8,4.5,-3.7], [-0.8,4.5,-3.7], [0.8,2.9,-3.7], [-0.8,2.9,-3.7], [0.8,1.3,-3.7], [-0.8,1.3,-3.7], [0.8,-0.3,-3.7], [-0.8,-0.3,-3.7], [0.8,-1.9,-3.7], [-0.8,-1.9,-3.7], [0.8,-3.5,-3.7], [-0.8,-3.5,-3.7], [0.8,-5.1,-3.7], [-0.8,-5.1,-3.7]]
 ];
 
 /* Various other settings.
@@ -388,15 +270,8 @@ ai_resupply_sources = [
 	"B_Slingload_01_Ammo_F",
 	"B_APC_Tracked_01_CRV_F",
 	"B_T_APC_Tracked_01_CRV_F",
-	"BW_LKW15T_Ammo_F",
-	"rhsusf_M1078A1R_SOV_M2_D_fmtv_socom",
-	"rhsusf_M977A4_AMMO_usarmy_d",
-	"rhsusf_M977A4_AMMO_usarmy_wd",
-	"rhsusf_M977A4_AMMO_BKIT_usarmy_d",
-	"rhsusf_M977A4_AMMO_BKIT_usarmy_wd",
-	"rhsusf_M977A4_AMMO_BKIT_M2_usarmy_d",
-	"rhsusf_M977A4_AMMO_BKIT_M2_usarmy_wd",
-	"rhs_gaz66_ammo_msv"
+	"CUP_B_MTVR_Ammo_USMC",
+	"CUP_B_MTVR_Ammo_USA"
 ];
 
 // Everything that can resupply other vehicles.
@@ -407,15 +282,8 @@ vehicle_repair_sources = [
 	"B_Slingload_01_Repair_F",
 	"B_APC_Tracked_01_CRV_F",
 	"B_T_APC_Tracked_01_CRV_F",
-	"BW_LKW15T_Repair_F",
-	"rhsusf_M1078A1R_SOV_M2_D_fmtv_socom",
-	"rhsusf_M977A4_REPAIR_usarmy_d",
-	"rhsusf_M977A4_REPAIR_usarmy_wd",
-	"rhsusf_M977A4_REPAIR_BKIT_usarmy_d",
-	"rhsusf_M977A4_REPAIR_BKIT_usarmy_wd",
-	"rhsusf_M977A4_REPAIR_BKIT_M2_usarmy_d",
-	"rhsusf_M977A4_REPAIR_BKIT_M2_usarmy_wd",
-	"RHS_Ural_Repair_VDV_01"
+	"CUP_B_MTVR_Repair_USA",
+	"CUP_B_MTVR_Repair_USMC"
 ];
 
 vehicle_rearm_sources = [
@@ -424,15 +292,8 @@ vehicle_rearm_sources = [
 	"B_Slingload_01_Ammo_F",
 	"B_APC_Tracked_01_CRV_F",
 	"B_T_APC_Tracked_01_CRV_F",
-	"BW_LKW15T_Ammo_F",
-	"rhsusf_M1078A1R_SOV_M2_D_fmtv_socom",
-	"rhsusf_M977A4_AMMO_usarmy_d",
-	"rhsusf_M977A4_AMMO_usarmy_wd",
-	"rhsusf_M977A4_AMMO_BKIT_usarmy_d",
-	"rhsusf_M977A4_AMMO_BKIT_usarmy_wd",
-	"rhsusf_M977A4_AMMO_BKIT_M2_usarmy_d",
-	"rhsusf_M977A4_AMMO_BKIT_M2_usarmy_wd",
-	"rhs_gaz66_ammo_msv"
+	"CUP_B_MTVR_Ammo_USMC",
+	"CUP_B_MTVR_Ammo_USA"
 ];
 
 vehicle_refuel_sources = [
@@ -443,13 +304,8 @@ vehicle_refuel_sources = [
 	"B_Slingload_01_Fuel_F",
 	"B_APC_Tracked_01_CRV_F",
 	"B_T_APC_Tracked_01_CRV_F",
-	"BW_LKW15T_Fuel_F",
-	"rhsusf_M1078A1R_SOV_M2_D_fmtv_socom",
-	"rhsusf_M978A4_usarmy_d",
-	"rhsusf_M978A4_usarmy_wd",
-	"rhsusf_M978A4_BKIT_usarmy_d",
-	"rhsusf_M978A4_BKIT_usarmy_wd",
-	"RHS_Ural_Fuel_VDV_01"
+	"CUP_B_MTVR_Refuel_USMC",
+	"CUP_B_MTVR_Refuel_USA"
 ];
 
 // Classnames of artillery vehicles or statics which should be linked to the support system. (Currently deactivated)
@@ -480,7 +336,8 @@ boats_names = [
 	"O_Boat_Armed_01_hmg_F",
 	"O_T_Boat_Transport_01_F",
 	"O_T_Boat_Armed_01_hmg_F",
-	"rhsusf_mkvsoc"
+	"CUP_B_RHIB_USMC",
+	"CUP_B_RHIB2Turret_USMC"
 ];
 
 // Large storage area placement position offsets.
