@@ -95,54 +95,42 @@ light_vehicles = [
 ];
 
 heavy_vehicles = [
-	CUP_B_Mastiff_HMG_GB_W					//Mastiff PPV HMG Woodland
-	CUP_B_Mastiff_GMG_GB_W					//Mastiff PPV GMG Woodland
-	CUP_B_Mastiff_LMG_GB_W					//Mastiff PPV LMG Woodland
-	CUP_B_Ridgback_HMG_GB_W					//Ridgback PPV HMG Woodland
-	CUP_B_Ridgback_GMG_GB_W					//Ridgback PPV HMG Woodland
-	CUP_B_Ridgback_LMG_GB_W					//Ridgback PPV HMG Woodland
-	CUP_B_Wolfhound_HMG_GB_W				//Wolfhound TSV HMG Woodland
-	CUP_B_Wolfhound_GMG_GB_W				//Wolfhound TSV HMG Woodland
-	CUP_B_Wolfhound_LMG_GB_W				//Wolfhound TSV HMG Woodland
-	CUP_B_M1126_ICV_M2_Woodland				//M1126 ICV M2 CROWS (Woodland)
-	CUP_B_M1126_ICV_M2_Woodland_Slat		//M1126 ICV M2 CROWS (Woodland - Slat)
-	CUP_B_M1126_ICV_MK19_Woodland			//M1126 ICV MK19 CROWS (Woodland)
-	CUP_B_M1126_ICV_MK19_Woodland_Slat		//M1126 ICV MK19 CROWS (Woodland - Slat)
-	CUP_B_M1130_CV_M2_Woodland				//M1130 CV M2 CROWS (Woodland)
-	CUP_B_M1130_CV_M2_Woodland_Slat			//M1130 CV M2 CROWS (Woodland - Slat)
-	CUP_B_M1129_MC_MK19_Woodland			//M1129 MC MK19 CROWS (Woodland)
-	CUP_B_M1129_MC_MK19_Woodland_Slat		//M1129 MC MK19 CROWS (Woodland - Slat)
-	CUP_B_M1135_ATGMV_Woodland				//M1135 ATGMV (Woodland)
-	CUP_B_M1135_ATGMV_Woodland_Slat			//M1135 ATGMV (Woodland - Slat)
-	CUP_B_M1128_MGS_Woodland				//M1128 MGS (Woodland)
-	CUP_B_M1128_MGS_Woodland_Slat			//M1128 MGS (Woodland - Slat)
-	["CUP_B_M113_USA",200,40,100],									//M113A3 (M2)
-	CUP_B_M163_USA	//M163A1 VADS
-	CUP_B_M2Bradley_USA_W	//M2A2 Bradley IFV (Woodland)
-	CUP_B_M6LineBacker_USA_W	//M6 Linebacker (Woodland)
-	CUP_B_M2A3Bradley_USA_W	//M2A3 ERA Bradley IFV (Woodland)
-	CUP_B_M7Bradley_USA_W //M7 Bradley
-	CUP_B_M1A1_Woodland_US_Army	//M1A1 Abrams (Woodland)
-	CUP_B_M1A2_TUSK_MG_US_Army	//M1A2 Abrams TUSK (Woodland)
-	CUP_B_LAV25_USMC	//LAV-25A1
-	CUP_B_LAV25M240_USMC	//LAV-25A1 (M240)
-	CUP_B_RG31_M2_OD_USMC	//RG-31 M2 OD	
-	CUP_B_RG31_Mk19_OD_USMC	//RG-31 Mk.19 OD
-	CUP_B_AAV_USMC	//AAVP7/A1
+	["CUP_B_Mastiff_HMG_GB_D",100,25,35],					//Mastiff PPV HMG Desert
+	["CUP_B_Mastiff_GMG_GB_D",100,25,35],					//Mastiff PPV GMG Desert
+	["CUP_B_Ridgback_HMG_GB_D",100,25,35],					//Ridgback PPV HMG Desert
+	["CUP_B_Ridgback_GMG_GB_D",100,25,35],					//Ridgback PPV HMG Desert
+	["CUP_B_Wolfhound_HMG_GB_D",100,25,35],					//Wolfhound TSV HMG Desert
+	["CUP_B_Wolfhound_GMG_GB_D",100,25,35],					//Wolfhound TSV HMG Desert
+	["CUP_B_M1126_ICV_M2_Desert",125,30,40],				//M1126 ICV M2 CROWS (Desert)
+	["CUP_B_M1126_ICV_M2_Desert_Slat",125,35,40],			//M1126 ICV M2 CROWS (Desert - Slat)
+	["CUP_B_M1126_ICV_MK19_Desert",125,30,40],				//M1126 ICV MK19 CROWS (Desert)
+	["CUP_B_M1126_ICV_MK19_Desert_Slat",125,35,40],			//M1126 ICV MK19 CROWS (Desert - Slat)
+	["CUP_B_M1128_MGS_Desert",150,40,40],					//M1128 MGS (Desert)
+	["CUP_B_M1128_MGS_Desert_Slat",150,45,40],				//M1128 MGS (Desert - Slat)
+	["CUP_B_M113_USA",80,10,25],							//M113A3 (M2)
+	["CUP_B_M163_USA",100,25,35],							//M163A1 VADS
+	["CUP_B_M2Bradley_USA_D",180,60,50],					//M2A2 Bradley IFV (Desert)
+	["CUP_B_M6LineBacker_USA_D",150,40,40],					//M6 Linebacker (Desert)
+	["CUP_B_M2A3Bradley_USA_D",180,80,50],					//M2A3 ERA Bradley IFV (Desert)
+//	["CUP_B_M7Bradley_USA_D",100,25,35], 					//M7 Bradley
+	["CUP_B_M1A1_DES_US_Army",200,100,70],					//M1A1 Abrams (Desert)
+	["CUP_B_M1A2_TUSK_MG_DES_US_Army",200,120,70],			//M1A2 Abrams TUSK (Desert)
+	["CUP_B_LAV25_desert_USMC",135,35,40],					//LAV-25A1
+	["CUP_B_LAV25M240_desert_USMC",135,40,40],				//LAV-25A1 (M240)
 ];
 
 air_vehicles = [
-	CUP_B_C130J_USMC	//C-130J
-	CUP_B_F35B_AA_USMC //F-35B Lightning II (AA)
-	CUP_B_F35B_CAS_USMC	//F-35B Lightning II (CAS)
-	CUP_B_F35B_LGB_USMC	//F-35B Lightning II (LGB)
-	CUP_B_AV8B_CAP_USMC	//AV-8B Harrier II (CAP)
-	CUP_B_AV8B_MK82_USMC	//AV-8B Harrier II (Mk82)
-	CUP_B_AV8B_GBU12_USMC	//AV-8B Harrier II (GBU-12)
-	CUP_B_AV8B_AGM_USMC		//AV-8B Harrier II (AGM-65)
-	CUP_B_A10_CAS_USA	//A-10C Thunderbolt II (CAS)
-	CUP_B_A10_AT_USA	//A-10C Thunderbolt II (AT)
-	CUP_B_UH60M_US		//	UH-60M
+	CUP_B_C130J_USMC				//C-130J
+	CUP_B_F35B_AA_USMC 				//F-35B Lightning II (AA)
+	CUP_B_F35B_CAS_USMC				//F-35B Lightning II (CAS)
+	CUP_B_F35B_LGB_USMC				//F-35B Lightning II (LGB)
+	CUP_B_AV8B_CAP_USMC				//AV-8B Harrier II (CAP)
+	CUP_B_AV8B_MK82_USMC			//AV-8B Harrier II (Mk82)
+	CUP_B_AV8B_GBU12_USMC			//AV-8B Harrier II (GBU-12)
+	CUP_B_AV8B_AGM_USMC				//AV-8B Harrier II (AGM-65)
+	CUP_B_A10_CAS_USA				//A-10C Thunderbolt II (CAS)
+	CUP_B_A10_AT_USA				//A-10C Thunderbolt II (AT)
+	CUP_B_UH60M_US					//UH-60M
 	CUP_B_UH60L_US
 	CUP_B_UH60M_FFV_US
 	CUP_B_UH60L_FFV_US
@@ -187,7 +175,6 @@ air_vehicles = [
 	CUP_B_MV22_VIV_USMC
 	CUP_B_MV22_VIV_USMC_RAMPGUN
 	CUP_B_MV22_USMC
-	
 	["B_UAV_01_F",75,0,25],												//AR-2 Darter
 	["B_UAV_06_F",80,0,30],												//AL-6 Pelican (Cargo)
 	["B_Heli_Light_01_F",200,0,100],									//MH-9 Hummingbird
