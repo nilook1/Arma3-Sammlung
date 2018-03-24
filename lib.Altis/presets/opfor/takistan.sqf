@@ -121,7 +121,7 @@ opfor_battlegroup_vehicles_low_intensity = [
 	"CUP_O_UAZ_SPG9_RU",												//UAZ SPG9
 	"CUP_O_UAZ_METIS_RU",												//UAZ Metis-M
 	"CUP_O_BTR40_TKM",													//BTR-40
-	"CUP_O_BRDM2_TKA"													//BRDM-2
+	"CUP_O_BRDM2_TKA",													//BRDM-2
 	"CUP_O_BMP1_TKA",													//BMP-1
 	"CUP_O_BMP1P_TKA",													//BMP-1D
 	"CUP_O_BTR60_TK",													//BTR-60PB
