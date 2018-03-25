@@ -106,7 +106,7 @@ GRLIB_secondary_objective_impact = 0.6;																			// The percentage impa
 GRLIB_recycling_percentage = 0.8;																				// Percentage of resources you get back from recycling.
 KP_liberation_production_interval = 30				/ GRLIB_resources_multiplier;								// Time in minutes until a production process is finished, when resources multiplier is set to 1.
 
-GRLIB_sector_size = 500;																						// Range to activate a sector.
+GRLIB_sector_size = 700;																						// Range to activate a sector.
 GRLIB_capture_size = 175;																						// Range to capture a sector.
 GRLIB_defended_buildingpos_part = 0.2;																			// Multiplier for defenders in buildings.
 GRLIB_battlegroup_size = 6							* (sqrt GRLIB_unitcap) * (sqrt GRLIB_csat_aggressivity);	// Size of enemy battlegroups.
@@ -209,7 +209,8 @@ blacklisted_from_arsenal = [
 	//"B_Respawn_TentA_F",
 	"optic_Nightstalker",
 	"optic_tws",
-	"optic_tws_mg"
+	"optic_tws_mg",
+	"CUP_optic_CWS"
 ];
 
 // Items which should be added as allowed Items, when they get blacklisted, even if they are not in the blacklisted_from_arsenal array
