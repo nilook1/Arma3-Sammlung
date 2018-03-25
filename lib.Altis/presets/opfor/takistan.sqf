@@ -63,7 +63,7 @@ militia_vehicles = [
 	"CUP_O_UAZ_MG_TKA",													//UAZ-3151 (DShKM)
 	"CUP_O_UAZ_SPG9_TKA",												//UAZ SPG9
 	"CUP_O_UAZ_METIS_TKA",												//UAZ Metis-M
-	"CUP_O_UAZ_AGS30_TKA"												//UAZ AGS-30
+	"CUP_O_UAZ_AGS30_TKA",												//UAZ AGS-30
 	"CUP_O_BTR40_TKA",													//BTR-40
 	"CUP_O_BTR40_MG_TKA",												//BTR-40 DShKM
 	"CUP_O_BRDM2_TKA"													//BRDM-2
