@@ -65,7 +65,7 @@ militia_vehicles = [
 	"CUP_O_UAZ_METIS_TKA",												//UAZ Metis-M
 	"CUP_O_UAZ_AGS30_TKA"												//UAZ AGS-30
 	"CUP_O_BTR40_TKA",													//BTR-40
-	"CUP_O_BTR40_MG_TKA"												//BTR-40 DShKM
+	"CUP_O_BTR40_MG_TKA",												//BTR-40 DShKM
 	"CUP_O_BRDM2_TKA"													//BRDM-2
 ];
 
@@ -104,12 +104,10 @@ opfor_battlegroup_vehicles = [
 	"CUP_O_UAZ_AGS30_TKA",												//UAZ-3151 (AGS-30)
 	"CUP_O_UAZ_SPG9_TKA",												//UAZ-3151 (SPG-9)
 	"CUP_O_Ural_TKA",													//Ural-4320 Transport
-	//"CUP_O_Ural_TKA",													//Ural-4320 Transport (Covered)
 	"CUP_O_BMP2_TKA",													//BMP-2
 	"CUP_O_BMP_HQ_TKA",													//BMP-2D
 	"CUP_O_BTR60_TK",													//BTR-70
 	"CUP_O_ZSU23_TK",													//ZSU-23-4V
-	//"CUP_O_ZSU23_TK",													//ZSU-23-4V
 	"CUP_O_T55_TK",														//T-55A
 	"CUP_O_T72_TKA",													//T-72B
 	"CUP_O_T72_TKA",													//T-72B
