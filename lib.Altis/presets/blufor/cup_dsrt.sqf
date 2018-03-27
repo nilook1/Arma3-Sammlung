@@ -123,38 +123,17 @@ heavy_vehicles = [
 air_vehicles = [
 	["CUP_B_C130J_USMC",135,40,40],					//C-130J
 	["CUP_B_C130J_Cargo_USMC",135,40,40],			//C-130J VIV
-	["CUP_B_F35B_AA_USMC",350,200,270], 				//F-35B Lightning II (AA)
-	["CUP_B_F35B_CAS_USMC",350,200,270],				//F-35B Lightning II (CAS)
-	["CUP_B_F35B_LGB_USMC",350,200,270],				//F-35B Lightning II (LGB)
-	["CUP_B_AV8B_CAP_USMC",350,200,270],				//AV-8B Harrier II (CAP)
-	["CUP_B_AV8B_MK82_USMC",350,200,270],				//AV-8B Harrier II (Mk82)
-	["CUP_B_AV8B_GBU12_USMC",350,200,270],			//AV-8B Harrier II (GBU-12)
-	["CUP_B_AV8B_AGM_USMC",350,200,270],				//AV-8B Harrier II (AGM-65)
-	["CUP_B_A10_CAS_USA",350,200,270],				//A-10C Thunderbolt II (CAS)
-	["CUP_B_A10_AT_USA",350,200,270],					//A-10C Thunderbolt II (AT)
+	["CUP_B_F35B_USMC",350,200,270], 				//F-35B Lightning II (AA)
+	["CUP_B_AV8B_DYN_USMC",350,200,270],				//AV-8B Harrier II (CAP)
+	["CUP_B_A10_DYN_USA",350,200,270],				//A-10C Thunderbolt II (CAS)
 	["CUP_B_UH60M_US",200,60,120],					//UH-60M
 	["CUP_B_UH60M_FFV_US",200,60,120],				//UH-60M
-	["CUP_B_AH64D_AT_USA",400,200,300],				//UH-60M
-	["CUP_B_AH64D_ES_USA",400,200,300],				//UH-60M
-	["CUP_B_AH64D_USA",400,200,300],					//UH-60M
-	["CUP_B_AH64D_MR_USA",400,200,300],				//UH-60M
-	["CUP_B_AH6J_Escort_USA",135,40,40],			//UH-60M
-	["CUP_B_AH6J_AT_USA",200,100,100],				//UH-60M
-	["CUP_B_AH6J_MP_USA",200,100,100],				//UH-60M
-	["CUP_B_AH6J_Escort19_USA",200,100,100],			//UH-60M
-	["CUP_B_AH6M_USA",200,100,100],					//
+	["CUP_B_AH64D_DL_USA",400,200,300],				//UH-60M
+	["CUP_B_AH6J_USA",200,100,100],			//UH-60M
 	["CUP_B_CH47F_USA",220,60,140],					//
 	["CUP_B_CH47F_VIV_USA",240,60,140],				//
 	["CUP_B_MH6J_USA",200,60,100],					//???
-	["CUP_B_MH6M_USA",200,60,100],					//???
-	["CUP_B_MH6J_OBS_USA",200,60,100],				//???
-	["CUP_B_MH6M_OBS_USA",200,60,100],				//???
-	["CUP_B_AH1Z_USMC",400,200,300],					//
-	["CUP_B_AH1Z_AT_USMC",400,200,300],				//
-	["CUP_B_AH1Z_Escort_USMC",400,200,300],			//
-	["CUP_B_AH1Z_7RndHydra_USMC",400,200,300],		//
-	["CUP_B_AH1Z_14RndHydra_USMC",400,200,300],		//
-	["CUP_B_AH1Z_NOAA_USMC",400,200,300],				//
+	["CUP_B_AH1Z_Dynamic_USMC",400,200,300],					//
 	["CUP_B_CH53E_USMC",220,60,140],					//
 	["CUP_B_CH53E_VIV_USMC",220,60,140],				//
 	["CUP_B_MH60L_DAP_2x_USN",200,60,120],			//???
