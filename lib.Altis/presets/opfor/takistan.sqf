@@ -131,6 +131,8 @@ opfor_battlegroup_vehicles = [
 	"CUP_O_Mi24_D_Dynamic_TK",											//Mi-24P (AT)
 	"CUP_O_Mi24_P_Dynamic_RU",											//Mi-24V (UPK)
 	"CUP_O_Mi8_RU",														//Mi-8MTV3
+	"CUP_O_Ka52_RU",														//Mi-8MTV3
+	"CUP_O_Ka50_DL_RU",														//Mi-8MTV3
 	"CUP_O_Mi8_VIV_RU"													//Mi-8MT (Cargo)
 ];
 

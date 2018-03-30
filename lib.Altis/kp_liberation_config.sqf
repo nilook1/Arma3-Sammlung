@@ -108,14 +108,14 @@ KP_liberation_production_interval = 30				/ GRLIB_resources_multiplier;								/
 
 GRLIB_sector_size = 700;																						// Range to activate a sector.
 GRLIB_capture_size = 175;																						// Range to capture a sector.
-GRLIB_defended_buildingpos_part = 0.2;																			// Multiplier for defenders in buildings.
+GRLIB_defended_buildingpos_part = 0;																			// Multiplier for defenders in buildings.
 GRLIB_battlegroup_size = 6							* (sqrt GRLIB_unitcap) * (sqrt GRLIB_csat_aggressivity);	// Size of enemy battlegroups.
 GRLIB_vulnerability_timer = 1200;																				// Time in seconds how long a captured sector is vulnerable to enemy troops.
 GRLIB_radiotower_size = 1250;																					// Radio Tower scanning range.
 GRLIB_surrender_chance = 80;																					// Chance that enemy infantry will surrender after heavy losses are encountered.
 
 GRLIB_civilians_amount = 10 						* GRLIB_civilian_activity;									// Civilian count multiplier.
-GRLIB_cleanup_delay = 1200;																						// Time in seconds until bodies of dead soldiers are cleaned up.
+GRLIB_cleanup_delay = 600;																						// Time in seconds until bodies of dead soldiers are cleaned up.
 
 GRLIB_blufor_cap = 100								* GRLIB_unitcap;											// Cap for BLUFOR.
 GRLIB_sector_cap = 180								* GRLIB_unitcap;											// Cap for sector defenders.
