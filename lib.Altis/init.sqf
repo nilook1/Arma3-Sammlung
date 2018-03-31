@@ -14,6 +14,7 @@ if (isDedicated) then {debug_source = "Server";} else {debug_source = name playe
 
 if (isServer) then {
 	[] call compileFinal preprocessFileLineNumbers "scripts\server\init_server.sqf";
+	player setCustomAimCoef 0;
 };
 
 if (!isDedicated && !hasInterface && isMultiplayer) then {
