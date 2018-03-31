@@ -107,7 +107,7 @@ class Params
 		isGlobal = 1;
 		values[] = {-100,0,1};
 		texts[] = {$STR_A3_MissionDefault, $STR_A3_Disabled, $STR_A3_EnabledForAllPlayers};
-		default = 1;
+		default = 0;
 		function = "bis_fnc_paramReviveMode";
 	};
 	class ReviveDuration {
@@ -139,7 +139,7 @@ class Params
 		isGlobal = 1;
 		values[] = {-100,0,1,2};
 		texts[] = {$STR_A3_MissionDefault,$STR_A3_None,$STR_A3_Medikit,$STR_A3_FirstAidKitOrMedikit};
-		default = 2;
+		default = 0;
 		function = "bis_fnc_paramReviveRequiredItems";
 	};
 	class UnconsciousStateMode {
