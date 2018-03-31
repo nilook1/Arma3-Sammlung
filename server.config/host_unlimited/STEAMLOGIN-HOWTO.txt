@@ -1,0 +1,27 @@
+Damit Ihr Server sich updaten kann und auf das Steamnetzwerk zugreifen kann, 
+tragen Sie bitte in die Datei "steamuser" ihren Steam-Benutzernamen ein. 
+Und in die Datei "steamuserpassword" Ihr Steam-Passwort ein.
+
+
+
+
+WICHTIG:
+In die erste Zeile schreiben ohne Leerzeichen und Sonderzeichen.
+Keine Zeilenumbrüche einfügen.
+
+Pro Datei nur den Benutzer oder das Kennwort eintragen, nicht beides gleichzeitig!
+
+
+RICHTIG:
+steamuser Datei Inhalt:
+MEINSTEAMACCOUNTUSER
+
+steamuserpassword Datei Inhalt:
+blablablablabla
+
+
+FALSCH!
+
+USER:MEINSTEAMACCOUNTUSER
+PASSWORD: blablablablabla
+
