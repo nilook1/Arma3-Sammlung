@@ -14,3 +14,4 @@ if ( isNil "GRLIB_respawn_loadout" ) then {
 	sleep 4;
 	[ player, GRLIB_respawn_loadout ] call F_setLoadout;
 };
+player setCustomAimCoef 0.3;
