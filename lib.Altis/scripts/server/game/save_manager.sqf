@@ -227,6 +227,7 @@ if (!isNil "greuh_liberation_savegame") then {
 
 			_nextbuilding enableSimulationGlobal true;
 			_nextbuilding allowdamage true;
+			[ _nextbuilding ] call F_correctLaserDesignator;
 
 			if (_nextclass in _building_classnames) then {
 				_nextbuilding setVariable ["GRLIB_saved_pos", _nextpos, false];

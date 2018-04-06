@@ -342,6 +342,7 @@ while { true } do {
 				sleep 0.3;
 				_vehicle allowDamage true;
 				_vehicle setDamage 0;
+				[ _vehicle ] call F_correctLaserDesignator;
 
 				if(buildtype == 99) then {
 					_vehicle addEventHandler ["HandleDamage", { 0 }];
