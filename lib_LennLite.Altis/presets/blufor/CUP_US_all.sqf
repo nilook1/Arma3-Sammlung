@@ -163,7 +163,7 @@ heavy_vehicles = [
     ["CUP_B_M1A1_DES_USMC",500,500,200],                                // M1A1 Abrams (Desert)
     ["CUP_B_M1A2_TUSK_MG_DES_USMC",600,550,225],                        // M1A2 Abrams TUSK (Desert)
     ["CUP_B_M270_HE_USMC",600,1250,300],                                // M270 MLRS (HE)
-    ["CUP_B_M270_DPICM_USMC",800,1750,400]                              // M270 MLRS (DPICM)
+    ["CUP_B_M270_DPICM_USMC",800,1750,400],                              // M270 MLRS (DPICM)
 	["CUP_B_LAV25_green",200,175,125],                                  // LAV-25A1 (Olive)
     ["CUP_B_LAV25M240_green",200,200,125],                              // LAV-25A1 (M240) (Olive)
     ["CUP_B_LAV25_HQ_green",200,50,125],                                // LAV-C2 (Olive)
