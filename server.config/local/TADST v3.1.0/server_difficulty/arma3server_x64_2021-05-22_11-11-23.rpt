@@ -1,0 +1,81 @@
+=====================================================================
+== E:\Steam\steamapps\common\Arma 3\arma3server_x64.exe
+== "E:\Steam\steamapps\common\Arma 3\arma3server_x64.exe"  -port=2302 "-config=E:\Steam\steamapps\common\Arma 3\TADST\server_difficulty\TADST_config.cfg" "-cfg=E:\Steam\steamapps\common\Arma 3\TADST\server_difficulty\TADST_basic.cfg" "-profiles=E:\Steam\steamapps\common\Arma 3\TADST\server_difficulty" -name=server_difficulty -filePatching "-mod=@ace_modified;@acex_modifed;_CommonRedist;AoW;Argo;Contact;Curator;Enoch;Heli;Jets;Kart;launcher;Mark;Orange;Tacops;Tank" -enableHT
+
+Original output filename: Arma3Retail_Server_x64
+Exe timestamp: 2021/05/19 01:07:45
+Current time:  2021/05/22 11:11:24
+
+Type: Public
+Build: Development
+Version: 2.05.147629
+
+Allocator: E:\Steam\steamapps\common\Arma 3\Dll\tbb4malloc_bi_x64.dll [2017.0.0.0] [2017.0.0.0]
+PhysMem: 32 GiB, VirtMem : 131072 GiB, AvailPhys : 26 GiB, AvailVirt : 131068 GiB, AvailPage : 28 GiB, PageSize : 4.0 KiB/2.0 MiB/HasLockMemory
+=====================================================================
+
+11:11:24 Detected number of DLCs: 27
+11:11:24 DLC index:3 - unable to get DLC data
+11:11:24 DLC index:22 - unable to get DLC data
+11:11:24 ---------------------------------------------------------- Game ----------------------------------------------------------
+11:11:24                                                                name      appId   owned  installed  available   isDlc
+11:11:24                                                              Arma 3     107410     yes        yes        yes      no
+11:11:24                                                             Unknown         -1      no         no         no     yes
+11:11:24 ---------------------------------------------------------- Dlcs ----------------------------------------------------------
+11:11:24  index                                                         name      appId   owned  installed  available   isDlc
+11:11:24      0                              Arma 3 Alpha Lite - expires now     228800      no         no         no     yes
+11:11:24      1                                                Arma 3 Server     233780     yes        yes         no     yes
+11:11:24      2                                                 Arma 3 Tools     233800     yes        yes         no     yes
+11:11:24      4                                            Arma 3 Soundtrack     249860      no         no         no     yes
+11:11:24      5                                                  Arma 3 Maps     249861      no         no         no     yes
+11:11:24      6                                        Arma 3 Tactical Guide     249862      no         no         no     yes
+11:11:24      7                                                  Arma 3 Zeus     275700     yes        yes        yes     yes
+11:11:24      8                                                 Arma 3 Karts     288520     yes        yes        yes     yes
+11:11:24      9                                           Arma 3 Helicopters     304380     yes        yes        yes     yes
+11:11:24     10                                          Arma 3 DLC Bundle 1     304400     yes        yes         no     yes
+11:11:24     11                                              Arma 3 Marksmen     332350     yes        yes        yes     yes
+11:11:24     12                                               Arma 3 Samples     390500     yes        yes         no     yes
+11:11:24     13                                                  Arma 3 Apex     395180     yes        yes        yes     yes
+11:11:24     14                                           Arma 3 Laws of War     571710     yes        yes        yes     yes
+11:11:24     15                                                  Arma 3 Jets     601670     yes        yes        yes     yes
+11:11:24     16                                          Arma 3 DLC Bundle 2     612480     yes        yes         no     yes
+11:11:24     17                                                Arma 3 Malden     639600     yes        yes        yes     yes
+11:11:24     18                                  Arma 3 Tac-Ops Mission Pack     744950     yes        yes        yes     yes
+11:11:24     19                                                 Arma 3 Tanks     798390     yes        yes        yes     yes
+11:11:24     20                                               Arma 3 Contact    1021790      no         no        yes     yes
+11:11:24     21   Arma 3 Creator DLC: Global Mobilization - Cold War Germany    1042220      no         no        yes     yes
+11:11:24     23                      Arma 3 Creator DLC: S.O.G. Prairie Fire    1227700      no         no        yes     yes
+11:11:24     24                        Arma 3 Creator DLC: CSLA Iron Curtain    1294440      no         no         no     yes
+11:11:24     25                                            Arma 3 Art of War    1325500      no         no        yes     yes
+11:11:24     26           Arma 3 Creator DLC: S.O.G. Prairie Fire Soundtrack    1616620      no         no         no     yes
+11:11:24 --------------------------------------------------------------------------------------------------------------------------
+11:11:25 Initializing stats manager.
+11:11:25 Stats config disabled.
+11:11:25 sessionID: b9e58e8106add0ac13ba74312951dee041f04ac1
+11:11:31 ErrorMessage: Include file x\cba\addons\main\script_macros_common.hpp not found.
+11:11:31  ➥ Context: Preprocessing file: z\ace\addons\fonts\config.cpp at 1
+Include Stack:
+- z\ace\addons\fonts\config.cpp:1
+- z\ace\addons\fonts\script_component.hpp:17
+- z\ace\addons\main\script_macros.hpp:2
+
+11:11:31 Application terminated intentionally
+11:11:31  ➥ Context: Preprocessing file: z\ace\addons\fonts\config.cpp at 1
+Include Stack:
+- z\ace\addons\fonts\config.cpp:1
+- z\ace\addons\fonts\script_component.hpp:17
+- z\ace\addons\main\script_macros.hpp:2
+
+ErrorMessage: Include file x\cba\addons\main\script_macros_common.hpp not found.
+=======================================================
+-------------------------------------------------------
+Exception code: 0000DEAD  at F46A4B89
+Version 2.05.147629
+Fault time: 2021/05/22 11:11:39
+Fault address:  F46A4B89 00:F46A4B89 Unknown module
+file:     
+world:    
+Prev. code bytes: 2A D3 05 00 48 8D 4C 24 20 48 FF 15 8F 9F 18 00
+Fault code bytes: 0F 1F 44 00 00 48 8B 8C 24 C0 00 00 00 48 33 CC
+=======================================================
+note: Minidump has been generated into the file E:\Steam\steamapps\common\Arma 3\TADST\server_difficulty\arma3server_x64_2021-05-22_11-11-23.mdmp
