@@ -66,7 +66,7 @@ infantry_units = [
     ["CUP_B_US_Sniper_M107",70,5,0],                                    // Sniper (M107)
     ["CUP_B_US_Spotter",20,0,0],                                        // Spotter
     ["CUP_B_US_Crew",10,0,0],                                           // Crewman
-    ["CUP_B_US_Pilot",10,0,0]                                           // Pilot
+    ["CUP_B_US_Pilot",10,0,0],                                           // Pilot
 	["CUP_B_USMC_Soldier_FROG_DES",20,0,0],                             // Rifleman
     ["CUP_B_USMC_Soldier_LAT_FROG_DES",30,0,0],                         // Rifleman (M136)
     ["CUP_B_USMC_Soldier_GL_FROG_DES",25,0,0],                          // Grenadier
@@ -87,7 +87,24 @@ infantry_units = [
     ["CUP_B_USMC_Soldier_M107",70,5,0],                                 // Sniper M107
     ["CUP_B_USMC_Spotter",20,0,0],                                      // Spotter
     ["CUP_B_USMC_Crewman_FROG_DES",10,0,0],                             // Crewman
-    ["CUP_B_USMC_Pilot",10,0,0]                                         // Pilot
+    ["CUP_B_USMC_Pilot",10,0,0],                                         // Pilot
+	["CUP_B_USMC_Soldier_FROG_WDL",20,0,0],                             // Rifleman
+    ["CUP_B_USMC_Soldier_LAT_FROG_WDL",30,0,0],                         // Rifleman (M136)
+    ["CUP_B_USMC_Soldier_GL_FROG_WDL",25,0,0],                          // Grenadier
+    ["CUP_B_USMC_Soldier_AR_FROG_WDL",25,0,0],                          // Automatic Rifleman
+    ["CUP_B_USMC_Soldier_MG_FROG_WDL",35,0,0],                          // Machinegunner
+    ["CUP_B_USMC_Soldier_Marksman_FROG_WDL",30,0,0],                    // Designated Marksman
+    ["CUP_B_USMC_Soldier_HAT_FROG_WDL",50,25,0],                        // AT Specialist (Javelin)
+    ["CUP_B_USMC_Soldier_AT_FROG_WDL",50,10,0],                         // AT Specialist (SMAW)
+    ["CUP_B_USMC_Soldier_AA_FROG_WDL",50,10,0],                         // AA Specialist (Stinger)
+    ["CUP_B_USMC_Soldier_Medic_FROG_WDL",30,0,0],                       // Corpsman
+    ["CUP_B_USMC_Soldier_Engineer_FROG_WDL",30,0,0],                    // Engineer
+    ["CUP_B_FR_Soldier_Exp_WDL",30,0,0],                                // Force Recon Demolitions Specialist
+    ["CUP_B_FR_Soldier_Assault",20,0,0],                                // Force Recon Assault Rifleman
+    ["CUP_B_FR_Soldier_Marksman_WDL",30,0,0],                           // Force Recon Marksman
+    ["CUP_B_FR_Soldier_TL",40,0,0],                                     // Force Recon Team Leader
+    ["CUP_B_FR_Medic_WDL",30,0,0],                                      // Force Recon Corpsman
+	["CUP_B_USMC_Crewman_FROG_WDL",10,0,0]                             // Crewman
 ];
 
 light_vehicles = [
@@ -102,7 +119,7 @@ light_vehicles = [
     ["CUP_B_RG31_M2_GC_USA",225,75,100],                                // RG-31 Nyala M2 GC
     ["CUP_B_RG31E_M2_USA",200,75,100],                                  // RG-31 Mk5E M2
     ["CUP_B_RG31_Mk19_USA",150,100,100],                                // RG-31 Mk.19
-    ["CUP_B_MTVR_USA",125,0,75]                                         // MTVR
+    ["CUP_B_MTVR_USA",125,0,75],                                         // MTVR
 	["CUP_B_M1030_USMC",50,0,25],                                       // M1030
     ["CUP_B_HMMWV_Unarmed_USA",75,0,50],                                // HMMWV (Unarmed)
     ["CUP_B_HMMWV_M2_USA",75,60,50],                                    // HMMWV M2
@@ -114,7 +131,13 @@ light_vehicles = [
     ["CUP_B_RG31_Mk19_OD_USA",100,80,50],                               // RG-31 Mk.19
     ["CUP_B_MTVR_USA",125,0,75],                                        // MTVR
     ["CUP_B_RHIB_USMC",150,100,100],                                    // RHIB
-    ["CUP_B_RHIB2Turret_USMC",250,200,100]                              // RHIB (Mk19)
+    ["CUP_B_RHIB2Turret_USMC",250,200,100],                              // RHIB (Mk19)
+	["CUP_B_HMMWV_Unarmed_USMC",75,0,50],                               // HMMWV (Unarmed)
+    ["CUP_B_HMMWV_M1114_USMC",75,30,50],                                // HMMWV M240
+    ["CUP_B_HMMWV_M2_USMC",75,60,50],                                   // HMMWV M2
+    ["CUP_B_HMMWV_TOW_USMC",75,100,50],                                 // HMMWV TOW
+    ["CUP_B_HMMWV_MK19_USMC",75,80,50],                                 // HMMWV MK19
+    ["CUP_B_HMMWV_Avenger_USMC",100,125,125]                           // HMMWV Avenger
 ];
 
 heavy_vehicles = [
@@ -130,7 +153,7 @@ heavy_vehicles = [
     ["CUP_B_M1A2_TUSK_MG_DES_US_Army",600,550,225],                     // M1A2 Abrams TUSK (Desert)
     ["CUP_B_M1129_MC_MK19_Desert_Slat",600,800,300],                    // M1129 MC MK19 CROWS (Desert - Slat)
     ["CUP_B_M270_HE_USA",600,1250,300],                                 // M270 MLRS (HE)
-    ["CUP_B_M270_DPICM_USA",800,1750,400]                               // M270 MLRS (DPICM)
+    ["CUP_B_M270_DPICM_USA",800,1750,400],                               // M270 MLRS (DPICM)
 	["CUP_B_LAV25_desert_USMC",200,175,125],                            // LAV-25A1 (Desert)
     ["CUP_B_LAV25M240_desert_USMC",200,200,125],                        // LAV-25A1 (M240) (Desert)
     ["CUP_B_LAV25_HQ_desert_USMC",200,50,125],                          // LAV-C2 (Desert)
@@ -141,6 +164,24 @@ heavy_vehicles = [
     ["CUP_B_M1A2_TUSK_MG_DES_USMC",600,550,225],                        // M1A2 Abrams TUSK (Desert)
     ["CUP_B_M270_HE_USMC",600,1250,300],                                // M270 MLRS (HE)
     ["CUP_B_M270_DPICM_USMC",800,1750,400]                              // M270 MLRS (DPICM)
+	["CUP_B_LAV25_green",200,175,125],                                  // LAV-25A1 (Olive)
+    ["CUP_B_LAV25M240_green",200,200,125],                              // LAV-25A1 (M240) (Olive)
+    ["CUP_B_LAV25_HQ_green",200,50,125],                                // LAV-C2 (Olive)
+	["CUP_B_M1A1_Woodland_USMC",500,500,200],                           // M1A1 Abrams (Woodland)
+    ["CUP_B_M1A2_TUSK_MG_USMC",600,550,225],                            // M1A2 Abrams TUSK (Woodland)
+	["CUP_B_M1126_ICV_M2_Woodland_Slat",200,150,125],                   // M1126 ICV M2 CROWS (Woodland - Slat)
+    ["CUP_B_M1126_ICV_MK19_Woodland_Slat",200,200,125],                 // M1126 ICV MK19 CROWS (Woodland - Slat)
+    ["CUP_B_M1128_MGS_Woodland_Slat",200,500,125],                      // M1128 MGS (Woodland - Slat)
+    ["CUP_B_M1135_ATGMV_Woodland_Slat",200,300,125],                    // M1135 ATGMV (Woodland - Slat)
+    ["CUP_B_M163_USA",250,600,200],                                     // M163A1 VADS
+    ["CUP_B_M6LineBacker_USA_W",350,450,150],                           // M6 Linebacker (Woodland)
+    ["CUP_B_M7Bradley_USA_W",300,300,150],                              // M7 Bradley (Woodland)
+    ["CUP_B_M2Bradley_USA_W",300,400,150],                              // M2A2 Bradley IFV (Woodland)
+    ["CUP_B_M2A3Bradley_USA_W",400,400,150],                            // M2A3 ERA Bradley IFV (Woodland)
+    ["CUP_B_M1A1_Woodland_US_Army",500,500,200],                        // M1A1 Abrams (Woodland)
+    ["CUP_B_M1A2_TUSK_MG_US_Army",600,550,225],                         // M1A2 Abrams TUSK (Woodland)
+    ["CUP_B_M1129_MC_MK19_Woodland_Slat",600,800,400]                  // M1129 MC MK19 CROWS (Woodland - Slat)
+    
 ];
 
 air_vehicles = [
@@ -167,7 +208,7 @@ air_vehicles = [
     ["USAF_F22_Heavy",1800,2250,500],                                   // F-22A Raptor (Heavy)
     ["USAF_F35A_STEALTH",2250,2000,750],                                // F-35A Lightning II
     ["USAF_F35A",2250,2250,750],                                        // F-35A Lightning II (Heavy)
-    ["CUP_B_AH6X_USA",300,0,100]                                        // AH-6X Littlebird ULB
+    ["CUP_B_AH6X_USA",300,0,100],                                        // AH-6X Littlebird ULB
 	["CUP_B_UH1Y_MEV_USMC",200,0,100],                                  // UH-1Y Venom (MEDVAC)
     ["CUP_B_UH1Y_Gunship_Dynamic_USMC",200,100,100],                    // UH-1Y Venom (Gunship)
     ["CUP_B_MH60S_FFV_USMC",250,25,200],                                // MH-60S Seahawk (FFV)
@@ -182,7 +223,8 @@ air_vehicles = [
     ["CUP_B_F35B_USMC",2500,2250,750],                                  // F-35B Lightning II
     ["CUP_B_MV22_USMC_RAMPGUN",750,100,500],                            // MV-22B Osprey (Ramp Gun)
     ["CUP_B_MV22_USMC",750,0,500],                                      // MV-22B Osprey
-    ["CUP_B_MV22_VIV_USMC",750,0,500]                                   // MV-22B Osprey (VIV)
+    ["CUP_B_MV22_VIV_USMC",750,0,500],                                   // MV-22B Osprey (VIV)
+	["CUP_B_AC47_Spooky_USA",600,300,400]                              // AC-47D Spooky
 ];
 
 static_vehicles = [
@@ -311,8 +353,8 @@ support_vehicles = [
     ["CUP_B_MTVR_Ammo_USA",125,300,75],                                 // MTVR Ammo
     ["B_Slingload_01_Repair_F",375,0,0],                                // Huron Repair
     ["B_Slingload_01_Fuel_F",75,0,300],                                 // Huron Fuel
-    ["B_Slingload_01_Ammo_F",75,300,0]                                  // Huron Ammo
-	["CUP_B_LCU1600_USMC",250,0,175],                                   // LCU-1610
+    ["B_Slingload_01_Ammo_F",75,300,0],                                  // Huron Ammo
+	["CUP_B_LCU1600_USMC",250,0,175]                                   // LCU-1610
 ];
 
 /*
@@ -407,11 +449,14 @@ blufor_squad_para = [
     Which base locks a vehicle is randomized on the first start of the campaign.
 */
 elite_vehicles = [
+	"CUP_B_F35B_USMC",                                                  // F-35B Lightning II							 
     "CUP_WV_B_CRAM",                                                    // C-RAM
     "CUP_WV_B_SS_Launcher",                                             // Mk-29 GMLS
     "CUP_WV_B_RAM_Launcher",                                            // Mk-49 GMLS
     "CUP_B_A10_DYN_USA",                                                // A-10A Thunderbolt II
     "USAF_MQ9",                                                         // MQ-9 Reaper
+	"CUP_B_F35B_Stealth_USMC",                                          // F-35B Lightning II (Stealth)
+    "CUP_B_AV8B_DYN_USMC",                                              // AV-8B Harrier II
     "USAF_A10",                                                         // A-10C Thunderbolt II
     "USAF_F22",                                                         // F-22A Raptor
     "USAF_F22_EWP_AA",                                                  // F-22A Raptor (EWP-AA)
@@ -420,12 +465,20 @@ elite_vehicles = [
     "USAF_F35A_STEALTH",                                                // F-35A Lightning II
     "USAF_F35A",                                                        // F-35A Lightning II (Heavy)
     "CUP_B_AH64D_DL_USA",                                               // AH-64D
+	"CUP_B_AH1Z_Dynamic_USMC",                                          // AH-1Z
     "CUP_B_MH60L_DAP_2x_US",                                            // MH-60L DAP (2 Stores)
     "CUP_B_MH60L_DAP_4x_US",                                            // MH-60L DAP (4 Stores)
     "CUP_B_M1A1_DES_US_Army",                                           // M1A1 Abrams (Desert)
+	"CUP_B_M1A1_DES_USMC",                                              // M1A1 Abrams (Desert)
     "CUP_B_M1A2_TUSK_MG_DES_US_Army",                                   // M1A2 Abrams TUSK (Desert)
+	"CUP_B_M1A2_TUSK_MG_DES_USMC",                                      // M1A2 Abrams TUSK (Desert)
     "CUP_B_M270_HE_USA",                                                // M270 MLRS (HE)
     "CUP_B_M270_DPICM_USA",                                             // M270 MLRS (DPICM)
+	"CUP_B_M270_HE_USMC",                                               // M270 MLRS (HE)
+    "CUP_B_M270_DPICM_USMC",                                            // M270 MLRS (DPICM)
+	"CUP_B_LAV25M240_desert_USMC",                                      // LAV-25A1 (M240) (Desert)
+	"CUP_B_HMMWV_TOW_USA",                                              // HMMWV TOW
+    "CUP_B_RG31_M2_USA",                                                // RG-31 M2
     "CUP_B_M6LineBacker_USA_D",                                         // M6 Linebacker (Desert)
     "CUP_B_M1128_MGS_Desert_Slat",                                      // M1128 MGS (Desert - Slat)
     "CUP_B_M1135_ATGMV_Desert_Slat",                                    // M1135 ATGMV (Desert - Slat)
@@ -433,5 +486,6 @@ elite_vehicles = [
     "CUP_B_M2A3Bradley_USA_D",                                          // M2A3 ERA Bradley IFV (Desert)
     "CUP_B_M119_US",                                                    // M119
     "CUP_B_RG31E_M2_USA",                                               // RG-31 Mk5E M2
-    "CUP_B_RG31_Mk19_USA"                                               // RG-31 Mk.19
+    "CUP_B_RG31_Mk19_USA",                                               // RG-31 Mk.19
+	"CUP_B_LAV25_desert_USMC"                                           // LAV-25A1 (Desert)
 ];
