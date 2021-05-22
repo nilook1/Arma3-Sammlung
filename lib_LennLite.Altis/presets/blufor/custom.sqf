@@ -133,9 +133,19 @@ light_vehicles = [
     ["B_LSV_01_unarmed_F",75,0,50],                                     // Prowler
     ["B_LSV_01_armed_F",75,40,50],                                      // Prowler (HMG)
     ["B_LSV_01_AT_F",75,60,50],                                         // Prowler (AT)
+	["B_T_Quadbike_01_F",50,0,25],                                      // Quad Bike
+    ["B_T_LSV_01_unarmed_F",75,0,50],                                   // Prowler
+    ["B_T_LSV_01_armed_F",75,40,50],                                    // Prowler (HMG)
+    ["B_T_LSV_01_AT_F",75,60,50],                                       // Prowler (AT)
+	["CUP_B_HMMWV_M2_NATO_T",75,40,50],                                 // HMMWV M2
+    ["CUP_B_HMMWV_MK19_NATO_T",75,60,50],                               // HMMWV MK19
+    ["CUP_B_HMMWV_Avenger_NATO_T",200,350,125],                         // HMMWV Avenger																			   	
     ["B_MRAP_01_F",100,0,50],                                           // Hunter
     ["B_MRAP_01_hmg_F",100,40,50],                                      // Hunter (HMG)
     ["B_MRAP_01_gmg_F",100,60,50],                                      // Hunter (GMG)
+	["B_T_MRAP_01_F",100,0,50],                                         // Hunter
+    ["B_T_MRAP_01_hmg_F",100,40,50],                                    // Hunter (HMG)
+    ["B_T_MRAP_01_gmg_F",100,60,50],                                    // Hunter (GMG)
     ["I_MRAP_03_F",100,0,50],                                           // Strider
     ["I_MRAP_03_hmg_F",100,40,50],                                      // Strider (HMG)
     ["I_MRAP_03_gmg_F",100,60,50],                                      // Strider (GMG)
@@ -168,6 +178,8 @@ light_vehicles = [
     ["rhsusf_M1230a1_usarmy_wd",120,0,60],                              // M1230A1 (MEDEVAC)
     ["B_Truck_01_transport_F",125,0,75],                                // HEMTT Transport
     ["B_Truck_01_covered_F",125,0,75],                                  // HEMTT Transport (Covered)
+	["B_T_Truck_01_transport_F",125,0,75],                              // HEMTT Transport
+    ["B_T_Truck_01_covered_F",125,0,75],                                // HEMTT Transport (Covered)
     ["rhsusf_M1083A1P2_wd_open_fmtv_usarmy",125,0,75],                  // M1083A1P2 Transport
     ["rhsusf_M1083A1P2_wd_fmtv_usarmy",125,0,75],                       // M1083A1P2 Transport (Covered)
     ["rhsusf_M1083A1P2_WD_flatbed_fmtv_usarmy",100,0,50],               // M1083A1P2
@@ -184,6 +196,8 @@ light_vehicles = [
     ["B_UGV_01_rcws_F",150,40,50],                                      // UGV Stomper (RCWS)
     ["B_Boat_Transport_01_F",100,0,25],                                 // Assault Boat
     ["B_Boat_Armed_01_minigun_F",200,80,75],                            // Speedboat Minigun
+	["B_T_Boat_Transport_01_F",100,0,25],                               // Assault Boat
+    ["B_T_Boat_Armed_01_minigun_F",200,80,75],                          // Speedboat Minigun
     ["rhsusf_mkvsoc",250,200,100],                                      // Mk.V SOCOM
     ["B_SDV_01_F",150,0,50]                                             // SDV
 ];
@@ -197,28 +211,36 @@ heavy_vehicles = [
     ["rhsusf_m113d_usarmy_medical",200,0,100],                          // M113A3 (Medical)
     ["I_LT_01_scout_F",200,0,125],                                      // AWC 302 Nyx (AA)
     ["B_APC_Wheeled_01_cannon_F",200,75,125],                           // AMV-7 Marshall
+	["B_T_APC_Wheeled_01_cannon_F",200,75,125],                         // AMV-7 Marshall
     ["I_APC_Wheeled_03_cannon_F",200,75,125],                           // AFV-4 Gorgon
     ["B_APC_Tracked_01_rcws_F",300,100,150],                            // IFV-6c Panther
+	["B_T_APC_Tracked_01_rcws_F",300,100,150],                          // IFV-6c Panther
     ["I_APC_tracked_03_cannon_F",300,150,150],                          // FV-720 Mora
     ["RHS_M2A2_BUSKI_WD",300,200,150],                                  // M2A2ODS (Busk I)
 	["RHS_M2A2_BUSKI",300,200,150],                                     // M2A2ODS (Busk I)
+	["CUP_B_M2Bradley_NATO_T",300,200,150],                             // M2A2 Bradley IFV
     ["BWA3_Puma_Fleck",300,225,150],                                    // IFV Puma
     ["RHS_M2A3_BUSKIII_wd",300,250,175],                                // M2A3 (Busk III)
 	["RHS_M2A2_BUSKI",300,200,150],                                     // M2A2ODS (Busk I)
     ["BWA3_Puma_Tropen",300,225,150],                                   // IFV Puma
     ["RHS_M2A3_BUSKIII",300,250,175],                                   // M2A3 (Busk III)
     ["B_APC_Tracked_01_AA_F",300,250,175],                              // IFV-6a Cheetah
+	["B_T_APC_Tracked_01_AA_F",300,250,175],                            // IFV-6a Cheetah																		   
     ["I_LT_01_AA_F",300,250,175],                                       // AWC 302 Nyx (AA)
     ["I_LT_01_AT_F",300,250,175],                                       // AWC 302 Nyx (AT)
     ["I_LT_01_cannon_F",300,250,175],                                   // AWC 302 Nyx (Cannon)
     ["RHS_M6_wd",300,250,175],                                          // M6A2
 	["RHS_M6",300,250,175],                                             // M6A2
     ["B_MBT_01_cannon_F",400,300,200],                                  // M2A1 Slammer
+	["B_T_MBT_01_cannon_F",400,300,200],                                // M2A1 Slammer
     ["CUP_B_Challenger2_NATO",400,300,200],                             // FV4034 Challenger 2
     ["I_MBT_03_cannon_F",400,300,200],                                  // MBT-52 Kuma
     ["rhsusf_m1a1aim_tuski_wd",400,350,225],                            // M1A1SA (Tusk I)
+	["CUP_B_M1A1_NATO_T",400,300,200],                                  // M1A1 Abrams
+	["CUP_B_M1A_TUSK_NATO_T",500,350,225],                              // M1A2 Abrams TUSK
 	["rhsusf_m1a1aim_tuski_d",400,350,225],                             // M1A1SA (Tusk I)
     ["B_MBT_01_TUSK_F",500,350,225],                                    // M2A4 Slammer UP
+	["B_T_MBT_01_TUSK_F",500,350,225],                                  // M2A4 Slammer UP
     ["rhsusf_m1a2sep1tuskiiwd_usarmy",500,400,250],                     // M1A2SEPv1 (Tusk II)
 	["rhsusf_m1a2sep1tuskiid_usarmy",500,400,250],                      // M1A2SEPv1 (Tusk II)
     ["BWA3_Leopard2_Fleck",500,400,250],                                // MBT Leopard 2A6M
@@ -226,8 +248,12 @@ heavy_vehicles = [
     ["B_AFV_Wheeled_01_cannon_F",500,500,250],                          // Rhino MGS
     ["B_AFV_Wheeled_01_up_cannon_F",550,550,250],                       // Rhino MGS UP
     ["B_MBT_01_arty_F",600,1250,300],                                   // M4 Scorcher
+	["B_T_AFV_Wheeled_01_cannon_F",500,500,250],                        // Rhino MGS
+    ["B_T_AFV_Wheeled_01_up_cannon_F",550,550,250],                     // Rhino MGS UP
+    ["B_T_MBT_01_arty_F",600,1250,300],                                 // M4 Scorcher
     ["rhsusf_m109_usarmy",600,1250,300],                                // M109A6
 	["rhsusf_m109d_usarmy",600,1250,300],                                // M109A6
+	["B_T_MBT_01_mlrs_F",800,1750,400],                                  // M5 Sandstorm MLRS
     ["B_MBT_01_mlrs_F",800,1750,400]                                    // M5 Sandstorm MLRS
 ];
 
@@ -308,6 +334,8 @@ static_vehicles = [
     ["B_GMG_01_A_F",45,60,0],                                           // Mk32 GMG 20mm (Autonomous)
     ["B_static_AT_F",50,100,0],                                         // Static Titan Launcher (AT)
     ["B_static_AA_F",50,100,0],                                         // Static Titan Launcher (AA)
+	["B_T_Static_AT_F",50,100,0],                                       // Static Titan Launcher (AT)
+    ["B_T_Static_AA_F",50,100,0],                                       // Static Titan Launcher (AA)
     ["B_Mortar_01_F",80,150,0],                                         // Mk6 Mortar
     ["RHS_M119_WD",100,200,0],                                          // M119A2
 	["RHS_TOW_TriPod_D",50,100,0],                                      // TOW (AT)
@@ -437,6 +465,10 @@ support_vehicles = [
     ["B_Truck_01_Repair_F",325,0,75],                                   // HEMTT Repair
     ["B_Truck_01_fuel_F",125,0,275],                                    // HEMTT Fuel
     ["B_Truck_01_ammo_F",125,200,75],                                   // HEMTT Ammo
+	["B_T_APC_Tracked_01_CRV_F",500,250,350],                           // CRV-6e Bobcat
+    ["B_T_Truck_01_Repair_F",325,0,75],                                 // HEMTT Repair
+    ["B_T_Truck_01_fuel_F",125,0,275],                                  // HEMTT Fuel
+    ["B_T_Truck_01_ammo_F",125,200,75],                                 // HEMTT Ammo
     ["rhsusf_M977A4_REPAIR_BKIT_usarmy_wd",325,0,75],                   // M977A4 Repair
     ["rhsusf_M978A4_BKIT_usarmy_wd",125,0,275],                         // M978A4 Fuel
     ["rhsusf_M977A4_AMMO_BKIT_usarmy_wd",125,200,75],                   // M977A4 Ammo
