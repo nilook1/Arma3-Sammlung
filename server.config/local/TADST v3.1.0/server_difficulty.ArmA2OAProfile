@@ -6,7 +6,7 @@ class DifficultyPresets
 		class Options
 		{
 			reducedDamage=0;
-			groupIndicators=0;
+			groupIndicators=1;
 			friendlyTags=0;
 			enemyTags=0;
 			detectedMines=0;
@@ -22,7 +22,7 @@ class DifficultyPresets
 			scoreTable=1;
 			deathMessages=1;
 			vonID=1;
-			mapContent=0;
+			mapContent=1;
 			autoReport=0;
 			multipleSaves=1;
 		};
@@ -30,8 +30,8 @@ class DifficultyPresets
 
 		class CustomAILevel
 		{
-			skillAI=0.75;
-			precisionAI=0.55;
+			skillAI=1.00;
+			precisionAI=0.15;
 		};
 	};
 

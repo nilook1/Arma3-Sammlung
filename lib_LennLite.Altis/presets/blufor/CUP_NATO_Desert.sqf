@@ -115,7 +115,7 @@ light_vehicles = [
     ["CUP_B_RHIB2Turret_USMC",250,200,100],                              // RHIB (Mk19)
 	["CUP_B_Zodiac_USMC",75,0,50],
 	["CUP_B_MTVR_USA",125,0,75],                                         // MTVR
-	["CUP_B_MTVR_BAF_DES",125,0,75]                                     // MTVR Transport
+	["CUP_B_MTVR_BAF_DES",125,0,75],                                     // MTVR Transport
 	["B_T_Truck_01_transport_F",125,0,75],                              // HEMTT Transport
 	["B_Truck_01_transport_F",125,0,75],                               // HEMTT Transport
 	["B_Truck_01_flatbed_F",125,0,75],                              // HEMTT Transport
