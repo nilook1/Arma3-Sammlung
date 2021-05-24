@@ -162,26 +162,26 @@ air_vehicles = [
     ["CUP_B_UH60M_FFV_US",200,25,150],                                  // UH-60M (FFV)
 	["CUP_B_MH60L_DAP_2x_US",200,100,150],                              // MH-60L DAP (2 Stores)
     ["CUP_B_MH60L_DAP_4x_US",200,200,150],                              // MH-60L DAP (4 Stores)
+	["CUP_B_CH47F_VIV_USA",200,50,150],                                   // CH-47F (VIV)
+	["CUP_B_CH53E_GER",200,0,150],										// CH-53G
+	["CUP_B_UH1D_armed_Ger_KSK_Des",200,50,200],						// UH1D Armed
+	["CUP_B_UH1D_gunship_GER_KSK_Des",200,100,200],						// UH1D Gunship
+	["CUP_B_AH6M_USA",100,100,100],                                     // AH-6M
+	["CUP_B_AH1Z_Dynamic_USMC",150,300,150],                            // AH-1Z
+	["CUP_B_AH64D_DL_USA",150,400,150],                                 // AH-64D
+	["BWA3_Tiger_RMK_Universal",150,500,150],							// Tiger RMK Universal
+	["BWA3_Tiger_RMK_Heavy",500,500,150],								// Tiger RMK Heavy
     ["USAF_C130J",100,0,250],                                           // C-130J Super Hercules
     ["USAF_C130J_Cargo",150,0,250],                                     // C-130J Super Hercules (Cargo)
     ["USAF_C17",200,0,250],                                             // C-17 Globemaster III
     ["usaf_kc135",200,0,400],                                        	  // KC-135 Stratotanker
-    ["CUP_B_AH6M_USA",100,100,100],                                     // AH-6M
-    ["CUP_B_AH64D_DL_USA",150,400,150],                                 // AH-64D
+	["CUP_B_AC47_Spooky_USA",100,0,200],                              // AC-47D Spooky
+	["CUP_B_MV22_USMC",150,0,250],                                      // MV-22B Osprey
+    ["CUP_B_MV22_VIV_USMC",200,0,250],                                   // MV-22B Osprey (VIV)
     ["CUP_B_A10_DYN_USA",100,600,200],                                 // A-10A Thunderbolt II
-    ["CUP_B_AH1Z_Dynamic_USMC",150,300,150],                            // AH-1Z
     ["CUP_B_USMC_DYN_MQ9",100,300,200],                                 // MQ-9 Reaper
     ["CUP_B_AV8B_DYN_USMC",200,600,200],                               // AV-8B Harrier II
     ["CUP_B_F35B_Stealth_USMC",100,400,200],                          // F-35B Lightning II (Stealth)
-    ["CUP_B_MV22_USMC",150,0,250],                                      // MV-22B Osprey
-    ["CUP_B_MV22_VIV_USMC",200,0,250],                                   // MV-22B Osprey (VIV)
-	["CUP_B_CH47F_VIV_USA",200,50,150],                                   // CH-47F (VIV)
-	["CUP_B_CH53E_GER",200,0,150],										// CH-53G
-	["CUP_B_AC47_Spooky_USA",100,0,200],                              // AC-47D Spooky
-	["BWA3_Tiger_RMK_Universal",150,500,150],							// Tiger RMK Universal
-	["BWA3_Tiger_RMK_Heavy",500,500,150],								// Tiger RMK Heavy
-	["CUP_B_UH1D_armed_Ger_KSK_Des",200,50,200],						// UH1D Armed
-	["CUP_B_UH1D_gunship_GER_KSK_Des",200,100,200]						// UH1D Gunship
 ];
 
 static_vehicles = [
@@ -282,7 +282,7 @@ support_vehicles = [
     [KP_liberation_small_storage_building,0,0,0],
     [KP_liberation_large_storage_building,0,0,0],
     [KP_liberation_recycle_building,100,0,0],
-    [KP_liberation_air_vehicle_building,500,0,0],
+    [KP_liberation_air_vehicle_building,300,0,0],
     [KP_liberation_heli_slot_building,50,0,0],
     [KP_liberation_plane_slot_building,100,0,0],
     ["ACE_medicalSupplyCrate_advanced",50,0,0],
