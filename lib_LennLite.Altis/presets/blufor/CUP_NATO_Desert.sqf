@@ -157,54 +157,31 @@ heavy_vehicles = [
 ];
 
 air_vehicles = [
-    ["CUP_B_UH60M_Unarmed_FFV_MEV_US",300,0,200],                       // UH-60M MEDVAC (Unarmed/FFV)
-    ["CUP_B_UH60M_US",300,25,200],                                      // UH-60M
-    ["CUP_B_UH60M_FFV_US",300,50,200],                                  // UH-60M (FFV)
-    ["USAF_C130J",200,0,250],                                           // C-130J Super Hercules
-    ["USAF_C130J_Cargo",200,0,250],                                     // C-130J Super Hercules (Cargo)
-    ["USAF_C17",500,0,400],                                             // C-17 Globemaster III
-    ["usaf_kc135",600,0,2500],                                          // KC-135 Stratotanker
-    ["CUP_B_AH6M_USA",200,100,100],                                     // AH-6M
-    ["CUP_B_MH60L_DAP_2x_US",400,250,225],                              // MH-60L DAP (2 Stores)
-    ["CUP_B_MH60L_DAP_4x_US",400,500,225],                              // MH-60L DAP (4 Stores)
-    ["CUP_B_AH64_DL_USA",500,600,300],                                  // AH-64
-    ["CUP_B_AH64D_DL_USA",700,600,200],                                 // AH-64D
-    ["CUP_B_AH6X_USA",300,0,100],                                       // AH-6X Littlebird ULB
-    ["USAF_RQ4A",500,0,200],                                            // RQ-4A Global Hawk
-    ["USAF_MQ9",500,750,200],                                           // MQ-9 Reaper
-    ["CUP_B_A10_DYN_USA",1000,800,400],                                 // A-10A Thunderbolt II
-    ["USAF_A10",1500,1000,400],                                         // A-10C Thunderbolt II
-    ["USAF_F22",1800,2000,500],                                         // F-22A Raptor
-    ["USAF_F22_EWP_AA",1800,2100,500],                                  // F-22A Raptor (EWP-AA)
-    ["USAF_F22_EWP_AG",1800,2100,500],                                  // F-22A Raptor (EWP-AG)
-    ["USAF_F22_Heavy",1800,2250,500],                                   // F-22A Raptor (Heavy)
-    ["USAF_F35A_STEALTH",2250,2000,750],                                // F-35A Lightning II
-    ["USAF_F35A",2250,2250,750],                                        // F-35A Lightning II (Heavy)
-    ["CUP_B_AH6X_USA",300,0,100],                                        // AH-6X Littlebird ULB
-	["CUP_B_UH1Y_MEV_USMC",200,0,100],                                  // UH-1Y Venom (MEDVAC)
-    ["CUP_B_UH1Y_Gunship_Dynamic_USMC",200,100,100],                    // UH-1Y Venom (Gunship)
-    ["CUP_B_MH60S_FFV_USMC",250,25,200],                                // MH-60S Seahawk (FFV)
-    ["CUP_B_UH60S_USN",250,50,200],                                     // MH-60S Seahawk (M3M)
-    ["CUP_B_C130J_USMC",200,0,250],                                     // C-130J
-    ["CUP_B_C130J_Cargo_USMC",200,0,250],                               // C-130J (VIV)
-    ["CUP_B_AH1Z_Dynamic_USMC",500,500,200],                            // AH-1Z
-    ["CUP_B_MH60L_DAP_2x_USN",450,400,250],                             // MH-60S Knighthawk (ESSS x2)
-    ["CUP_B_USMC_DYN_MQ9",500,500,200],                                 // MQ-9 Reaper
-    ["CUP_B_AV8B_DYN_USMC",1000,800,400],                               // AV-8B Harrier II
-    ["CUP_B_F35B_Stealth_USMC",2500,2000,750],                          // F-35B Lightning II (Stealth)
-    ["CUP_B_F35B_USMC",2500,2250,750],                                  // F-35B Lightning II
-    ["CUP_B_MV22_USMC_RAMPGUN",750,100,500],                            // MV-22B Osprey (Ramp Gun)
-    ["CUP_B_MV22_USMC",750,0,500],                                      // MV-22B Osprey
-    ["CUP_B_MV22_VIV_USMC",750,0,500],                                   // MV-22B Osprey (VIV)
-	["CUP_B_MH47E_USA",200,25,200],                                   // CH-47F
-	["CUP_B_CH47F_USA",200,25,200],                                   // CH-47F
-	["CUP_B_CH53E_GER",200,0,200],										// CH-53G
-	["CUP_B_CH53E_USMC",200,0,200],										// CH-53G
-	["CUP_B_AC47_Spooky_USA",600,300,400],                              // AC-47D Spooky
-	["BWA3_Tiger_RMK_Universal",500,500,200],							// Tiger RMK Universal
-	["BWA3_Tiger_RMK_Heavy",500,500,200],								// Tiger RMK Heavy
-	["CUP_B_UH1D_armed_Ger_KSK_Des",200,100,200],						// UH1D Armed
-	["CUP_B_UH1D_gunship_GER_KSK_Des",200,200,200]						// UH1D Gunship
+    ["CUP_B_UH60M_Unarmed_FFV_MEV_US",200,0,150],                       // UH-60M MEDVAC (Unarmed/FFV)
+    ["CUP_B_UH60M_US",200,25,150],                                      // UH-60M
+    ["CUP_B_UH60M_FFV_US",200,25,150],                                  // UH-60M (FFV)
+	["CUP_B_MH60L_DAP_2x_US",200,100,150],                              // MH-60L DAP (2 Stores)
+    ["CUP_B_MH60L_DAP_4x_US",200,200,150],                              // MH-60L DAP (4 Stores)
+    ["USAF_C130J",100,0,250],                                           // C-130J Super Hercules
+    ["USAF_C130J_Cargo",150,0,250],                                     // C-130J Super Hercules (Cargo)
+    ["USAF_C17",200,0,250],                                             // C-17 Globemaster III
+    ["usaf_kc135",200,0,400],                                        	  // KC-135 Stratotanker
+    ["CUP_B_AH6M_USA",100,100,100],                                     // AH-6M
+    ["CUP_B_AH64D_DL_USA",150,400,150],                                 // AH-64D
+    ["CUP_B_A10_DYN_USA",100,600,200],                                 // A-10A Thunderbolt II
+    ["CUP_B_AH1Z_Dynamic_USMC",150,300,150],                            // AH-1Z
+    ["CUP_B_USMC_DYN_MQ9",100,300,200],                                 // MQ-9 Reaper
+    ["CUP_B_AV8B_DYN_USMC",200,600,200],                               // AV-8B Harrier II
+    ["CUP_B_F35B_Stealth_USMC",100,400,200],                          // F-35B Lightning II (Stealth)
+    ["CUP_B_MV22_USMC",150,0,250],                                      // MV-22B Osprey
+    ["CUP_B_MV22_VIV_USMC",200,0,250],                                   // MV-22B Osprey (VIV)
+	["CUP_B_CH47F_VIV_USA",200,50,150],                                   // CH-47F (VIV)
+	["CUP_B_CH53E_GER",200,0,150],										// CH-53G
+	["CUP_B_AC47_Spooky_USA",100,0,200],                              // AC-47D Spooky
+	["BWA3_Tiger_RMK_Universal",150,500,150],							// Tiger RMK Universal
+	["BWA3_Tiger_RMK_Heavy",500,500,150],								// Tiger RMK Heavy
+	["CUP_B_UH1D_armed_Ger_KSK_Des",200,50,200],						// UH1D Armed
+	["CUP_B_UH1D_gunship_GER_KSK_Des",200,100,200]						// UH1D Gunship
 ];
 
 static_vehicles = [
@@ -304,10 +281,10 @@ support_vehicles = [
     [FOB_truck_typename,300,500,75],
     [KP_liberation_small_storage_building,0,0,0],
     [KP_liberation_large_storage_building,0,0,0],
-    [KP_liberation_recycle_building,250,0,0],
-    [KP_liberation_air_vehicle_building,1000,0,0],
-    [KP_liberation_heli_slot_building,250,0,0],
-    [KP_liberation_plane_slot_building,500,0,0],
+    [KP_liberation_recycle_building,100,0,0],
+    [KP_liberation_air_vehicle_building,500,0,0],
+    [KP_liberation_heli_slot_building,50,0,0],
+    [KP_liberation_plane_slot_building,100,0,0],
     ["ACE_medicalSupplyCrate_advanced",50,0,0],
     ["ACE_Box_82mm_Mo_HE",50,40,0],
     ["ACE_Box_82mm_Mo_Smoke",50,10,0],
@@ -328,16 +305,16 @@ support_vehicles = [
     ["USAF_missileCart_GBU39",50,150,0],                                // Missile Cart (GBU39)
     ["USAF_missileCart_Mk82",50,150,0],                                 // Missile Cart (Mk82)
     ["CUP_B_TowingTractor_USA",50,0,75],                                // Towing Tractor
-    ["CUP_B_MTVR_Repair_USA",425,0,75],                                 // MTVR Repair
-    ["CUP_B_MTVR_Refuel_USA",125,0,375],                                // MTVR Refuel
-    ["CUP_B_MTVR_Ammo_USA",125,300,75],                                 // MTVR Ammo
+    ["CUP_B_MTVR_Repair_USA",300,0,75],                                 // MTVR Repair
+    ["CUP_B_MTVR_Refuel_USA",75,0,300],                                // MTVR Refuel
+    ["CUP_B_MTVR_Ammo_USA",75,300,75],                                 // MTVR Ammo
     ["B_Slingload_01_Repair_F",375,0,0],                                // Huron Repair
     ["B_Slingload_01_Fuel_F",75,0,300],                                 // Huron Fuel
     ["B_Slingload_01_Ammo_F",75,300,0],                                  // Huron Ammo
 	["CUP_B_LCU1600_USMC",250,0,175],                                   // LCU-1610
-	["B_Truck_01_ammo_F",125,300,75],									// HEMTT Ammo
-	["B_Truck_01_fuel_F",125,0,375],										// HEMTT Fuel
-	["B_Truck_01_Repair_F",350,0,75]									// HEMTT Repair
+	["B_Truck_01_ammo_F",75,300,75],										// HEMTT Ammo
+	["B_Truck_01_fuel_F",75,0,300],										// HEMTT Fuel
+	["B_Truck_01_Repair_F",300,0,75]									// HEMTT Repair
 ];
 
 /*
