@@ -804,7 +804,7 @@ class Mission
 						rank="COLONEL";
 						init="removeallWeapons this; removebackpack this; this setVariable ['ace_medical_medicClass', 1]; this setVariable ['ACE_isEngineer', 1];";
 						name="commandant";
-						description="Platoon Leader (Commander)";
+						description="Platoon Leader (CMD/Medic)";
 						isPlayer=1;
 						isPlayable=1;
 					};
@@ -1024,7 +1024,7 @@ class Mission
 					class Attributes
 					{
 						rank="CORPORAL";
-						description="Squad 1 Team 1 Leader";
+						description="Squad 1 Team 1 Medic";
 						isPlayable=1;
 					};
 					id=579;
@@ -1064,7 +1064,7 @@ class Mission
 					flags=5;
 					class Attributes
 					{
-						description="Squad 1 Team 1 Rifleman";
+						description="Squad 1 Team 1 Medic";
 						isPlayable=1;
 					};
 					id=581;
@@ -1104,7 +1104,7 @@ class Mission
 					flags=5;
 					class Attributes
 					{
-						description="Squad 1 Team 1 Rifleman";
+						description="Squad 1 Team 1 Medic";
 						isPlayable=1;
 					};
 					id=583;
@@ -1144,7 +1144,7 @@ class Mission
 					flags=5;
 					class Attributes
 					{
-						description="Squad 1 Team 1 Rifleman";
+						description="Squad 1 Team 1 Medic";
 						isPlayable=1;
 					};
 					id=585;
@@ -1185,7 +1185,7 @@ class Mission
 					class Attributes
 					{
 						rank="CORPORAL";
-						description="Squad 1 Team 2 Leader";
+						description="Squad 1 Team 2 Medic";
 						isPlayable=1;
 					};
 					id=587;
@@ -1225,7 +1225,7 @@ class Mission
 					flags=5;
 					class Attributes
 					{
-						description="Squad 1 Team 2 Rifleman";
+						description="Squad 1 Team 2 Medic";
 						isPlayable=1;
 					};
 					id=589;
@@ -1265,7 +1265,7 @@ class Mission
 					flags=5;
 					class Attributes
 					{
-						description="Squad 1 Team 2 Rifleman";
+						description="Squad 1 Team 2 Medic";
 						isPlayable=1;
 					};
 					id=591;
@@ -1305,7 +1305,7 @@ class Mission
 					flags=5;
 					class Attributes
 					{
-						description="Squad 1 Team 2 Rifleman";
+						description="Squad 1 Team 2 Medic";
 						isPlayable=1;
 					};
 					id=593;
