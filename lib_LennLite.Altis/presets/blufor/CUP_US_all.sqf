@@ -252,7 +252,7 @@ air_vehicles = [
 	["BWA3_Tiger_RMK_Universal",500,500,200],							// Tiger RMK Universal
 	["BWA3_Tiger_RMK_Heavy",500,500,200],								// Tiger RMK Heavy
 	["CUP_B_UH1D_armed_Ger_KSK_Des",200,100,200],						// UH1D Armed
-	["CUP_B_UH1D_gunship_GER_KSK_Des",200,200,200						// UH1D Gunship
+	["CUP_B_UH1D_gunship_GER_KSK_Des",200,200,200]						// UH1D Gunship
 ];
 
 static_vehicles = [
