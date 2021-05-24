@@ -809,7 +809,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=563;
-					type="B_officer_F";
+					type="B_Medic_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -1028,7 +1028,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=579;
-					type="B_Soldier_TL_F";
+					type="B_medic_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -1068,7 +1068,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=581;
-					type="B_Soldier_F";
+					type="B_medic_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -1108,7 +1108,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=583;
-					type="B_Soldier_F";
+					type="B_medic_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -1148,7 +1148,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=585;
-					type="B_Soldier_F";
+					type="B_medic_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -1189,7 +1189,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=587;
-					type="B_Soldier_TL_F";
+					type="B_medic_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -1229,7 +1229,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=589;
-					type="B_Soldier_F";
+					type="B_medic_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -1269,7 +1269,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=591;
-					type="B_Soldier_F";
+					type="B_medic_F";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -1309,7 +1309,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=593;
-					type="B_Soldier_F";
+					type="B_medic_F";
 					class CustomAttributes
 					{
 						class Attribute0
