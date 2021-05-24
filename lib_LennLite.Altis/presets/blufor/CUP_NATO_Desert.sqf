@@ -102,10 +102,10 @@ light_vehicles = [
 	["CUP_B_M1167_USA",50,100,50],										// HMMWV GPK TOW
     ["CUP_B_HMMWV_SOV_M2_USA",50,25,10],                               // HMMWV SOV (M2)
     ["CUP_B_HMMWV_SOV_USA",50,25,10],                                 // HMMWV SOV (Mk19)
-	["CUP_B_HMMWV_Crows_M2_USA",50,50,10],                                 // HMMWV SOV (Mk19)
-	["CUP_B_HMMWV_Crows_MK19_USA",50,50,10],                                 // HMMWV SOV (Mk19)
+	["CUP_B_HMMWV_Crows_M2_USA",50,50,25],                                 // HMMWV SOV (Mk19)
+	["CUP_B_HMMWV_Crows_MK19_USA",50,50,25],                                 // HMMWV SOV (Mk19)
 	["CUP_B_HMMWV_M2_GPK_USA",50,25,50],                                 // HMMWV GPK (M2)
-	["CUP_B_M1165_GMV_USA",50,25,50],                                 // HMMWV M134
+	["CUP_B_M1165_GMV_USA",50,25,25],                                 // HMMWV M134
     ["CUP_B_HMMWV_Avenger_USA",50,200,25],                            // HMMWV Avenger
     ["CUP_B_RG31_M2_USA",50,25,50],                                   // RG-31 Nyala M2
     ["CUP_B_RG31E_M2_USA",75,25,50],                                  // RG-31 Mk5E M2
@@ -118,7 +118,7 @@ light_vehicles = [
     ["CUP_B_Wolfhound_HMG_GB_D",100,25,75],                            // Wolfhound TSV HMG
     ["CUP_B_Wolfhound_GMG_GB_D",100,25,75],                            // Wolfhound TSV GMG
 	["BWA3_Eagle_FLW100_Tropen",50,50,50],								//Eagle IV (MG3)
-	["BWA3_Dingo2_FLW200_MG3_CG13_Tropen",75,50,50]					  //Dingo 2 GE A3.4 MG3
+	["BWA3_Dingo2_FLW100_MG3_CG13_Tropen",75,50,50]					  //Dingo 2 GE A3.4 MG3
 ];
 
 heavy_vehicles = [
@@ -148,8 +148,8 @@ air_vehicles = [
     ["CUP_B_MH60L_DAP_4x_US",200,200,150],                              // MH-60L DAP (4 Stores)
 	["CUP_B_CH47F_VIV_USA",200,50,150],                                   // CH-47F (VIV)
 	["CUP_B_CH53E_GER",200,0,150],										// CH-53G
-	["CUP_B_UH1D_armed_Ger_KSK_Des",200,50,200],						// UH1D Armed
-	["CUP_B_UH1D_gunship_GER_KSK_Des",200,100,200],						// UH1D Gunship
+	["CUP_B_UH1D_armed_Ger_KSK_Des",200,50,150],						// UH1D Armed
+	["CUP_B_UH1D_gunship_GER_KSK_Des",200,100,150],						// UH1D Gunship
 	["CUP_B_AH6M_USA",100,100,100],                                     // AH-6M
 	["CUP_B_AH1Z_Dynamic_USMC",150,300,150],                            // AH-1Z
 	["CUP_B_AH64D_DL_USA",150,400,150],                                 // AH-64D
