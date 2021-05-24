@@ -95,36 +95,30 @@ infantry_units = [
 ];
 
 light_vehicles = [
-	["CUP_B_HMMWV_Unarmed_USA",75,0,50],                                // HMMWV (Unarmed)
-    ["CUP_B_HMMWV_M2_USA",75,60,50],                                    // HMMWV M2
-    ["CUP_B_HMMWV_MK19_USA",75,80,50],                                  // HMMWV MK19
-    ["CUP_B_HMMWV_TOW_USA",75,100,50],                                  // HMMWV TOW
-	["CUP_B_M1167_USA",100,100,50],										// HMMWV GPK TOW
-    ["CUP_B_HMMWV_SOV_M2_USA",100,80,50],                               // HMMWV SOV (M2)
-    ["CUP_B_HMMWV_SOV_USA",100,100,50],                                 // HMMWV SOV (Mk19)
-	["CUP_B_HMMWV_Crows_M2_USA",100,100,50],                                 // HMMWV SOV (Mk19)
-	["CUP_B_HMMWV_Crows_MK19_USA",100,100,50],                                 // HMMWV SOV (Mk19)
-	["CUP_B_HMMWV_M2_GPK_USA",100,100,50],                                 // HMMWV GPK (M2)
-	["CUP_B_M1165_GMV_USA",125,125,50],                                 // HMMWV M134
-    ["CUP_B_HMMWV_Avenger_USA",200,350,125],                            // HMMWV Avenger
-    ["CUP_B_RG31_M2_USA",150,75,100],                                   // RG-31 Nyala M2
-    ["CUP_B_RG31_M2_GC_USA",225,75,100],                                // RG-31 Nyala M2 GC
-    ["CUP_B_RG31E_M2_USA",200,75,100],                                  // RG-31 Mk5E M2
-    ["CUP_B_RG31_Mk19_USA",150,100,100],                                // RG-31 Mk.19
-    ["CUP_B_RHIB_USMC",150,100,100],                                    // RHIB
-    ["CUP_B_RHIB2Turret_USMC",250,200,100],                              // RHIB (Mk19)
-	["CUP_B_MTVR_USA",125,0,75],                                         // MTVR
-	["B_Truck_01_flatbed_F",125,0,75],                              // HEMTT Transport
-    ["CUP_B_BAF_Coyote_L2A1_D",200,40,50],                              // Coyote L2A1
-    ["CUP_B_BAF_Coyote_GMG_D",200,60,50],                               // Coyote GMG
-    ["CUP_B_Mastiff_LMG_GB_D",250,20,150],                              // Mastiff PPV LMG
-    ["CUP_B_Mastiff_HMG_GB_D",250,40,150],                              // Mastiff PPV HMG
-    ["CUP_B_Mastiff_GMG_GB_D",250,60,150],                              // Mastiff PPV GMG
-    ["CUP_B_Wolfhound_LMG_GB_D",275,20,150],                            // Wolfhound TSV LMG
-    ["CUP_B_Wolfhound_HMG_GB_D",275,40,150],                            // Wolfhound TSV HMG
-    ["CUP_B_Wolfhound_GMG_GB_D",275,60,150],                            // Wolfhound TSV GMG
-	["BWA3_Eagle_FLW100_Tropen",75,60,50],								//Eagle IV (MG3)
-	["BWA3_Dingo2_FLW200_M2_CG13_Tropen",75,60,50]					  //Dingo 2 GE A3.4 M2
+	["CUP_B_HMMWV_Unarmed_USA",50,0,25],                                // HMMWV (Unarmed)
+    ["CUP_B_HMMWV_M2_USA",50,25,25],                                    // HMMWV M2
+    ["CUP_B_HMMWV_MK19_USA",50,25,25],                                  // HMMWV MK19
+    ["CUP_B_HMMWV_TOW_USA",50,50,25],                                  // HMMWV TOW
+	["CUP_B_M1167_USA",50,100,50],										// HMMWV GPK TOW
+    ["CUP_B_HMMWV_SOV_M2_USA",50,25,10],                               // HMMWV SOV (M2)
+    ["CUP_B_HMMWV_SOV_USA",50,25,10],                                 // HMMWV SOV (Mk19)
+	["CUP_B_HMMWV_Crows_M2_USA",50,50,10],                                 // HMMWV SOV (Mk19)
+	["CUP_B_HMMWV_Crows_MK19_USA",50,50,10],                                 // HMMWV SOV (Mk19)
+	["CUP_B_HMMWV_M2_GPK_USA",50,25,50],                                 // HMMWV GPK (M2)
+	["CUP_B_M1165_GMV_USA",50,25,50],                                 // HMMWV M134
+    ["CUP_B_HMMWV_Avenger_USA",50,200,25],                            // HMMWV Avenger
+    ["CUP_B_RG31_M2_USA",50,25,50],                                   // RG-31 Nyala M2
+    ["CUP_B_RG31E_M2_USA",75,25,50],                                  // RG-31 Mk5E M2
+    ["CUP_B_RG31_Mk19_USA",50,20,50],                                // RG-31 Mk.19
+    ["CUP_B_RHIB2Turret_USMC",25,25,10],                              // RHIB (Mk19)
+	["CUP_B_MTVR_USA",100,0,10],                                         // MTVR
+	["B_Truck_01_flatbed_F",150,0,10],                              // HEMTT Transport
+    ["CUP_B_Mastiff_HMG_GB_D",75,25,75],                              // Mastiff PPV HMG
+    ["CUP_B_Mastiff_GMG_GB_D",75,25,75],                              // Mastiff PPV GMG
+    ["CUP_B_Wolfhound_HMG_GB_D",100,25,75],                            // Wolfhound TSV HMG
+    ["CUP_B_Wolfhound_GMG_GB_D",100,25,75],                            // Wolfhound TSV GMG
+	["BWA3_Eagle_FLW100_Tropen",50,50,50],								//Eagle IV (MG3)
+	["BWA3_Dingo2_FLW200_MG3_CG13_Tropen",75,50,50]					  //Dingo 2 GE A3.4 MG3
 ];
 
 heavy_vehicles = [
