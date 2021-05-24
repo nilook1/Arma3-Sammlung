@@ -411,7 +411,6 @@ elite_vehicles = [
     "CUP_B_M1135_ATGMV_Desert_Slat",                                    // M1135 ATGMV (Desert - Slat)
     "CUP_B_M2A3Bradley_USA_D",                                          // M2A3 ERA Bradley IFV (Desert)
     "CUP_B_RG31E_M2_USA",                                               // RG-31 Mk5E M2
-    "CUP_B_RG31_Mk19_USA",                                               // RG-31 Mk.19
 	"BWA3_Tiger_RMK_Universal",											// Tiger RMK Universal
 	"BWA3_Leopard2_Tropen",												// Leopard 2A6 Tropen
 	"BWA3_Tiger_RMK_Heavy"												// Tiger RMK Heavy
