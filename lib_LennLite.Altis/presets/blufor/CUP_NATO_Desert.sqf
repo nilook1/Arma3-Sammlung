@@ -181,7 +181,7 @@ air_vehicles = [
     ["CUP_B_A10_DYN_USA",100,600,200],                                 // A-10A Thunderbolt II
     ["CUP_B_USMC_DYN_MQ9",100,300,200],                                 // MQ-9 Reaper
     ["CUP_B_AV8B_DYN_USMC",200,600,200],                               // AV-8B Harrier II
-    ["CUP_B_F35B_Stealth_USMC",100,400,200],                          // F-35B Lightning II (Stealth)
+    ["CUP_B_F35B_Stealth_USMC",100,400,200]                          // F-35B Lightning II (Stealth)
 ];
 
 static_vehicles = [
