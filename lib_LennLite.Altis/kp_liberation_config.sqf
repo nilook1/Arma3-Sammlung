@@ -21,6 +21,7 @@ KP_liberation_medical_vehicles = [
     "CUP_B_LR_Ambulance_GB_W",
     "CUP_B_S1203_Ambulance_CDF",
     "CUP_B_UH1Y_MEV_USMC",
+	"CUP_B_UH1D_armed_Ger_KSK_Des",
     "CUP_B_UH60M_Unarmed_FFV_MEV_US",
     "CUP_O_BMP2_AMB_CHDKZ",
     "CUP_O_BMP2_AMB_sla",
