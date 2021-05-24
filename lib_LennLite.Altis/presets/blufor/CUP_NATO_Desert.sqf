@@ -99,7 +99,7 @@ light_vehicles = [
     ["CUP_B_HMMWV_M2_USA",75,60,50],                                    // HMMWV M2
     ["CUP_B_HMMWV_MK19_USA",75,80,50],                                  // HMMWV MK19
     ["CUP_B_HMMWV_TOW_USA",75,100,50],                                  // HMMWV TOW
-	["CUP_B_M1167_USA",100,100,50],								// HMMWV GPK TOW
+	["CUP_B_M1167_USA",100,100,50],										// HMMWV GPK TOW
     ["CUP_B_HMMWV_SOV_M2_USA",100,80,50],                               // HMMWV SOV (M2)
     ["CUP_B_HMMWV_SOV_USA",100,100,50],                                 // HMMWV SOV (Mk19)
 	["CUP_B_HMMWV_Crows_M2_USA",100,100,50],                                 // HMMWV SOV (Mk19)
