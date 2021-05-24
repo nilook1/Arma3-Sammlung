@@ -116,8 +116,10 @@ light_vehicles = [
 	["CUP_B_Zodiac_USMC",75,0,50],
 	["CUP_B_MTVR_USA",125,0,75],                                         // MTVR
 	["CUP_B_MTVR_BAF_DES",125,0,75],                                     // MTVR Transport
+	["B_T_Truck_01_transport_F",125,0,75],                              // HEMTT Transport
 	["B_Truck_01_transport_F",125,0,75],                               // HEMTT Transport
 	["B_Truck_01_flatbed_F",125,0,75],                              // HEMTT Transport
+	["B_T_Truck_01_flatbed_F",125,0,75],                               // HEMTT Transport
 	["CUP_B_LR_Transport_GB_D",75,0,50],                                // Land Rover 110 Transport
     ["CUP_B_LR_MG_GB_D",75,50,50],                                      // Land Rover 110 (M2)
     ["CUP_B_LR_Special_M2_GB_D",100,80,50],                             // Land Rover 110 (M2 Special)
@@ -129,9 +131,7 @@ light_vehicles = [
     ["CUP_B_Mastiff_GMG_GB_D",250,60,150],                              // Mastiff PPV GMG
     ["CUP_B_Wolfhound_LMG_GB_D",275,20,150],                            // Wolfhound TSV LMG
     ["CUP_B_Wolfhound_HMG_GB_D",275,40,150],                            // Wolfhound TSV HMG
-    ["CUP_B_Wolfhound_GMG_GB_D",275,60,150],                            // Wolfhound TSV GMG
-	["BWA3_Eagle_FLW100_Tropen",75,60,50],								//Eagle IV (MG3)
-	["BWA3_Dingo2_FLW200_M2_CG13_Tropen",75,60,50]					//Dingo 2 GE A3.4 M2
+    ["CUP_B_Wolfhound_GMG_GB_D",275,60,150]                            // Wolfhound TSV GMG
 ];
 
 heavy_vehicles = [
@@ -158,9 +158,7 @@ heavy_vehicles = [
     ["CUP_B_M1A2_TUSK_MG_DES_USMC",600,550,225],                        // M1A2 Abrams TUSK (Desert)
     ["CUP_B_M270_HE_USMC",600,1250,300],                                // M270 MLRS (HE)
     ["CUP_B_M270_DPICM_USMC",800,1750,400],                              // M270 MLRS (DPICM)
-    ["CUP_B_M163_USA",250,600,200],                                     // M163A1 VADS
-	["BWA3_Puma_Tropen",300,400,150],										//IFV Puma
-	["BWA3_Leopard2_Tropen",500,500,200]									//MBT Leopard 2
+    ["CUP_B_M163_USA",250,600,200]                                     // M163A1 VADS
 ];
 
 air_vehicles = [
@@ -207,11 +205,7 @@ air_vehicles = [
 	["CUP_B_CH47F_USA",200,25,200],                                   // CH-47F
 	["CUP_B_CH53E_GER",200,0,200],										// CH-53G
 	["CUP_B_CH53E_USMC",200,0,200],										// CH-53G
-	["CUP_B_AC47_Spooky_USA",600,300,400],                              // AC-47D Spooky
-	["BWA3_Tiger_RMK_Universal",500,500,200],							// Tiger RMK Universal
-	["BWA3_Tiger_RMK_Heavy",500,500,200],								// Tiger RMK Heavy
-	["CUP_B_UH1D_armed_Ger_KSK_Des",200,100,200],						// UH1D Armed
-	["CUP_B_UH1D_gunship_GER_KSK_Des",200,200,200]						// UH1D Gunship
+	["CUP_B_AC47_Spooky_USA",600,300,400]                              // AC-47D Spooky
 ];
 
 static_vehicles = [
@@ -341,10 +335,7 @@ support_vehicles = [
     ["B_Slingload_01_Repair_F",375,0,0],                                // Huron Repair
     ["B_Slingload_01_Fuel_F",75,0,300],                                 // Huron Fuel
     ["B_Slingload_01_Ammo_F",75,300,0],                                  // Huron Ammo
-	["CUP_B_LCU1600_USMC",250,0,175],                                   // LCU-1610
-	["B_Truck_01_ammo_F",125,300,75],									// HEMTT Ammo
-	["B_Truck_01_fuel_F",125,0,375],										// HEMTT Fuel
-	["B_Truck_01_Repair_F",350,0,75]									// HEMTT Repair
+	["CUP_B_LCU1600_USMC",250,0,175]                                   // LCU-1610
 ];
 
 /*
@@ -477,7 +468,5 @@ elite_vehicles = [
     "CUP_B_M119_US",                                                    // M119
     "CUP_B_RG31E_M2_USA",                                               // RG-31 Mk5E M2
     "CUP_B_RG31_Mk19_USA",                                               // RG-31 Mk.19
-	"CUP_B_LAV25_desert_USMC",                                           // LAV-25A1 (Desert)
-	"BWA3_Tiger_RMK_Universal",											// Tiger RMK Universal
-	"BWA3_Tiger_RMK_Heavy"												// Tiger RMK Heavy
+	"CUP_B_LAV25_desert_USMC"                                           // LAV-25A1 (Desert)
 ];
