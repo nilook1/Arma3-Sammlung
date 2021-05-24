@@ -99,14 +99,13 @@ light_vehicles = [
     ["CUP_B_HMMWV_M2_USA",75,60,50],                                    // HMMWV M2
     ["CUP_B_HMMWV_MK19_USA",75,80,50],                                  // HMMWV MK19
     ["CUP_B_HMMWV_TOW_USA",75,100,50],                                  // HMMWV TOW
-	["CUP_B_M1167_DSRT_USMC",100,100,50],								// HMMWV 
+	["CUP_B_M1167_USA",100,100,50],								// HMMWV GPK TOW
     ["CUP_B_HMMWV_SOV_M2_USA",100,80,50],                               // HMMWV SOV (M2)
     ["CUP_B_HMMWV_SOV_USA",100,100,50],                                 // HMMWV SOV (Mk19)
 	["CUP_B_HMMWV_Crows_M2_USA",100,100,50],                                 // HMMWV SOV (Mk19)
 	["CUP_B_HMMWV_Crows_MK19_USA",100,100,50],                                 // HMMWV SOV (Mk19)
-	["CUP_B_HMMWV_M2_GPK_ACR",100,100,50],                                 // HMMWV GPK (M2)
-	["CUP_B_HMMWV_M2_GPK_USA ",100,100,50],                                 // HMMWV GPK (M2)
-	["CUP_B_M1165_GMV_DSRT_USMC ",125,125,50],                                 // HMMWV GPK (TOW)
+	["CUP_B_HMMWV_M2_GPK_USA",100,100,50],                                 // HMMWV GPK (M2)
+	["CUP_B_M1165_GMV_USA",125,125,50],                                 // HMMWV M134
     ["CUP_B_HMMWV_Avenger_USA",200,350,125],                            // HMMWV Avenger
     ["CUP_B_RG31_M2_USA",150,75,100],                                   // RG-31 Nyala M2
     ["CUP_B_RG31_M2_GC_USA",225,75,100],                                // RG-31 Nyala M2 GC
