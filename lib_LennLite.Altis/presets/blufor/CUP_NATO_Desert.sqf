@@ -173,8 +173,10 @@ static_vehicles = [
     ["CUP_B_M2StaticMG_MiniTripod_US",25,40,0],                         // M2 Minitripod
     ["CUP_B_TOW_TriPod_US",50,100,0],                                   // TOW Tripod
     ["CUP_WV_B_CRAM",500,500,0],                                        // C-RAM
+	["B_AAA_System_01_F",500,500,0],                                        // C-RAM
     ["CUP_WV_B_SS_Launcher",750,500,0],                                 // Mk-29 GMLS
     ["CUP_WV_B_RAM_Launcher",750,750,0],                                // Mk-49 GMLS
+	["B_SAM_System_01_F",750,750,0],                                		// Mk-49 GMLS
     ["B_Mortar_01_F",80,150,0],                                         // Mk6 Mortar
     ["CUP_B_M252_US",80,150,0],                                         // M252 81mm Mortar
     ["CUP_B_M119_US",100,200,0]                                         // M119
