@@ -154,7 +154,8 @@ air_vehicles = [
 	["CUP_B_AH1Z_Dynamic_USMC",150,300,150],                            // AH-1Z
 	["CUP_B_AH64D_DL_USA",150,400,150],                                 // AH-64D
 	["BWA3_Tiger_RMK_Universal",150,500,150],							// Tiger RMK Universal
-	["BWA3_Tiger_RMK_Heavy",500,500,150],								// Tiger RMK Heavy
+	["BWA3_Tiger_RMK_Heavy",150,500,150],								// Tiger RMK Heavy
+	["B_T_UAV_03_dynamicLoadout_F",150,500,150],								// MQ-12 Falcon
     ["USAF_C130J",100,0,250],                                           // C-130J Super Hercules
     ["USAF_C130J_Cargo",150,0,250],                                     // C-130J Super Hercules (Cargo)
     ["USAF_C17",200,0,250],                                             // C-17 Globemaster III
@@ -164,6 +165,7 @@ air_vehicles = [
     ["CUP_B_MV22_VIV_USMC",200,0,250],                                   // MV-22B Osprey (VIV)
     ["CUP_B_A10_DYN_USA",100,600,200],                                 // A-10A Thunderbolt II
     ["CUP_B_USMC_DYN_MQ9",100,300,200],                                 // MQ-9 Reaper
+	["B_UAV_02_dynamicLoadout_F",100,300,200],                                 // YABHON-R3
     ["CUP_B_AV8B_DYN_USMC",200,600,200],                               // AV-8B Harrier II
     ["CUP_B_F35B_Stealth_USMC",100,400,200]                          // F-35B Lightning II (Stealth)
 ];
