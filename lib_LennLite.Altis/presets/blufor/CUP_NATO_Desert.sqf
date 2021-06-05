@@ -128,7 +128,7 @@ heavy_vehicles = [
     ["CUP_B_M1135_ATGMV_Desert_Slat",200,200,100],                      // M1135 ATGMV (Desert - Slat)
     ["CUP_B_M6LineBacker_USA_D",150,200,150],                           // M6 Linebacker (Desert)
     ["CUP_B_M2Bradley_USA_D",200,200,150],                              // M2A2 Bradley IFV (Desert)
-    ["CUP_B_M2A3Bradley_USA_D",200,200,200],                            // M2A3 ERA Bradley IFV (Desert)
+    ["CUP_B_M2A3Bradley_USA_D",200,200,150],                            // M2A3 ERA Bradley IFV (Desert)
     ["CUP_B_M1A1_DES_US_Army",200,200,300],                             // M1A1 Abrams (Desert)
     ["CUP_B_M1A2_TUSK_MG_DES_US_Army",200,200,400],                     // M1A2 Abrams TUSK (Desert)
     ["CUP_B_M270_HE_USA",100,400,100],                                 // M270 MLRS (HE)

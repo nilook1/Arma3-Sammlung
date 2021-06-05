@@ -40,6 +40,7 @@ switch (KP_liberation_preset_blufor) do {
     case 29: {[] call compileFinal preprocessFileLineNumbers "presets\blufor\sfp_des.sqf";};
     case 30: {[] call compileFinal preprocessFileLineNumbers "presets\blufor\enoch.sqf";};
 	case 31: {[] call compileFinal preprocessFileLineNumbers "presets\blufor\CUP_NATO_Desert.sqf";};
+	case 32: {[] call compileFinal preprocessFileLineNumbers "presets\blufor\custom_rus.sqf";};
     default  {[] call compileFinal preprocessFileLineNumbers "presets\blufor\custom.sqf";};
 };
 
