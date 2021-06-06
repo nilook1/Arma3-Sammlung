@@ -110,7 +110,8 @@ If you want to change a preset, it's recommended to set all four presets to 0 an
 28 = SFP (Woodland)
 29 = SFP (Desert)
 30 = LDF (Contact DLC) 
-31 = CUP All West */
+31 = CUP All West
+32 = Opfor East Modern */
 KP_liberation_preset_blufor = 31;
 
 /* OPFOR preset:
@@ -238,7 +239,7 @@ KP_liberation_cr_wounded_gain = 2;                                      // Civil
 KP_liberation_civinfo_min = 5400;                                       // Civil Informant minimum spawn time. (seconds)
 KP_liberation_civinfo_max = 10800;                                      // Civil Informant maximum spawn time. (seconds)
 KP_liberation_civinfo_chance = 75;                                      // Civil Informant spawn chance. (0-100)
-KP_liberation_civinfo_intel = 5;                                        // Civil Informant intel amount.
+KP_liberation_civinfo_intel = 20;                                        // Civil Informant intel amount.
 KP_liberation_civinfo_duration = 1200;                                  // Civil Informant staytime until despawning. (seconds)
 KP_liberation_civinfo_task_chance = 40;                                 // Chance (0-100) that the delivered informant will spawn a time critical task.
 KP_liberation_civinfo_task_duration = 900;                              // Duration until the task will despawn if no player is near. (seconds)

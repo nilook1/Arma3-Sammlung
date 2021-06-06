@@ -57,7 +57,7 @@ militia_squad = [
 // Militia vehicles. Lightweight vehicle classnames the game will pick from randomly as sector defenders. Can also be empty for only infantry milita.
 militia_vehicles = [
     "B_LSV_01_armed_F",                                                 // Polaris DAGOR (XM312)
-    "B_LSV_01_armed_F",                                                 // Polaris DAGOR (XM312)
+    "B_MRAP_01_gmg_F",                                                 // Ifrit (GMG)
     "B_MRAP_01_hmg_F",                                                  // Ifrit (HMG)
     "B_APC_Wheeled_01_cannon_F"                                         // SPz Badger
 ];
