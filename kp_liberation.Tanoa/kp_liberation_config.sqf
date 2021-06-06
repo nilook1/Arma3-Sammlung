@@ -135,8 +135,9 @@ KP_liberation_preset_blufor = 32;
 17 = CUP Armed Forces of the Russian Federation (Modern MSV)
 18 = CUP Chernarus Defense Force
 19 = CUP British Armed Forces (Desert)
-20 = CUP British Armed Forces (Woodland) */
-KP_liberation_preset_opfor = 7;
+20 = CUP British Armed Forces (Woodland)
+21 = NATO APEX */
+KP_liberation_preset_opfor = 21;
 
 /* Resistance preset:
 0  = Custom (default vanilla FIA)

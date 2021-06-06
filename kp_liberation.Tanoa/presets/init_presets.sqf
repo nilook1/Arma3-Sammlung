@@ -65,6 +65,7 @@ switch (KP_liberation_preset_opfor) do {
     case 18: {[] call compileFinal preprocessFileLineNumbers "presets\opfor\CUP_CDF.sqf";};
     case 19: {[] call compileFinal preprocessFileLineNumbers "presets\opfor\CUP_BAF_Desert.sqf";};
     case 20: {[] call compileFinal preprocessFileLineNumbers "presets\opfor\CUP_BAF_Woodland.sqf";};
+	case 21: {[] call compileFinal preprocessFileLineNumbers "presets\opfor\nato_apex.sqf";};
     default  {[] call compileFinal preprocessFileLineNumbers "presets\opfor\custom.sqf";};
 };
 
