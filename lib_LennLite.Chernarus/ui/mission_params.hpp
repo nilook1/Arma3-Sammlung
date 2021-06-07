@@ -105,7 +105,7 @@ class Params {
         title = $STR_FOG_PARAM;
         values[] = {1, 0};
         texts[] = {$STR_PARAMS_ENABLED, $STR_PARAMS_DISABLED};
-        default = 1;
+        default = 0;
     };
     class ResourcesMultiplier {
         title = $STR_PARAMS_RESOURCESMULTIPLIER;
@@ -117,7 +117,7 @@ class Params {
         title = $STR_PARAMS_ARSENAL;
         values[] = {0, 1};
         texts[] = {$STR_PARAMS_ARSENAL_BI, $STR_PARAMS_ARSENAL_ACE};
-        default = 0;
+        default = 1;
     };
     class DirectArsenal {
         title = $STR_PARAMS_DIRECTARSENAL;
