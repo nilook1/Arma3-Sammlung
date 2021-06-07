@@ -112,7 +112,7 @@ If you want to change a preset, it's recommended to set all four presets to 0 an
 30 = LDF (Contact DLC) 
 31 = CUP All West
 32 = Opfor East Modern */
-KP_liberation_preset_blufor = 31;
+KP_liberation_preset_blufor = 32;
 
 /* OPFOR preset:
 0  = Custom (default vanilla CSAT)
@@ -135,8 +135,9 @@ KP_liberation_preset_blufor = 31;
 17 = CUP Armed Forces of the Russian Federation (Modern MSV)
 18 = CUP Chernarus Defense Force
 19 = CUP British Armed Forces (Desert)
-20 = CUP British Armed Forces (Woodland) */
-KP_liberation_preset_opfor = 17;
+20 = CUP British Armed Forces (Woodland)
+21 = NATO APEX */
+KP_liberation_preset_opfor = 21;
 
 /* Resistance preset:
 0  = Custom (default vanilla FIA)
@@ -148,7 +149,7 @@ KP_liberation_preset_opfor = 17;
 6  = Unsung
 7  = CUP Takistani Locals
 8  = CUP National Party of Chernarus */
-KP_liberation_preset_resistance = 0;
+KP_liberation_preset_resistance = 1;
 
 /* Civilians preset:
 0  = Custom (default vanilla)
@@ -159,7 +160,7 @@ KP_liberation_preset_resistance = 0;
 5  = Unsung
 6  = CUP Takistani Civilians
 7  = CUP Chernarussian Civilians */
-KP_liberation_preset_civilians = 0;
+KP_liberation_preset_civilians = 1;
 
 /* Which arsenal preset should be used?
 0  = Use the default blacklist method (defined below)
