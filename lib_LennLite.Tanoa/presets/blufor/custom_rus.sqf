@@ -132,8 +132,8 @@ static_vehicles = [
     ["O_static_AT_F",10,100,0],                                         // Static Titan Launcher (AT)
     ["O_static_AA_F",10,100,0],                                         // Static Titan Launcher (AA)
     ["O_Mortar_01_F",10,50,0],                                         // Mk6 Mortar
-	["O_Mortar_01_F",10,300,0],                                         // Praetorian 1C
-    ["O_SAM_System_04_F",10,300,0]                                     // S-750 Rhea
+    ["B_AAA_System_01_F",300,300,0],                                      // Praetorian 1C
+    ["O_SAM_System_04_F",300,300,0]                                     // S-750 Rhea
 ];
 
 buildings = [
@@ -343,6 +343,7 @@ elite_vehicles = [
     "O_T_MBT_04_command_F",                                            // T-14K
     "O_T_MBT_02_arty_ghex_F",                                          // Sochor
 	"O_T_APC_Tracked_02_cannon_ghex_F",
+	"O_T_MBT_02_cannon_ghex_F",
 	"CUP_O_BM21_RU",														// BM-21
 	"CUP_O_BTR90_RU",
 	"CUP_O_2S6M_RU",
