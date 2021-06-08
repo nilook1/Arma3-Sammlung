@@ -340,7 +340,6 @@ blufor_squad_para = [
 */
 elite_vehicles = [
     "O_T_MBT_04_cannon_F",                                             // T-14
-    "O_T_MBT_04_command_F",                                            // T-14K
     "O_T_MBT_02_arty_ghex_F",                                          // Sochor
 	"O_T_APC_Tracked_02_cannon_ghex_F",
 	"O_T_MBT_02_cannon_ghex_F",
