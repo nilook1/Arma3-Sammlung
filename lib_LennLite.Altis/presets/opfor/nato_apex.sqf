@@ -99,7 +99,7 @@ opfor_vehicles_low_intensity = [
 opfor_battlegroup_vehicles = [
     "B_T_MRAP_01_hmg_F",                                                  // M-ATV (HMG)
     "B_T_MRAP_01_gmg_F",                                                  // M-ATV (GMG)
-    "B_T_LSV_01_AT_F",                                                    // Polaris DAGOR (Mini-Spike PZAbw)
+    "B_T_LSV_01_armed_F",                                                    // Polaris DAGOR (XM312)
     "B_T_Truck_01_transport_F",                                           // HEMTT Transport
     "B_T_Truck_01_covered_F",                                             // HEMTT Transport (Covered)
     "B_T_APC_Tracked_01_rcws_F",                                          // Namer
