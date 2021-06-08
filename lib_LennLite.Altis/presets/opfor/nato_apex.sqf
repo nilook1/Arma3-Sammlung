@@ -71,8 +71,7 @@ opfor_vehicles = [
     "B_T_MRAP_01_hmg_F",                                                  // M-ATV (HMG)
     "B_T_MRAP_01_hmg_F",                                                  // M-ATV (HMG)
     "B_T_MRAP_01_gmg_F",                                                  // M-ATV (GMG)
-    "B_T_LSV_01_AT_F",                                                    // Polaris (Mini-Spike PZAbw)
-	"B_T_LSV_01_AT_F",                                                    // Polaris (Mini-Spike PZAbw)
+    "B_T_LSV_01_armed_F",                                                    // Polaris (XM312)
     "B_T_APC_Wheeled_01_cannon_F",                                        // SPz Badger
     "B_T_APC_Wheeled_01_cannon_F",                                        // SPz Badger
 	"CUP_B_M2A3Bradley_NATO_T",                                        // M2A3 ERA Bradley
@@ -90,7 +89,6 @@ opfor_vehicles = [
 opfor_vehicles_low_intensity = [
     "B_T_MRAP_01_hmg_F",                                                  // M-ATV (HMG)
     "B_T_MRAP_01_gmg_F",                                                  // M-ATV (HMG)
-    "B_T_LSV_01_AT_F",                                                    // Polaris DAGOR (Mini-Spike PZAbw)
     "B_T_APC_Wheeled_01_cannon_F",                                        // SPz Badger
 	"CUP_B_HMMWV_Avenger_NATO_T",                                        // HMMWV Avenger
 	"CUP_B_M1128_MGS_Woodland",                                        // M1128 Striker MGS
