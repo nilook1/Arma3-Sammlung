@@ -10,8 +10,8 @@ class DifficultyPresets
 			friendlyTags=1;
 			enemyTags=0;
 			detectedMines=0;
-			commands=0;
-			waypoints=1;
+			commands=2;
+			waypoints=2;
 			weaponInfo=2;
 			stanceIndicator=2;
 			staminaBar=1;
