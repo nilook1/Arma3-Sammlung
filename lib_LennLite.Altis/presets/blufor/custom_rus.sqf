@@ -236,15 +236,15 @@ support_vehicles = [
     ["ACE_Wheel",10,0,0],
     ["ACE_Track",10,0,0],
     ["Land_CanisterFuel_F",0,0,2],
-    ["O_T_Truck_03_repair_ghex_F",325,0,75],                            // Typhoon Repair
-    ["O_T_Truck_03_ammo_ghex_F",125,200,75],                            // Typhoon Ammo
-    ["O_T_Truck_03_fuel_ghex_F",125,0,275],                             // Typhoon Fuel
-    ["O_Heli_Transport_04_repair_F",500,0,150],                         // Taru Repair
-    ["O_Heli_Transport_04_ammo_F",300,200,150],                         // Taru Ammo
-    ["O_Heli_Transport_04_fuel_F",300,0,350],                           // Taru Fuel
-    ["Land_Pod_Heli_Transport_04_repair_F",275,0,0],                    // Taru Repaircontainer
-    ["Land_Pod_Heli_Transport_04_ammo_F",75,200,0],                     // Taru Ammocontainer
-    ["Land_Pod_Heli_Transport_04_fuel_F",75,0,200]                      // Taru Fuelcontainer
+    ["O_T_Truck_03_repair_ghex_F",300,0,75],                            // Typhoon Repair
+    ["O_T_Truck_03_ammo_ghex_F",75,300,75],                            // Typhoon Ammo
+    ["O_T_Truck_03_fuel_ghex_F",75,0,300],                             // Typhoon Fuel
+    ["O_Heli_Transport_04_repair_F",300,0,100],                         // Taru Repair
+    ["O_Heli_Transport_04_ammo_F",100,300,100],                         // Taru Ammo
+    ["O_Heli_Transport_04_fuel_F",100,0,300],                           // Taru Fuel
+    ["Land_Pod_Heli_Transport_04_repair_F",200,0,0],                    // Taru Repaircontainer
+    ["Land_Pod_Heli_Transport_04_ammo_F",0,200,0],                     // Taru Ammocontainer
+    ["Land_Pod_Heli_Transport_04_fuel_F",0,0,200]                      // Taru Fuelcontainer
 ];
 
 /*
