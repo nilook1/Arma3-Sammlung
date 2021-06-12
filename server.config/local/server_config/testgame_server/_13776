@@ -1,0 +1,72 @@
+﻿20:33:35 Game Port: 2302, Steam Query Port: 2303
+20:33:38 UPNP initialized
+20:33:38 Host identity created.
+20:40:53 headlessclient uses modified data file
+20:40:53 Mission CTI 34 KP Liberation v0.96.7a read from directory.
+20:40:53 Player headlessclient connecting.
+20:40:53 Player headlessclient connected (id=HC17932).
+20:41:10 Paddi uses modified data file
+20:41:10 Player Paddi connecting.
+20:41:11 Player Paddi connected (id=76561197963704805).
+20:42:22 [CUB]Claksoo uses modified data file
+20:42:22 Player [CUB]Claksoo connecting.
+20:42:22 Player [CUB]Claksoo connected (id=76561198044679071).
+20:42:23 Roles assigned.
+20:42:23 Reading mission ...
+20:42:30 Mission read.
+20:42:55 Player headlessclient disconnected.
+20:42:57 HC1 uses modified data file
+20:42:57 Player HC1 connecting.
+20:42:57 Player HC1 connected (id=HC17932).
+20:43:55 Game started.
+20:44:43 Admin logged in, player: [CUB]Claksoo, playerUID: 76561198044679071, IP: 192.168.178.60:2304.
+20:47:29 Server load: FPS 0, memory used: 1988 MB, out: 0 Kbps, in: 0 Kbps, NG:0, G:0, BE-NG:0, BE-G:0, Players: 2 (L:0, R:0, B:0, G:2, D:0)
+20:48:25 Server load: FPS 0, memory used: 1989 MB, out: 0 Kbps, in: 0 Kbps, NG:0, G:0, BE-NG:0, BE-G:0, Players: 2 (L:0, R:0, B:0, G:2, D:0)
+20:50:50 Player HC1 disconnected.
+20:51:19 Player Paddi disconnected.
+20:52:31 Game finished.
+class Session
+{
+	mission="CTI 34 KP Liberation v0.96.7a";
+	island="Altis";
+	gameType="CTI";
+	duration=516.45105;
+	class Player1
+	{
+		name="[CUB]Claksoo";
+		killsInfantry=0;
+		killsSoft=0;
+		killsArmor=0;
+		killsAir=0;
+		killsPlayers=0;
+		customScore=0;
+		killsTotal=0;
+		killed=0;
+	};
+	class Player2
+	{
+		name="Paddi";
+		killsInfantry=0;
+		killsSoft=0;
+		killsArmor=0;
+		killsAir=0;
+		killsPlayers=0;
+		customScore=0;
+		killsTotal=0;
+		killed=0;
+	};
+};
+20:52:31 Waiting for next game.
+20:52:32 Mission CTI 34 KP Liberation v0.96.7a read from directory.
+20:52:34 Player [CUB]Claksoo disconnected.
+20:52:34 Admin logged out, player: [CUB]Claksoo, playerUID: 76561198044679071, IP: 192.168.178.60:2304.
+20:52:34 All users disconnected, waiting for users.
+20:53:00 [CUB]Claksoo uses modified data file
+20:53:00 Mission CTI 34 KP Liberation v0.96.7a read from directory.
+20:53:00 Player [CUB]Claksoo connecting.
+20:53:01 Player [CUB]Claksoo connected (id=76561198044679071).
+20:53:10 Admin logged in, player: [CUB]Claksoo, playerUID: 76561198044679071, IP: 192.168.178.60:2304.
+20:54:27 Roles assigned.
+20:54:27 Reading mission ...
+20:54:29 Mission read.
+20:55:36 Game started.
