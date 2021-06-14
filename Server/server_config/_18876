@@ -1,0 +1,26 @@
+﻿19:12:31 Game Port: 2302, Steam Query Port: 2303
+19:12:33 UPNP initialized
+19:12:33 Host identity created.
+19:13:29 headlessclient uses modified data file
+19:13:29 Mission lib_LennLite.Tanoa read from directory.
+19:13:29 Player headlessclient connecting.
+19:13:30 Player headlessclient connected (id=HC11804).
+19:13:53 Paddi uses modified data file
+19:13:53 Player Paddi connecting.
+19:13:53 Player Paddi connected (id=76561197963704805).
+19:13:59 Admin logged in, player: Paddi, playerUID: 76561197963704805, IP: 192.168.178.29:2304.
+19:14:08 headlessclient uses modified data file
+19:14:08 Player headlessclient (2) connecting.
+19:14:08 Player headlessclient (2) connected (id=HC7268).
+19:14:32 Roles assigned.
+19:14:32 Reading mission ...
+19:14:39 Mission read.
+19:15:05 Game started.
+19:19:54 headlessclient uses modified data file
+19:19:54 Player headlessclient (3) connecting.
+19:19:55 Player headlessclient (3) connected (id=HC14836).
+19:21:34 Player Paddi disconnected.
+19:21:34 Admin logged out, player: Paddi, playerUID: 76561197963704805, IP: 192.168.178.29:2304.
+19:21:38 Player headlessclient (3) disconnected.
+19:21:39 Player headlessclient (2) disconnected.
+19:21:40 Player headlessclient disconnected.

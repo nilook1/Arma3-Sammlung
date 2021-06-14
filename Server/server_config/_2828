@@ -1,0 +1,62 @@
+﻿17:14:41 Game Port: 2302, Steam Query Port: 2303
+17:14:44 UPNP initialized
+17:14:44 Host identity created.
+17:15:02 headlessclient uses modified data file
+17:15:03 Mission lib_LennLite.Tanoa read from directory.
+17:15:05 Player headlessclient connecting.
+17:15:06 Player headlessclient connected (id=HC16928).
+17:16:24 Paddi uses modified data file
+17:16:24 Player Paddi connecting.
+17:16:25 Player Paddi connected (id=76561197963704805).
+17:16:34 Roles assigned.
+17:16:34 Reading mission ...
+17:16:41 Mission read.
+17:16:54 Admin logged in, player: Paddi, playerUID: 76561197963704805, IP: 192.168.178.29:2328.
+17:16:56 Game started.
+17:43:32 Player Paddi disconnected.
+17:43:32 Admin logged out, player: Paddi, playerUID: 76561197963704805, IP: 192.168.178.29:2328.
+17:49:38 Paddi uses modified data file
+17:49:38 Player Paddi connecting.
+17:49:38 Player Paddi connected (id=76561197963704805).
+17:50:43 Admin logged in, player: Paddi, playerUID: 76561197963704805, IP: 192.168.178.29:2328.
+17:50:48 Game restarted
+class Session
+{
+	mission="CTI 34 KP Liberation Tanoa v0.96.7a";
+	island="Tanoa";
+	gameType="CTI";
+	duration=2031.6761;
+	class Player1
+	{
+		name="headlessclient";
+		killsInfantry=0;
+		killsSoft=0;
+		killsArmor=0;
+		killsAir=0;
+		killsPlayers=0;
+		customScore=0;
+		killsTotal=0;
+		killed=0;
+	};
+	class Player2
+	{
+		name="Paddi";
+		killsInfantry=0;
+		killsSoft=0;
+		killsArmor=0;
+		killsAir=0;
+		killsPlayers=0;
+		customScore=0;
+		killsTotal=0;
+		killed=0;
+	};
+};
+17:50:49 Waiting for next game.
+17:50:59 Mission lib_LennLite.Tanoa read from directory.
+17:51:42 Roles assigned.
+17:51:42 Reading mission ...
+17:51:45 Mission read.
+17:51:56 Game started.
+18:58:15 Player Paddi disconnected.
+18:58:16 Admin logged out, player: Paddi, playerUID: 76561197963704805, IP: 192.168.178.29:2328.
+18:58:24 Player headlessclient disconnected.
