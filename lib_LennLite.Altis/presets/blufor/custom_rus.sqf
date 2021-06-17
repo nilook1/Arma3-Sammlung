@@ -108,6 +108,7 @@ air_vehicles = [
     ["O_UAV_06_F",10,0,10],                                             // Jinaah
     ["O_Heli_Light_02_dynamicLoadout_F",200,100,150],                   // Ka-60 Kasatka
     ["O_Heli_Transport_04_F",200,0,150],                         		 // Taru 
+	["CUP_O_MI6A_CSAT_T",200,0,150],                         		 // Mi-6T (ViV)
     ["O_Heli_Attack_02_dynamicLoadout_F",150,400,150],                  // Kajman
 	["CUP_O_Mi24_Mk3_CSAT_T",150,300,150],                  			// Mi-24 Superhind
 	["CUP_O_Ka50_DL_RU",150,300,150],                  					// KA-50 Black Shark
