@@ -1,6 +1,6 @@
 
 cd "E:\Steam\steamapps\common\Arma 3\"
 start arma3server_x64.exe -client -connect=127.0.0.1 -port=2302 -password=lol -nosound "-mod=AoW;Argo;Curator;Enoch;Heli;Jets;Kart;Mark;Orange;Tacops;Tank;!Workshop\@CBA_A3;@acex_modified;@ace_modified;!Workshop\@ACE Compats - RHS Compats;!Workshop\@RHSUSAF;!Workshop\@RHSSAF;!Workshop\@RHSGREF;!Workshop\@RHSAFRF;!Workshop\@Enhanced Movement;!Workshop\@Enhanced Movement Rework;!Workshop\@CUP Weapons;!Workshop\@CUP Vehicles;!Workshop\@CUP Units;!Workshop\@CUP Terrains - Maps;!Workshop\@CUP Terrains - CWA;!Workshop\@CUP Terrains - Core;!Workshop\@Advanced Urban Rappelling;!Workshop\@Advanced Towing;!Workshop\@Advanced Sling Loading;!Workshop\@Advanced Rappelling;!Workshop\@ACE3 - BWMod Compatibility;!Workshop\@BWMod"
-SLEEP 10
+SLEEP 15
 echo starting second
 start arma3server_x64.exe -client -connect=127.0.0.1 -port=2302 -password=lol -nosound "-mod=AoW;Argo;Curator;Enoch;Heli;Jets;Kart;Mark;Orange;Tacops;Tank;!Workshop\@CBA_A3;@acex_modified;@ace_modified;!Workshop\@ACE Compats - RHS Compats;!Workshop\@RHSUSAF;!Workshop\@RHSSAF;!Workshop\@RHSGREF;!Workshop\@RHSAFRF;!Workshop\@Enhanced Movement;!Workshop\@Enhanced Movement Rework;!Workshop\@CUP Weapons;!Workshop\@CUP Vehicles;!Workshop\@CUP Units;!Workshop\@CUP Terrains - Maps;!Workshop\@CUP Terrains - CWA;!Workshop\@CUP Terrains - Core;!Workshop\@Advanced Urban Rappelling;!Workshop\@Advanced Towing;!Workshop\@Advanced Sling Loading;!Workshop\@Advanced Rappelling;!Workshop\@ACE3 - BWMod Compatibility;!Workshop\@BWMod"
