@@ -77,15 +77,15 @@ light_vehicles = [
 ];
 
 heavy_vehicles = [
-    ["I_Truck_02_MRL_F",200,1000,150],                                			  // KamAZ MRL
-	["I_APC_tracked_03_cannon_F",200,300,200],                                  // FV510 Warrior
-	["I_APC_Wheeled_03_cannon_F",200,400,150],                                  // Pandur II
-	["I_LT_01_cannon_F",200,300,150]                                 			 // Wiesel 2 (Mk20)
+    ["I_Truck_02_MRL_F",400,1000,150],                                			  // KamAZ MRL
+	["I_APC_tracked_03_cannon_F",400,500,200],                                  // FV510 Warrior
+	["I_APC_Wheeled_03_cannon_F",400,600,150],                                  // Pandur II
+	["I_LT_01_cannon_F",400,500,150]                                 			 // Wiesel 2 (Mk20)
 ];
 
 air_vehicles = [
-    ["I_Heli_light_03_dynamicLoadout_F",400,500,150],                                             // AW159 Wildcat
-	["CUP_I_Mi24_Mk4_AAF",400,700,250],                                           		  // Mi-24 Superhind Mk IV (S8)
+    ["I_Heli_light_03_dynamicLoadout_F",600,800,200],                                             // AW159 Wildcat
+	["CUP_I_Mi24_Mk4_AAF",600,1000,250],                                           		  // Mi-24 Superhind Mk IV (S8)
 	["CUP_I_C130J_Cargo_AAF",400,0,150]                                           		  // C-130J (VIV)
 ];
 
