@@ -3389,7 +3389,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=432;
-					type="B_officer_F";
+					type="B_medic_F";
 					atlOffset=-0.093994141;
 					class CustomAttributes
 					{
@@ -3610,11 +3610,11 @@ class Mission
 					class Attributes
 					{
 						rank="CORPORAL";
-						description="Squad 1 Team 1 Leader";
+						description="Squad 1 Team 1 Medic";
 						isPlayable=1;
 					};
 					id=438;
-					type="B_Soldier_TL_F";
+					type="B_medic_F";
 					atlOffset=-0.089599609;
 					class CustomAttributes
 					{
@@ -3651,11 +3651,11 @@ class Mission
 					flags=5;
 					class Attributes
 					{
-						description="Squad 1 Team 1 Rifleman";
+						description="Squad 1 Team 1 Medic";
 						isPlayable=1;
 					};
 					id=439;
-					type="B_Soldier_F";
+					type="B_medic_F";
 					atlOffset=-0.085388184;
 					class CustomAttributes
 					{
@@ -3692,11 +3692,11 @@ class Mission
 					flags=5;
 					class Attributes
 					{
-						description="Squad 1 Team 1 Rifleman";
+						description="Squad 1 Team 1 Medic";
 						isPlayable=1;
 					};
 					id=440;
-					type="B_Soldier_F";
+					type="B_medic_F";
 					atlOffset=-0.077636719;
 					class CustomAttributes
 					{
@@ -3733,11 +3733,11 @@ class Mission
 					flags=5;
 					class Attributes
 					{
-						description="Squad 1 Team 1 Rifleman";
+						description="Squad 1 Team 1 Medic";
 						isPlayable=1;
 					};
 					id=441;
-					type="B_Soldier_F";
+					type="B_medic_F";
 					atlOffset=-0.077636719;
 					class CustomAttributes
 					{
@@ -3775,11 +3775,11 @@ class Mission
 					class Attributes
 					{
 						rank="CORPORAL";
-						description="Squad 1 Team 2 Leader";
+						description="Squad 1 Team 2 Medic";
 						isPlayable=1;
 					};
 					id=442;
-					type="B_Soldier_TL_F";
+					type="B_medic_F";
 					atlOffset=-0.093933105;
 					class CustomAttributes
 					{
@@ -3816,11 +3816,11 @@ class Mission
 					flags=5;
 					class Attributes
 					{
-						description="Squad 1 Team 2 Rifleman";
+						description="Squad 1 Team 2 Medic";
 						isPlayable=1;
 					};
 					id=443;
-					type="B_Soldier_F";
+					type="B_medic_F";
 					atlOffset=-0.092590332;
 					class CustomAttributes
 					{
@@ -3857,11 +3857,11 @@ class Mission
 					flags=5;
 					class Attributes
 					{
-						description="Squad 1 Team 2 Rifleman";
+						description="Squad 1 Team 2 Medic";
 						isPlayable=1;
 					};
 					id=444;
-					type="B_Soldier_F";
+					type="B_medic_F";
 					atlOffset=-0.093933105;
 					class CustomAttributes
 					{
@@ -3898,11 +3898,11 @@ class Mission
 					flags=5;
 					class Attributes
 					{
-						description="Squad 1 Team 2 Rifleman";
+						description="Squad 1 Team 2 Medic";
 						isPlayable=1;
 					};
 					id=445;
-					type="B_Soldier_F";
+					type="B_medic_F";
 					atlOffset=-0.09362793;
 					class CustomAttributes
 					{
