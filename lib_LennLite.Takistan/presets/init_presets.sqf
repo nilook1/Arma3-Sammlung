@@ -40,6 +40,8 @@ switch (KP_liberation_preset_blufor) do {
     case 29: {[] call compileFinal preprocessFileLineNumbers "presets\blufor\sfp_des.sqf";};
     case 30: {[] call compileFinal preprocessFileLineNumbers "presets\blufor\enoch.sqf";};
 	case 31: {[] call compileFinal preprocessFileLineNumbers "presets\blufor\CUP_NATO_Desert.sqf";};
+	case 32: {[] call compileFinal preprocessFileLineNumbers "presets\blufor\custom_rus.sqf";};
+	case 33: {[] call compileFinal preprocessFileLineNumbers "presets\blufor\custom_aaf.sqf";};
     default  {[] call compileFinal preprocessFileLineNumbers "presets\blufor\custom.sqf";};
 };
 
@@ -64,6 +66,8 @@ switch (KP_liberation_preset_opfor) do {
     case 18: {[] call compileFinal preprocessFileLineNumbers "presets\opfor\CUP_CDF.sqf";};
     case 19: {[] call compileFinal preprocessFileLineNumbers "presets\opfor\CUP_BAF_Desert.sqf";};
     case 20: {[] call compileFinal preprocessFileLineNumbers "presets\opfor\CUP_BAF_Woodland.sqf";};
+	case 21: {[] call compileFinal preprocessFileLineNumbers "presets\opfor\nato_apex.sqf";};
+	case 22: {[] call compileFinal preprocessFileLineNumbers "presets\opfor\CUP_TakiLocals.sqf";};
     default  {[] call compileFinal preprocessFileLineNumbers "presets\opfor\custom.sqf";};
 };
 
