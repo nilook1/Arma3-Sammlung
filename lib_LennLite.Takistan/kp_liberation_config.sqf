@@ -198,7 +198,7 @@ KP_liberation_save_interval = 60;                                       // Inter
 
 GRLIB_side_friendly = WEST;                                             // Friendly side.
 GRLIB_side_enemy = RESISTANCE;                                                // Enemy side.
-GRLIB_side_resistance = RESISTANCE;                                     // Resistance side.
+GRLIB_side_resistance = EAST;                                     // Resistance side.
 GRLIB_side_civilian = CIVILIAN;                                         // Civilian side.
 GRLIB_respawn_marker = "respawn";                                       // Respawn marker name.
 
