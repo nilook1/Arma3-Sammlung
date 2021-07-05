@@ -196,8 +196,8 @@ GRLIB_save_key = "KP_LIBERATION_" + (toUpper worldName) + "_SAVEGAME";
 
 KP_liberation_save_interval = 60;                                       // Interval in seconds for automatic save.
 
-GRLIB_side_friendly = RESISTANCE;                                             // Friendly side.
-GRLIB_side_enemy = RESISTANCE;                                                // Enemy side.
+GRLIB_side_friendly = WEST;                                             // Friendly side.
+GRLIB_side_enemy = EAST;                                                // Enemy side.
 GRLIB_side_resistance = RESISTANCE;                                     // Resistance side.
 GRLIB_side_civilian = CIVILIAN;                                         // Civilian side.
 GRLIB_respawn_marker = "respawn";                                       // Respawn marker name.
