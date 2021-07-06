@@ -137,7 +137,7 @@ KP_liberation_preset_blufor = 33;
 19 = CUP British Armed Forces (Desert)
 20 = CUP British Armed Forces (Woodland)
 21 = NATO APEX */
-KP_liberation_preset_opfor = 22;
+KP_liberation_preset_opfor = 23;
 
 /* Resistance preset:
 0  = Custom (default vanilla FIA)
