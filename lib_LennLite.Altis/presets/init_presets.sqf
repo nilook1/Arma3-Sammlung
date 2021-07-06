@@ -68,6 +68,7 @@ switch (KP_liberation_preset_opfor) do {
     case 20: {[] call compileFinal preprocessFileLineNumbers "presets\opfor\CUP_BAF_Woodland.sqf";};
 	case 21: {[] call compileFinal preprocessFileLineNumbers "presets\opfor\nato_apex.sqf";};
 	case 22: {[] call compileFinal preprocessFileLineNumbers "presets\opfor\CUP_TakiLocals.sqf";};
+	case 23: {[] call compileFinal preprocessFileLineNumbers "presets\opfor\CUP_TakiArmyCustom.sqf";};
     default  {[] call compileFinal preprocessFileLineNumbers "presets\opfor\custom.sqf";};
 };
 
